@@ -5,7 +5,7 @@
 	
 	export let search_data;
 	export let selected = null;
-	export let placeholder = "Enter a town, postcode or area name";
+	export let placeholder = "Enter postcode";
 	export let value = "code";
 	export let label = "name";
 	export let group = null;
@@ -118,10 +118,25 @@
 		<span class="selection">{selectedItem[label]} {#if group}<small>{selectedItem[group]}</small>{/if}</span>
 	</a>
 	{:else}
-	<a id="toggle" on:click={toggle} on:focus={toggle} >
-		<input on:keydown={typing} type="text" placeholder={placeholder} bind:value={filter} autocomplete="false" bind:this={input} on:keyup={doKeyup} autofocus="autofocus" onfocus="this.select()" />
-
-	</a>
+	<a id="toggle" on:click={toggle} on:focus={toggle}>
+	<div class="input-wrapper">
+	<input
+	on:keydown={typing}
+	type="text"
+    placeholder={placeholder}
+    bind:value={filter}
+    autocomplete="false"
+    bind:this={input}
+    on:keyup={doKeyup}
+	autofocus="autofocus"
+    onfocus="this.select()"
+	/>
+	
+	<button class="go-btn" on:click|stopPropagation={() => filtered[0] && select(filtered[active])}>
+		Go
+	</button>
+	</div>
+</a>
 	{/if}
 	
 	{#if expanded}
@@ -162,7 +177,7 @@
 		text-decoration: none;
 		display: block;
 		padding: 0;
-		border: 2px solid #00205b !important;
+		border: 2px solid #000000 !important;
 	}
 	a span {
 		display: inline-block;
@@ -229,6 +244,7 @@
 		display: block;
 		width: 100%;
 		position: relative;
+		margin-top: 10px;
 	}
 	.active {
 		z-index: 1000;
@@ -285,5 +301,31 @@
 
 	.highlight .view {
 		text-decoration: underline;
+	}
+	
+	.input-wrapper {
+		display: flex;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.input-wrapper input {
+		flex: 1;
+		border: 1px solid #000000;
+		padding: 8px 10px;
+	}
+
+	.go-btn {
+		background-color: #3878c5;
+		color: #ffffff;
+		border: none;
+		padding: 0 16px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		white-space: nowrap;
+		cursor: pointer;
+		margin: 0;
+		border: 1px solid #000000;
 	}
 </style>

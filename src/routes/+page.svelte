@@ -17,14 +17,21 @@
 </script>
 
 <svelte:head>
-  <title>Northern Ireland Local Statistics Explorer</title>
+  <title>NISRA Multiple Deprivation Measures</title>
   <meta name="description" content="">
-  <meta property="og:title" content="Northern Ireland Local Statistics Explorer" />
+  <link rel="icon" href="{assets}/img/favicon-96x96.png" type="image/png" />
+  <meta property="og:title" content="NISRA Multiple Deprivation Measures" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{app_inputs.base}/" />
 	<meta property="og:description" content="Explore NISRA data for places in Northern Ireland." />
 	<meta name="description" content="Explore NISRA data for places in Northern Ireland." />
 </svelte:head>
+
+<Section column="wide">
+  <div class="block">
+    <p>The 2026 statistics on deprivation in Northern Ireland including the Northern Ireland Multiple Deprivation Measure (NIMDM).</p>
+  </div>
+</Section>
 
 <Section column="wide">
   <div class="block">
@@ -40,7 +47,7 @@
 
       <div class = "div-grey-box" style = "overflow: visible;">
 
-        <span style="font-size: 1.5em; font-weight: bold;color: #3878c5; line-height: 1em;">Explore key statistics for any area in Northern Ireland</span>
+        <span style="font-size: 1.5em; font-weight: bold;color: #000000; line-height: 1em;">Search for a postcode:</span>
 
 
        
@@ -51,25 +58,13 @@
         on:select={menuSelect}
         />
 
-       <p style="font-size: 1.5em;color: #3878c5;font-weight: bold; margin-top: 20px"> Or select your council area</p>
-        <a href="{base}/N09000001">Antrim and Newtownabbey</a>,
-          <a href="{base}/N09000011">Ards and North Down</a>,
-          <a href="{base}/N09000002">Armagh City, Banbridge and Craigavon</a>,
-          <a href="{base}/N09000003">Belfast</a>,
-          <a href="{base}/N09000004">Causeway Coast and Glens</a>,
-          <a href="{base}/N09000005">Derry City and Strabane</a>,
-          <a href="{base}/N09000006">Fermanagh and Omagh</a>,
-          <a href="{base}/N09000007">Lisburn and Castlereagh</a>,
-          <a href="{base}/N09000008">Mid and East Antrim</a>,
-          <a href="{base}/N09000009">Mid Ulster</a>,
-          <a href="{base}/N09000010">Newry, Mourne and Down</a>
-       
+       <p style="font-size: 1.5em;color: #000000; margin-top: 70px">Find about deprivation in your neighbourhood.</p>
       </div> 
 
       
 
       <div class = "div-grey-box">
-        <span style="font-size: 1.5em; font-weight: bold; color: #3878c5; line-height: 1em;">Click on the map to view Northern Ireland as a whole</span>
+        <span style="font-size: 1.5em; font-weight: bold; color: #000000; line-height: 1em;">Explore Deprivation by council area</span>
 
         <a href="{base}/N92000002/">
           <picture id ="ni-map">
@@ -80,6 +75,13 @@
 
     </div>
 
+  </div>
+</Section>
+
+ <Section column="wide">
+  <div class="block">
+    <h3>What is deprivation?</h3>
+    <p>Deprivation refers to people’s unmet needs, a lack of access to opportunities and resources which we might expect in our society.</p>
   </div>
 </Section>
 
@@ -133,6 +135,18 @@
 
   #ni-map:hover {
     filter: brightness(0.75) drop-shadow(5px 7px 4px rgb(0 0 0 / 0.5));
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1em;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 0.75em;
   }
 
 </style>

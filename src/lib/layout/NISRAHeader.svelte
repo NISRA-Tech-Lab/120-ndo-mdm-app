@@ -35,8 +35,7 @@
 					</a>
 
 					<div class="header-text">
-					<h1 class="header-title">Northern Ireland Local Statistics Explorer</h1>
-					<span class="header-subtitle">Find out how your local area compares to NI</span>
+					<h1 class="header-title">Multiple Deprivation Measures</h1>
 					</div>
 				</div>
 				</nav>
