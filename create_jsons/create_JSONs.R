@@ -1,18 +1,20 @@
 # Load configuration settings
 source("create_jsons/config.R")
 
-# Load and process census data
-print("processing census data")
-source("create_jsons/read_and_process_census_data.R")
+# # Load and process census data
+# print("processing census data")
+# source("create_jsons/read_and_process_census_data.R")
+# 
+# # Load and process data portal tables
+# print("processing data portal tables")
+# source("create_jsons/read_all_dataportal_tables_in_json_rpc.R")
 
-# Load and process data portal tables
-print("processing data portal tables")
-source("create_jsons/read_all_dataportal_tables_in_json_rpc.R")
+source("create_jsons/deprivation_dummy_data.R")
 
 #### Set up loop for geographies ####
 # Select geographic codes for loop processing, based on the list 'v_geocode' and 'geog_types_to_update'
 df_geog_codes_for_loop <- df_children %>%
-  subset(code %in% v_geocode) %>%
+  # subset(code %in% v_geocode) %>%
   select(code, name) %>%
   mutate(type = case_when(
     substr(code, 1, 3) == "N92" ~ "ctry", # Country
@@ -21,9 +23,15 @@ df_geog_codes_for_loop <- df_children %>%
     substr(code, 1, 3) == "N20" ~ "dz",   # Data zone
     substr(code, 1, 3) == "N21" ~ "sdz"   # Super data zone
   )) %>%
- filter(type %in% geog_types_to_update) %>% # Filter only required types
- # filter(type %in% c('lgd')) %>% # Filter only required types
+ # filter(type %in% geog_types_to_update) %>% # Filter only required types
+ filter(type %in% c('lgd', 'sdz')) %>% # Filter only required types
   arrange(substr(code, 1, 3)) # Order by code prefix
+
+v_geocode <- df_geog_codes_for_loop$code
+
+v_geography <- df_geog_codes_for_loop$name
+
+v_total <- c(rep(NA, 11), v_total)
 
 print("looping through geographies")
 # Loop through each geographic code in 'df_geog_codes_for_loop'
@@ -149,16 +157,16 @@ for (i in 1:nrow(df_geog_codes_for_loop)) {
   }
   
   # Additional text data based on source and geography type
-  if (substr(geog_code_loop, 1, 3) == "N09") {
-    df_json_template$data$crime$text <- df_dp_all_text %>%
-      subset(geog_code == geog_code_loop & source == "crimeworry") %>%
-      select(reason) %>%
-      pull()
-    df_json_template$data$env_problem$text <- df_dp_all_text %>%
-      subset(geog_code == geog_code_loop & source == "Env_problem") %>%
-      select(reason) %>%
-      pull()
-  }
+  # if (substr(geog_code_loop, 1, 3) == "N09") {
+  #   df_json_template$data$crime$text <- df_dp_all_text %>%
+  #     subset(geog_code == geog_code_loop & source == "crimeworry") %>%
+  #     select(reason) %>%
+  #     pull()
+  #   df_json_template$data$env_problem$text <- df_dp_all_text %>%
+  #     subset(geog_code == geog_code_loop & source == "Env_problem") %>%
+  #     select(reason) %>%
+  #     pull()
+  # }
   if (substr(geog_code_loop, 1, 3) == "N10") {
     df_json_template$dea_location_description <- df_dea_description %>%
       subset(geog_code == geog_code_loop) %>%
@@ -186,7 +194,7 @@ for (i in 1:nrow(df_geog_codes_for_loop)) {
   
   # Load additional census and data portal scripts for the loop
   source("create_jsons/census_data_loop.R")
-  source("create_jsons/data_portal_tables_loop.R")
+  # source("create_jsons/data_portal_tables_loop.R")
   
   # Prepare output file path and name
   output_filename <- paste0(outputs_directory, geog_code_loop, ".json")
@@ -195,6 +203,44 @@ for (i in 1:nrow(df_geog_codes_for_loop)) {
   # Write JSON file
   write_json(df_json_template, output_filename, pretty = TRUE, simplifyVector = TRUE, auto_unbox = TRUE)
 }
+
+# Code to output data frame of all SDZs and the name of their LGD
+
+names(df_children) <- gsub("code", "geocode", names(df_children), fixed = TRUE)
+
+names(df_children) <- gsub("name", "geography", names(df_children))
+
+df_parent <- left_join(df_data, df_children, by = c("geocode", "geography")) %>% 
+  left_join(mutate(df_children, parentgeocode = geocode, parentgeography = geography, .keep = "none"), by = "parentgeocode") %>% 
+  left_join(mutate(df_children, grandparentgeocode = parentgeocode, parentgeocode = geocode, parentgeography = geography, .keep = "none"), by = c("parentgeocode", "parentgeography")) %>% 
+  left_join(mutate(df_children, grandparentgeocode = geocode, grandparentgeography = geography, .keep = "none"), by = "grandparentgeocode")
+  
+
+# Code to loop through each output SDZ type file, lift its data object, rename data to sdz code
+
+df_parent <- df_parent %>%
+  mutate(
+    geocode_data = NA_character_
+  )
+
+for (i in unique(df_parent$geocode)) {
+  message(paste0("Extracting data from ", i, ".json"))
+  code_data <- paste(readLines(here(paste0("github_action_jsons/", i, ".json"))), collapse = "\n")
+  code_data <- substr(code_data, regexpr("data\\\"", code_data)[1], regexpr("},\\n\\s*\"hectares\"", code_data, fixed = FALSE)[1]) %>% 
+    gsub("data", i, .)
+  
+  
+  df_parent <- df_parent %>% 
+    mutate(
+      geocode_data = if_else(
+        geocode == i,
+        code_data,
+        geocode_data
+      )
+    )
+}
+
+# Paste that sdz object into data object of grandparent json
 
 # Record the date of the last run
 write_rds(data.frame(date = as.Date(Sys.time())),

@@ -4,7 +4,7 @@ df_data_subset <- df_data %>% subset(geocode == geog_code_loop) %>% arrange(desc
 
 
 v_topic <- unique(df_data_subset$topic)
-v_topic <- move_population_households(v_topic)
+# v_topic <- move_population_households(v_topic)
 
 
 df_data_subset_inc_ni <- df_data %>%
@@ -24,23 +24,23 @@ for (t in 1:length(v_topic)) {
   #   print(v_topic[t])
   # v_year_short = df_data_subset %>% subset(topic == v_topic[t] ) %>% select(year)
   # v_year_short = unique(v_year_short$year)
-  v_year_short <- unique(c(2011, 2021)) # df_data_subset$year)
+  v_year_short <-  unique(df_data_subset$year)
 
   for (y in 1:length(v_year_short)) {
     for (j in 1:length(df_category_subset)) {
       # j = 1
       # y = 1
 
-      json_text <- paste0("df_json_template$data$", v_topic[t], "$perc$`", v_year_short[y], "`$", df_category_subset[j])
+      json_text <- paste0("df_json_template$data$", v_topic[t], "$rank$`", v_year_short[y], "`$", df_category_subset[j])
       data_value_perc <- df_data_subset %>%
         subset(year == v_year_short[y] & topic == v_topic[t] & category == df_category_subset[j]) %>%
-        select(perc) %>%
+        select(total) %>%
         pull()
 
 
       data_value_perc <- df_data_subset %>%
         subset(year == v_year_short[y] & topic == v_topic[t] & category == df_category_subset[j]) %>%
-        select(perc) %>%
+        select(total) %>%
         pull()
 
 
