@@ -318,7 +318,7 @@
 	.go-btn {
 		background-color: var(--nisra_blue);
 		color: #ffffff;
-		border: none;
+		border-radius: 0;
 		padding: 0 16px;
 		display: flex;
 		align-items: center;

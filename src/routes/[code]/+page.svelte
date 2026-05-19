@@ -800,21 +800,21 @@
 					<div width="100%">
 						<button
 							class="btn"
-							style="width: 33%"
+							style="width: 32.5%"
 							alt="Opens the About page"
 							onclick="window.location.href='{base}/about';"
 							>About
 						</button>
 						<button
 							class="btn"
-							style="width: 33%"
+							style="width: 32.5%"
 							title="Click to print this page to pdf or printer"
 							onclick="window.print();return false;"
 							>Print / PDF
 						</button>
 						<button
 							class="btn"
-							style="width: 30%"
+							style="width: 32.5%"
 							type="share"
 							alt="Share this page"
 							>Share
@@ -987,7 +987,7 @@
 	.btn {
 		padding: 2px 4px;
 		margin: 0.2;
-		border: 2px solid var(--nisra_navy);
+		border: 2px solid #000000;
 		cursor: pointer;
 		color: #ffffff;
 		background-color: var(--nisra_purple);
