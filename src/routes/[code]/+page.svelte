@@ -696,7 +696,7 @@
 </script>
 
 <svelte:head>
-	<title>{data.place.name} Local Statistics Explorer</title>
+	<title>{data.place.name} Multiple Deprivation Measures</title>
 	<meta name="description" content="" />
 	<meta property="og:title" content="{data.place.name} Local Statistics" />
 	<meta property="og:type" content="website" />
@@ -833,11 +833,11 @@
 				<h3>
 					<!-- Explore <span style="color: #93328E">{data.place.name}</span> -->
 					{#if data.place.type != "ni"}
-						You are currently viewing <span style="color: #3878c5"
+						You are currently viewing <span style="color: var(--nisra_blue)"
 							>{data.place.name}
 						</span>
 						{geog_types[data.place.type].name}
-						<span style="color: #00205b">
+						<span style="color: var(--nisra_navy)">
 							<!-- {geog_types[data.place.type].name} -->
 						</span>
 						<p>
@@ -849,7 +849,7 @@
 						<p class="text-bold">
 							Zoom and click on map to explore other areas
 						</p>
-						<!-- <span style="color: #3878c5">{data.place.name}</span> -->
+						<!-- <span style="color: var(--nisra_blue)">{data.place.name}</span> -->
 					{/if}
 				</h3>
 			</div>
@@ -987,10 +987,10 @@
 	.btn {
 		padding: 2px 4px;
 		margin: 0.2;
-		border: 2px solid #00205b;
+		border: 2px solid var(--nisra_navy);
 		cursor: pointer;
-		color: #00205b;
-		background-color: lightgrey;
+		color: #ffffff;
+		background-color: var(--nisra_purple);
 	}
 
 	.title {

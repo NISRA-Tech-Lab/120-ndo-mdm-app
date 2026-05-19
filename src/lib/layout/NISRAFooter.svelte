@@ -129,9 +129,9 @@
    Footer Wrapper
    =========================== */
 .nisra-footer {
-  background-color: #00205B;
+  background-color: var(--nisra_navy);
   color: #fff;
-  border-top: 4px solid #3878c5;
+  border-top: 4px solid var(--nisra_blue);
   padding: 2rem 0 2.5rem; /* extra bottom padding for Back to top bar */
   margin-top: 1rem;
   font-family: Arial, sans-serif;

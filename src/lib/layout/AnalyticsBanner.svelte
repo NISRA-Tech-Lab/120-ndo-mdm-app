@@ -116,7 +116,7 @@
 </script>
 
 {#if showBanner}
-<section style="background-color:#00205b;color:#FFF">
+<section style="background-color:var(--nisra_navy);color:#FFF">
   <form
     id="global-cookie-message"
     class="cookies-banner clearfix"

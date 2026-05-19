@@ -6,9 +6,9 @@
 	export let yKey = "y";
 	export let zKey = "ni";
 	export let topic_prev_available = true;
-	export let colors = ['#3878c5','#00205B', '#308182',   '#002417', '#BD00BD', 'lightgrey'];
-	// export let colors = ['#00205B','#6C63AC', '#781C87',   '#C11B71', '#FB7979', '#801650', '#fbb15f', '#F66068',  'lightgrey'];
-//	export let colors = ['#00205B','#6C63AC', '#781C87',   '#C11B71', '#FB7979', '#F66068', '#801650', '#0D9AA2', 'lightgrey'];
+	export let colors = ['var(--nisra_blue)','var(--nisra_navy)', '#308182',   '#002417', '#BD00BD', 'lightgrey'];
+	// export let colors = ['var(--nisra_navy)','#6C63AC', '#781C87',   '#C11B71', '#FB7979', '#801650', '#fbb15f', '#F66068',  'lightgrey'];
+//	export let colors = ['var(--nisra_navy)','#6C63AC', '#781C87',   '#C11B71', '#FB7979', '#F66068', '#801650', '#0D9AA2', 'lightgrey'];
 //	export let textColor = '#555';
 //	export let mutedColor = '#999';
 	export let decimals = null;
