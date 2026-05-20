@@ -120,19 +120,8 @@
 	{:else}
 	<a id="toggle" on:click={toggle} on:focus={toggle}>
 	<div class="input-wrapper">
-	<input
-	on:keydown={typing}
-	type="text"
-    placeholder={placeholder}
-    bind:value={filter}
-    autocomplete="false"
-    bind:this={input}
-    on:keyup={doKeyup}
-	autofocus="autofocus"
-    onfocus="this.select()"
-	/>
-	
-	<button class="go-btn" on:click|stopPropagation={() => filtered[0] && select(filtered[active])}>
+	<input on:keydown={typing} type="text" placeholder={placeholder} bind:value={filter} autocomplete="false" bind:this={input} on:keyup={doKeyup} autofocus="autofocus" onfocus="this.select()" />
+	<button class="go-btn" disabled={!filtered.length[0]} on:click|stopPropagation={() => filtered[0] && select(filtered[active])}>
 		Go
 	</button>
 	</div>
