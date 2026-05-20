@@ -145,19 +145,19 @@
 			width: 100%;
 			padding: 10px 40px 10px 10px;
 			margin-bottom: 10px;
-			border: 2px solid #00205b !important;
+			border: 2px solid var(--nisra_navy) !important;
 			border-radius: 0px;
 			background-color: #f5f5f6;
-			color: #00205b;
+			color: var(--nisra_navy);
 		}
 
 		input[type="text"]:focus-visible {
-			border: 2px solid #00205b;
+			border: 2px solid var(--nisra_navy);
 			border-radius: 0px;
 		}
 
 		button {
-			background-color: #00205b;
+			background-color: var(--nisra_navy);
 			background-repeat: no-repeat;
 			border-radius: 0px;
 			color: #fff;
@@ -172,7 +172,7 @@
 		}
 
 		button:focus {
-			background-color: #00205b;
+			background-color: var(--nisra_navy);
 		}
 
 

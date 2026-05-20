@@ -20,7 +20,7 @@
 	export let dxTick = 0;
 	export let dyTick = 0;
 //	export let formatVal = d => d;
-	export let fill = '#00205b';
+	export let fill = 'var(--nisra_navy)';
 	export let textAnchor = 'middle';
 
 </script>

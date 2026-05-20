@@ -800,21 +800,21 @@
 					<div width="100%">
 						<button
 							class="btn"
-							style="width: 33%"
+							style="width: 32.5%"
 							alt="Opens the About page"
 							onclick="window.location.href='{base}/about';"
 							>About
 						</button>
 						<button
 							class="btn"
-							style="width: 33%"
+							style="width: 32.5%"
 							title="Click to print this page to pdf or printer"
 							onclick="window.print();return false;"
 							>Print / PDF
 						</button>
 						<button
 							class="btn"
-							style="width: 30%"
+							style="width: 32.5%"
 							type="share"
 							alt="Share this page"
 							>Share
@@ -833,11 +833,11 @@
 				<h3>
 					<!-- Explore <span style="color: #93328E">{data.place.name}</span> -->
 					{#if data.place.type != "ni"}
-						You are currently viewing <span style="color: #3878c5"
+						You are currently viewing <span style="color: var(--nisra_blue)"
 							>{data.place.name}
 						</span>
 						{geog_types[data.place.type].name}
-						<span style="color: #00205b">
+						<span style="color: var(--nisra_navy)">
 							<!-- {geog_types[data.place.type].name} -->
 						</span>
 						<p>
@@ -849,7 +849,7 @@
 						<p class="text-bold">
 							Zoom and click on map to explore other areas
 						</p>
-						<!-- <span style="color: #3878c5">{data.place.name}</span> -->
+						<!-- <span style="color: var(--nisra_blue)">{data.place.name}</span> -->
 					{/if}
 				</h3>
 			</div>
@@ -987,10 +987,10 @@
 	.btn {
 		padding: 2px 4px;
 		margin: 0.2;
-		border: 2px solid #00205b;
+		border: 2px solid #000000;
 		cursor: pointer;
-		color: #00205b;
-		background-color: lightgrey;
+		color: #ffffff;
+		background-color: var(--nisra_purple);
 	}
 
 	.title {

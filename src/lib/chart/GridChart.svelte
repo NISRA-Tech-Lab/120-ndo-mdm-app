@@ -6,9 +6,9 @@
 	export let yKey = "y";
 	export let zKey = "ni";
 	export let width = 5;
-	export let colors = ['#3878c5','#00205B', '#308182',   '#002417', '#BD00BD', 'lightgrey'];
+	export let colors = ['var(--nisra_blue)','var(--nisra_navy)', '#308182',   '#002417', '#BD00BD', 'lightgrey'];
 
-	// export let colors = ['#00205B','#6C63AC', '#781C87',   '#C11B71', '#FB7979', '#F66068', '#801650', '#0D9AA2', 'lightgrey'];
+	// export let colors = ['var(--nisra_navy)','#6C63AC', '#781C87',   '#C11B71', '#FB7979', '#F66068', '#801650', '#0D9AA2', 'lightgrey'];
 //	export let colors = ['#212373', '#781C87',  '#0D9AA2', '#C11B71', '#FB7979', '#F66068', '#746CB1', '#22D0B6', 'lightgrey'];
 	export let vertical = true;
 	export let round = false;

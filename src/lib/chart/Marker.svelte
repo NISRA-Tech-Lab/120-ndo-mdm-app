@@ -4,7 +4,7 @@
 	const { data, xGet, yGet, xScale, yScale, xDomain, yDomain } = getContext('LayerCake');
 
 	export let axis = 'x';
-	export let color = '#00205b';
+	export let color = 'var(--nisra_navy)';
 	
 	$: min = axis == 'y' ? $xDomain[0] : $yDomain[0];
 	$: max = axis == 'y' ? $xDomain[1] : $yDomain[1];

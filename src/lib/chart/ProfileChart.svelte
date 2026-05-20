@@ -106,7 +106,7 @@
 		top: 0;
 	}
 	.bar {
-		background-color: #00205b;
+		background-color: var(--nisra_navy);
 		border-left: 2px solid rgb(245, 245, 246);
 		border-right: 2px solid rgb(245, 245, 246);
 	}

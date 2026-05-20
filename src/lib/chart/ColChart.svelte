@@ -8,13 +8,13 @@
 	export let data;
 	export let suffix = '%';
 	export let decimals = null;
-	export let fill = '#00205B';
+	export let fill = 'var(--nisra_navy)';
 	
 	export let xKey = "x";
 	export let yKey = 'y';
 	export let zKey= null;
 	
-	// export let colors = ['#00205B','#00205B', '#00205B',   '#00205B'];
+	// export let colors = ['var(--nisra_navy)','var(--nisra_navy)', 'var(--nisra_navy)',   'var(--nisra_navy)'];
 
 	$: xDomain = data.map(d => d[xKey]);
 	$: yDomain = [0, Math.max(...data.map(d => d[yKey]))];

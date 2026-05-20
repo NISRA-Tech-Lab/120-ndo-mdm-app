@@ -7,7 +7,7 @@
 </script>
   
 		<!-- <nav  style="border-bottom-color: {theme['muted']}; {filled ? 'background-color: ' +  theme['background'] + ';' : ''}">
-		<div class="col-wide " style="flex-direction: row; -ms-flex-direction: row;     background-color: #00205b;" class:center>
+		<div class="col-wide " style="flex-direction: row; -ms-flex-direction: row;     background-color: var(--nisra_navy);" class:center>
 			<a href="https://www.nisra.gov.uk/">
 				<picture>
 					{#if theme.name == 'dark'}
@@ -43,7 +43,7 @@
   <style>
 
 .nisra-header {
-  background-color: #00205b;
+  background-color: var(--nisra_navy);
   color: #fff;
 }
 

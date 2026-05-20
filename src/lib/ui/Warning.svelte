@@ -14,7 +14,7 @@
 <style>
   .warning {
     color: white;
-    background-color: #3878c5;
+    background-color: var(--nisra_blue);
     margin-bottom: 0px;
     padding: 10px 0;
     font-size: 1.2em;
