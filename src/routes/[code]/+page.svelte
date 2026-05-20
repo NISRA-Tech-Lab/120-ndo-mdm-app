@@ -696,9 +696,9 @@
 </script>
 
 <svelte:head>
-	<title>{data.place.name} Local Statistics Explorer</title>
+	<title>{data.place.name} Multiple Deprivation Measures</title>
 	<meta name="description" content="" />
-	<meta property="og:title" content="{data.place.name} Local Statistics" />
+	<meta property="og:title" content="{data.place.name} Mutliple Deprivation Measures" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{app_inputs.base}/{data.place.code}/" />
 	<meta
