@@ -1,0 +1,36 @@
+{
+  "code": "N21000229",
+  "name": "Ormiston_L",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000309",
+      "name": "Ormiston",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.8167, 54.5837, -5.8362, 54.5943],
+  "data": {
+    "mdm": 491,
+    "income": 670,
+    "below60": 238,
+    "employment": 333,
+    "emprop": 558,
+    "health": 310,
+    "education": 275,
+    "services": 694
+  }
+}

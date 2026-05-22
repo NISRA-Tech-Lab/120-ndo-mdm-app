@@ -1,0 +1,129 @@
+{
+  "code": "N10000905",
+  "name": "Magherafelt",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000651",
+      "name": "Magherafelt_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000652",
+      "name": "Magherafelt_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000653",
+      "name": "Magherafelt_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000654",
+      "name": "Magherafelt_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000655",
+      "name": "Magherafelt_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000656",
+      "name": "Magherafelt_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000657",
+      "name": "Magherafelt_G",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.4692, 54.6507, -6.8927, 54.7713],
+  "data": {
+    "N21000651": {
+      "mdm": 454,
+      "income": 408,
+      "below60": 390,
+      "employment": 391,
+      "emprop": 445,
+      "health": 320,
+      "education": 323,
+      "services": 588
+    },
+    "N21000652": {
+      "mdm": 280,
+      "income": 270,
+      "below60": 538,
+      "employment": 250,
+      "emprop": 562,
+      "health": 203,
+      "education": 196,
+      "services": 643
+    },
+    "N21000653": {
+      "mdm": 515,
+      "income": 422,
+      "below60": 410,
+      "employment": 447,
+      "emprop": 396,
+      "health": 352,
+      "education": 390,
+      "services": 527
+    },
+    "N21000654": {
+      "mdm": 440,
+      "income": 443,
+      "below60": 420,
+      "employment": 577,
+      "emprop": 276,
+      "health": 502,
+      "education": 482,
+      "services": 141
+    },
+    "N21000655": {
+      "mdm": 531,
+      "income": 337,
+      "below60": 530,
+      "employment": 597,
+      "emprop": 210,
+      "health": 534,
+      "education": 621,
+      "services": 216
+    },
+    "N21000656": {
+      "mdm": 533,
+      "income": 545,
+      "below60": 311,
+      "employment": 612,
+      "emprop": 190,
+      "health": 557,
+      "education": 663,
+      "services": 53
+    },
+    "N21000657": {
+      "mdm": 548,
+      "income": 593,
+      "below60": 274,
+      "employment": 569,
+      "emprop": 240,
+      "health": 499,
+      "education": 662,
+      "services": 60
+    }
+  }
+}

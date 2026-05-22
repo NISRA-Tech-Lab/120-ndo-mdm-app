@@ -1,0 +1,264 @@
+{
+  "code": "N10001107",
+  "name": "Newtownards",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000779",
+      "name": "Newtownards_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000780",
+      "name": "Newtownards_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000781",
+      "name": "Newtownards_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000782",
+      "name": "Newtownards_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000783",
+      "name": "Newtownards_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000784",
+      "name": "Newtownards_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000785",
+      "name": "Newtownards_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000786",
+      "name": "Newtownards_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000787",
+      "name": "Newtownards_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000788",
+      "name": "Newtownards_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000789",
+      "name": "Newtownards_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000790",
+      "name": "Newtownards_N",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000791",
+      "name": "Newtownards_P",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000792",
+      "name": "Newtownards_Q",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000793",
+      "name": "Newtownards_R",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000794",
+      "name": "Newtownards_S",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.6514, 54.5584, -5.78, 54.6277],
+  "data": {
+    "N21000779": {
+      "mdm": 526,
+      "income": 305,
+      "below60": 526,
+      "employment": 544,
+      "emprop": 355,
+      "health": 564,
+      "education": 442,
+      "services": 422
+    },
+    "N21000780": {
+      "mdm": 809,
+      "income": 731,
+      "below60": 121,
+      "employment": 802,
+      "emprop": 49,
+      "health": 774,
+      "education": 724,
+      "services": 446
+    },
+    "N21000781": {
+      "mdm": 694,
+      "income": 587,
+      "below60": 267,
+      "employment": 654,
+      "emprop": 211,
+      "health": 669,
+      "education": 472,
+      "services": 562
+    },
+    "N21000782": {
+      "mdm": 768,
+      "income": 657,
+      "below60": 236,
+      "employment": 787,
+      "emprop": 60,
+      "health": 697,
+      "education": 682,
+      "services": 375
+    },
+    "N21000783": {
+      "mdm": 430,
+      "income": 323,
+      "below60": 520,
+      "employment": 434,
+      "emprop": 419,
+      "health": 457,
+      "education": 325,
+      "services": 491
+    },
+    "N21000784": {
+      "mdm": 332,
+      "income": 195,
+      "below60": 640,
+      "employment": 386,
+      "emprop": 478,
+      "health": 395,
+      "education": 220,
+      "services": 565
+    },
+    "N21000785": {
+      "mdm": 677,
+      "income": 626,
+      "below60": 259,
+      "employment": 650,
+      "emprop": 223,
+      "health": 615,
+      "education": 385,
+      "services": 481
+    },
+    "N21000786": {
+      "mdm": 556,
+      "income": 399,
+      "below60": 521,
+      "employment": 542,
+      "emprop": 359,
+      "health": 415,
+      "education": 405,
+      "services": 386
+    },
+    "N21000787": {
+      "mdm": 205,
+      "income": 158,
+      "below60": 699,
+      "employment": 230,
+      "emprop": 600,
+      "health": 245,
+      "education": 127,
+      "services": 706
+    },
+    "N21000788": {
+      "mdm": 529,
+      "income": 504,
+      "below60": 393,
+      "employment": 450,
+      "emprop": 425,
+      "health": 441,
+      "education": 253,
+      "services": 651
+    },
+    "N21000789": {
+      "mdm": 153,
+      "income": 198,
+      "below60": 666,
+      "employment": 149,
+      "emprop": 693,
+      "health": 169,
+      "education": 158,
+      "services": 612
+    },
+    "N21000790": {
+      "mdm": 215,
+      "income": 275,
+      "below60": 591,
+      "employment": 165,
+      "emprop": 676,
+      "health": 252,
+      "education": 194,
+      "services": 403
+    },
+    "N21000791": {
+      "mdm": 126,
+      "income": 181,
+      "below60": 680,
+      "employment": 96,
+      "emprop": 733,
+      "health": 163,
+      "education": 124,
+      "services": 436
+    },
+    "N21000792": {
+      "mdm": 494,
+      "income": 318,
+      "below60": 568,
+      "employment": 469,
+      "emprop": 421,
+      "health": 465,
+      "education": 341,
+      "services": 400
+    },
+    "N21000793": {
+      "mdm": 334,
+      "income": 227,
+      "below60": 641,
+      "employment": 323,
+      "emprop": 559,
+      "health": 351,
+      "education": 189,
+      "services": 709
+    },
+    "N21000794": {
+      "mdm": 74,
+      "income": 64,
+      "below60": 784,
+      "employment": 86,
+      "emprop": 743,
+      "health": 139,
+      "education": 73,
+      "services": 341
+    }
+  }
+}

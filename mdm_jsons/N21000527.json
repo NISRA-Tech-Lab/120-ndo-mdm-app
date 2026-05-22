@@ -1,0 +1,36 @@
+{
+  "code": "N21000527",
+  "name": "Lisburn_South_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000707",
+      "name": "Lisburn South",
+      "type": "dea"
+    },
+    {
+      "code": "N09000007",
+      "name": "Lisburn and Castlereagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.0664, 54.5194, -6.087, 54.5267],
+  "data": {
+    "mdm": 521,
+    "income": 580,
+    "below60": 270,
+    "employment": 500,
+    "emprop": 391,
+    "health": 407,
+    "education": 393,
+    "services": 317
+  }
+}

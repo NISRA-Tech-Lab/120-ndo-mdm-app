@@ -1,0 +1,36 @@
+{
+  "code": "N21000808",
+  "name": "Bangor_West_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001104",
+      "name": "Bangor West",
+      "type": "dea"
+    },
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.6903, 54.6517, -5.7039, 54.6633],
+  "data": {
+    "mdm": 692,
+    "income": 634,
+    "below60": 233,
+    "employment": 557,
+    "emprop": 337,
+    "health": 623,
+    "education": 651,
+    "services": 528
+  }
+}

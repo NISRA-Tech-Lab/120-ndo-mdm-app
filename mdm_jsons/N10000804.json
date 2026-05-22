@@ -1,0 +1,159 @@
+{
+  "code": "N10000804",
+  "name": "Carrick Castle",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000619",
+      "name": "Carrick_Castle_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000620",
+      "name": "Carrick_Castle_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000621",
+      "name": "Carrick_Castle_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000622",
+      "name": "Carrick_Castle_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000623",
+      "name": "Carrick_Castle_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000624",
+      "name": "Carrick_Castle_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000625",
+      "name": "Carrick_Castle_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000626",
+      "name": "Carrick_Castle_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000627",
+      "name": "Carrick_Castle_J",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.7352, 54.7093, -5.8284, 54.7805],
+  "data": {
+    "N21000619": {
+      "mdm": 772,
+      "income": 751,
+      "below60": 113,
+      "employment": 765,
+      "emprop": 82,
+      "health": 764,
+      "education": 726,
+      "services": 257
+    },
+    "N21000620": {
+      "mdm": 761,
+      "income": 770,
+      "below60": 73,
+      "employment": 735,
+      "emprop": 116,
+      "health": 713,
+      "education": 629,
+      "services": 307
+    },
+    "N21000621": {
+      "mdm": 790,
+      "income": 767,
+      "below60": 84,
+      "employment": 794,
+      "emprop": 65,
+      "health": 771,
+      "education": 751,
+      "services": 265
+    },
+    "N21000622": {
+      "mdm": 490,
+      "income": 631,
+      "below60": 225,
+      "employment": 329,
+      "emprop": 517,
+      "health": 313,
+      "education": 264,
+      "services": 398
+    },
+    "N21000623": {
+      "mdm": 724,
+      "income": 705,
+      "below60": 147,
+      "employment": 697,
+      "emprop": 147,
+      "health": 667,
+      "education": 491,
+      "services": 301
+    },
+    "N21000624": {
+      "mdm": 714,
+      "income": 758,
+      "below60": 92,
+      "employment": 684,
+      "emprop": 157,
+      "health": 645,
+      "education": 440,
+      "services": 334
+    },
+    "N21000625": {
+      "mdm": 238,
+      "income": 514,
+      "below60": 352,
+      "employment": 166,
+      "emprop": 642,
+      "health": 179,
+      "education": 99,
+      "services": 697
+    },
+    "N21000626": {
+      "mdm": 200,
+      "income": 461,
+      "below60": 376,
+      "employment": 154,
+      "emprop": 650,
+      "health": 144,
+      "education": 83,
+      "services": 677
+    },
+    "N21000627": {
+      "mdm": 335,
+      "income": 548,
+      "below60": 282,
+      "employment": 257,
+      "emprop": 589,
+      "health": 243,
+      "education": 176,
+      "services": 604
+    }
+  }
+}

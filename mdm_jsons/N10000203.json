@@ -1,0 +1,219 @@
+{
+  "code": "N10000203",
+  "name": "Craigavon",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000094",
+      "name": "Craigavon_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000095",
+      "name": "Craigavon_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000096",
+      "name": "Craigavon_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000097",
+      "name": "Craigavon_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000098",
+      "name": "Craigavon_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000099",
+      "name": "Craigavon_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000100",
+      "name": "Craigavon_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000101",
+      "name": "Craigavon_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000102",
+      "name": "Craigavon_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000103",
+      "name": "Craigavon_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000104",
+      "name": "Craigavon_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000105",
+      "name": "Craigavon_N",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000106",
+      "name": "Craigavon_P",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.3291, 54.3951, -6.5413, 54.5631],
+  "data": {
+    "N21000094": {
+      "mdm": 709,
+      "income": 669,
+      "below60": 173,
+      "employment": 731,
+      "emprop": 111,
+      "health": 684,
+      "education": 735,
+      "services": 99
+    },
+    "N21000095": {
+      "mdm": 473,
+      "income": 599,
+      "below60": 248,
+      "employment": 389,
+      "emprop": 452,
+      "health": 277,
+      "education": 351,
+      "services": 324
+    },
+    "N21000096": {
+      "mdm": 264,
+      "income": 378,
+      "below60": 427,
+      "employment": 288,
+      "emprop": 564,
+      "health": 236,
+      "education": 170,
+      "services": 289
+    },
+    "N21000097": {
+      "mdm": 93,
+      "income": 186,
+      "below60": 610,
+      "employment": 114,
+      "emprop": 713,
+      "health": 84,
+      "education": 70,
+      "services": 322
+    },
+    "N21000098": {
+      "mdm": 88,
+      "income": 269,
+      "below60": 558,
+      "employment": 109,
+      "emprop": 722,
+      "health": 70,
+      "education": 61,
+      "services": 315
+    },
+    "N21000099": {
+      "mdm": 508,
+      "income": 490,
+      "below60": 318,
+      "employment": 502,
+      "emprop": 394,
+      "health": 423,
+      "education": 343,
+      "services": 300
+    },
+    "N21000100": {
+      "mdm": 78,
+      "income": 237,
+      "below60": 580,
+      "employment": 100,
+      "emprop": 730,
+      "health": 66,
+      "education": 50,
+      "services": 304
+    },
+    "N21000101": {
+      "mdm": 612,
+      "income": 508,
+      "below60": 379,
+      "employment": 521,
+      "emprop": 327,
+      "health": 514,
+      "education": 513,
+      "services": 478
+    },
+    "N21000102": {
+      "mdm": 661,
+      "income": 556,
+      "below60": 335,
+      "employment": 586,
+      "emprop": 272,
+      "health": 593,
+      "education": 601,
+      "services": 412
+    },
+    "N21000103": {
+      "mdm": 585,
+      "income": 558,
+      "below60": 336,
+      "employment": 445,
+      "emprop": 413,
+      "health": 380,
+      "education": 458,
+      "services": 546
+    },
+    "N21000104": {
+      "mdm": 511,
+      "income": 650,
+      "below60": 218,
+      "employment": 484,
+      "emprop": 381,
+      "health": 402,
+      "education": 388,
+      "services": 194
+    },
+    "N21000105": {
+      "mdm": 630,
+      "income": 606,
+      "below60": 277,
+      "employment": 517,
+      "emprop": 377,
+      "health": 456,
+      "education": 498,
+      "services": 469
+    },
+    "N21000106": {
+      "mdm": 674,
+      "income": 661,
+      "below60": 201,
+      "employment": 616,
+      "emprop": 273,
+      "health": 608,
+      "education": 618,
+      "services": 320
+    }
+  }
+}

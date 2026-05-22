@@ -1,0 +1,36 @@
+{
+  "code": "N21000179",
+  "name": "Castle_A",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000304",
+      "name": "Castle",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9302, 54.6505, -5.9542, 54.665],
+  "data": {
+    "mdm": 229,
+    "income": 254,
+    "below60": 534,
+    "employment": 203,
+    "emprop": 640,
+    "health": 192,
+    "education": 156,
+    "services": 597
+  }
+}

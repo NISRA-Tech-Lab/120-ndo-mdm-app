@@ -1,0 +1,36 @@
+{
+  "code": "N21000174",
+  "name": "Oldpark_Q",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000308",
+      "name": "Oldpark",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9431, 54.6094, -5.9615, 54.6167],
+  "data": {
+    "mdm": 1,
+    "income": 16,
+    "below60": 841,
+    "employment": 4,
+    "emprop": 839,
+    "health": 4,
+    "education": 18,
+    "services": 743
+  }
+}

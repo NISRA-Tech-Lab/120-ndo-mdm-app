@@ -1,0 +1,36 @@
+{
+  "code": "N21000633",
+  "name": "Knockagh_F",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000806",
+      "name": "Knockagh",
+      "type": "dea"
+    },
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.8184, 54.7049, -5.8498, 54.7282],
+  "data": {
+    "mdm": 541,
+    "income": 701,
+    "below60": 152,
+    "employment": 451,
+    "emprop": 417,
+    "health": 306,
+    "education": 245,
+    "services": 439
+  }
+}

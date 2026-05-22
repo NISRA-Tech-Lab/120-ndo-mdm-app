@@ -1,0 +1,36 @@
+{
+  "code": "N21000691",
+  "name": "Clogher_Valley_F",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000902",
+      "name": "Clogher Valley",
+      "type": "dea"
+    },
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.073, 54.3252, -7.367, 54.4682],
+  "data": {
+    "mdm": 394,
+    "income": 317,
+    "below60": 474,
+    "employment": 593,
+    "emprop": 241,
+    "health": 620,
+    "education": 564,
+    "services": 40
+  }
+}

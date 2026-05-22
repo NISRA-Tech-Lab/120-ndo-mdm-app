@@ -1,0 +1,36 @@
+{
+  "code": "N21000449",
+  "name": "Sperrin_F",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000505",
+      "name": "Sperrin",
+      "type": "dea"
+    },
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.9022, 54.7307, -7.3104, 54.9086],
+  "data": {
+    "mdm": 209,
+    "income": 143,
+    "below60": 674,
+    "employment": 388,
+    "emprop": 434,
+    "health": 433,
+    "education": 541,
+    "services": 12
+  }
+}

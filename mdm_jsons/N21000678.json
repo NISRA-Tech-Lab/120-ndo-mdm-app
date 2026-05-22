@@ -1,0 +1,36 @@
+{
+  "code": "N21000678",
+  "name": "Dungannon_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000904",
+      "name": "Dungannon",
+      "type": "dea"
+    },
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.7575, 54.4999, -6.7763, 54.5102],
+  "data": {
+    "mdm": 429,
+    "income": 621,
+    "below60": 209,
+    "employment": 348,
+    "emprop": 473,
+    "health": 297,
+    "education": 262,
+    "services": 638
+  }
+}

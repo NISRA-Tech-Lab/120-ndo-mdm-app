@@ -1,0 +1,36 @@
+{
+  "code": "N21000587",
+  "name": "Ballymena_G",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000801",
+      "name": "Ballymena",
+      "type": "dea"
+    },
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.2672, 54.855, -6.2849, 54.8682],
+  "data": {
+    "mdm": 117,
+    "income": 99,
+    "below60": 766,
+    "employment": 226,
+    "emprop": 609,
+    "health": 248,
+    "education": 84,
+    "services": 725
+  }
+}

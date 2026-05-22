@@ -1,0 +1,36 @@
+{
+  "code": "N21000539",
+  "name": "Lisburn_North_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000706",
+      "name": "Lisburn North",
+      "type": "dea"
+    },
+    {
+      "code": "N09000007",
+      "name": "Lisburn and Castlereagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9986, 54.5149, -6.0634, 54.5569],
+  "data": {
+    "mdm": 615,
+    "income": 613,
+    "below60": 230,
+    "employment": 503,
+    "emprop": 357,
+    "health": 500,
+    "education": 475,
+    "services": 451
+  }
+}

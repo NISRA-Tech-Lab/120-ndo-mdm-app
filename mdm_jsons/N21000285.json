@@ -1,0 +1,36 @@
+{
+  "code": "N21000285",
+  "name": "Balmoral_P",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000301",
+      "name": "Balmoral",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9287, 54.5354, -5.9654, 54.5502],
+  "data": {
+    "mdm": 535,
+    "income": 784,
+    "below60": 80,
+    "employment": 419,
+    "emprop": 430,
+    "health": 328,
+    "education": 364,
+    "services": 415
+  }
+}

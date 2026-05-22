@@ -1,0 +1,36 @@
+{
+  "code": "N21000027",
+  "name": "Three_Mile_Water_A",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000107",
+      "name": "Three Mile Water",
+      "type": "dea"
+    },
+    {
+      "code": "N09000001",
+      "name": "Antrim and Newtownabbey",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9457, 54.6886, -6.001, 54.72],
+  "data": {
+    "mdm": 465,
+    "income": 633,
+    "below60": 182,
+    "employment": 369,
+    "emprop": 491,
+    "health": 315,
+    "education": 206,
+    "services": 444
+  }
+}

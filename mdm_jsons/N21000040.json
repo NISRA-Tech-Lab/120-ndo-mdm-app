@@ -1,0 +1,36 @@
+{
+  "code": "N21000040",
+  "name": "Macedon_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000106",
+      "name": "Macedon",
+      "type": "dea"
+    },
+    {
+      "code": "N09000001",
+      "name": "Antrim and Newtownabbey",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9136, 54.6679, -5.9422, 54.6786],
+  "data": {
+    "mdm": 146,
+    "income": 332,
+    "below60": 496,
+    "employment": 134,
+    "emprop": 699,
+    "health": 136,
+    "education": 44,
+    "services": 734
+  }
+}

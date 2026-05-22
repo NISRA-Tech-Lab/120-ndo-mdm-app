@@ -1,0 +1,36 @@
+{
+  "code": "N21000325",
+  "name": "Court_K",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000306",
+      "name": "Court",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9351, 54.6013, -5.9516, 54.6079],
+  "data": {
+    "mdm": 9,
+    "income": 71,
+    "below60": 757,
+    "employment": 5,
+    "emprop": 845,
+    "health": 12,
+    "education": 3,
+    "services": 690
+  }
+}

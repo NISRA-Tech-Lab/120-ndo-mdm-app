@@ -1,0 +1,36 @@
+{
+  "code": "N21000512",
+  "name": "Downshire_West_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000704",
+      "name": "Downshire West",
+      "type": "dea"
+    },
+    {
+      "code": "N09000007",
+      "name": "Lisburn and Castlereagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.014, 54.4568, -6.163, 54.5055],
+  "data": {
+    "mdm": 643,
+    "income": 608,
+    "below60": 229,
+    "employment": 642,
+    "emprop": 230,
+    "health": 651,
+    "education": 546,
+    "services": 263
+  }
+}

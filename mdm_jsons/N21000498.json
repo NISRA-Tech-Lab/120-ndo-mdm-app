@@ -1,0 +1,36 @@
+{
+  "code": "N21000498",
+  "name": "Omagh_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000606",
+      "name": "Omagh",
+      "type": "dea"
+    },
+    {
+      "code": "N09000006",
+      "name": "Fermanagh and Omagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.3077, 54.5883, -7.3382, 54.6209],
+  "data": {
+    "mdm": 147,
+    "income": 256,
+    "below60": 607,
+    "employment": 95,
+    "emprop": 753,
+    "health": 97,
+    "education": 229,
+    "services": 433
+  }
+}

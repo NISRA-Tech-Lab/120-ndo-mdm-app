@@ -1,0 +1,36 @@
+{
+  "code": "N21000247",
+  "name": "Lisnasharragh_N",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000307",
+      "name": "Lisnasharragh",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.8645, 54.5629, -5.8953, 54.5793],
+  "data": {
+    "mdm": 822,
+    "income": 829,
+    "below60": 13,
+    "employment": 775,
+    "emprop": 81,
+    "health": 723,
+    "education": 701,
+    "services": 615
+  }
+}

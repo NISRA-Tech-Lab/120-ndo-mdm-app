@@ -1,0 +1,36 @@
+{
+  "code": "N21000463",
+  "name": "Erne_East_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000602",
+      "name": "Erne East",
+      "type": "dea"
+    },
+    {
+      "code": "N09000006",
+      "name": "Fermanagh and Omagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.1414, 54.2176, -7.4263, 54.3725],
+  "data": {
+    "mdm": 176,
+    "income": 25,
+    "below60": 817,
+    "employment": 514,
+    "emprop": 302,
+    "health": 700,
+    "education": 538,
+    "services": 3
+  }
+}

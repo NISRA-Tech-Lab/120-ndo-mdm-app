@@ -1,0 +1,36 @@
+{
+  "code": "N21000709",
+  "name": "Newry_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001003",
+      "name": "Newry",
+      "type": "dea"
+    },
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.3102, 54.1787, -6.3337, 54.1882],
+  "data": {
+    "mdm": 439,
+    "income": 288,
+    "below60": 615,
+    "employment": 368,
+    "emprop": 495,
+    "health": 417,
+    "education": 520,
+    "services": 348
+  }
+}

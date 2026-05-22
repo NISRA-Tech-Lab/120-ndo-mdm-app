@@ -1,0 +1,36 @@
+{
+  "code": "N21000072",
+  "name": "Armagh_E",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000201",
+      "name": "Armagh",
+      "type": "dea"
+    },
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.7122, 54.2855, -6.8657, 54.4157],
+  "data": {
+    "mdm": 477,
+    "income": 306,
+    "below60": 497,
+    "employment": 629,
+    "emprop": 184,
+    "health": 611,
+    "education": 708,
+    "services": 38
+  }
+}

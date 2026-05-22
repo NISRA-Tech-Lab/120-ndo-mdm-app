@@ -1,0 +1,36 @@
+{
+  "code": "N21000505",
+  "name": "Mid_Tyrone_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000605",
+      "name": "Mid Tyrone",
+      "type": "dea"
+    },
+    {
+      "code": "N09000006",
+      "name": "Fermanagh and Omagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.1247, 54.621, -7.3565, 54.7406],
+  "data": {
+    "mdm": 472,
+    "income": 389,
+    "below60": 492,
+    "employment": 501,
+    "emprop": 368,
+    "health": 362,
+    "education": 673,
+    "services": 112
+  }
+}

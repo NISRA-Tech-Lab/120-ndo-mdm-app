@@ -1,0 +1,36 @@
+{
+  "code": "N21000271",
+  "name": "Botanic_Y",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000303",
+      "name": "Botanic",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9265, 54.5659, -5.9451, 54.577],
+  "data": {
+    "mdm": 846,
+    "income": 827,
+    "below60": 18,
+    "employment": 849,
+    "emprop": 1,
+    "health": 848,
+    "education": 843,
+    "services": 531
+  }
+}

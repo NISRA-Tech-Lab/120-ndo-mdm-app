@@ -1,0 +1,159 @@
+{
+  "code": "N10001104",
+  "name": "Bangor West",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000806",
+      "name": "Bangor_West_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000807",
+      "name": "Bangor_West_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000808",
+      "name": "Bangor_West_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000809",
+      "name": "Bangor_West_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000810",
+      "name": "Bangor_West_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000811",
+      "name": "Bangor_West_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000812",
+      "name": "Bangor_West_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000813",
+      "name": "Bangor_West_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000814",
+      "name": "Bangor_West_J",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.6748, 54.6403, -5.7187, 54.6689],
+  "data": {
+    "N21000806": {
+      "mdm": 766,
+      "income": 639,
+      "below60": 222,
+      "employment": 703,
+      "emprop": 159,
+      "health": 807,
+      "education": 813,
+      "services": 605
+    },
+    "N21000807": {
+      "mdm": 823,
+      "income": 802,
+      "below60": 47,
+      "employment": 755,
+      "emprop": 96,
+      "health": 775,
+      "education": 788,
+      "services": 465
+    },
+    "N21000808": {
+      "mdm": 692,
+      "income": 634,
+      "below60": 233,
+      "employment": 557,
+      "emprop": 337,
+      "health": 623,
+      "education": 651,
+      "services": 528
+    },
+    "N21000809": {
+      "mdm": 629,
+      "income": 517,
+      "below60": 394,
+      "employment": 649,
+      "emprop": 232,
+      "health": 638,
+      "education": 471,
+      "services": 603
+    },
+    "N21000810": {
+      "mdm": 684,
+      "income": 630,
+      "below60": 227,
+      "employment": 623,
+      "emprop": 270,
+      "health": 578,
+      "education": 547,
+      "services": 387
+    },
+    "N21000811": {
+      "mdm": 545,
+      "income": 352,
+      "below60": 541,
+      "employment": 594,
+      "emprop": 271,
+      "health": 552,
+      "education": 296,
+      "services": 716
+    },
+    "N21000812": {
+      "mdm": 653,
+      "income": 536,
+      "below60": 324,
+      "employment": 688,
+      "emprop": 179,
+      "health": 629,
+      "education": 365,
+      "services": 613
+    },
+    "N21000813": {
+      "mdm": 187,
+      "income": 126,
+      "below60": 799,
+      "employment": 267,
+      "emprop": 597,
+      "health": 213,
+      "education": 93,
+      "services": 391
+    },
+    "N21000814": {
+      "mdm": 447,
+      "income": 277,
+      "below60": 740,
+      "employment": 519,
+      "emprop": 386,
+      "health": 460,
+      "education": 234,
+      "services": 395
+    }
+  }
+}

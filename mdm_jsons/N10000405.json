@@ -1,0 +1,174 @@
+{
+  "code": "N10000405",
+  "name": "Coleraine",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000004",
+      "name": "Causeway Coast and Glens",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000358",
+      "name": "Coleraine_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000359",
+      "name": "Coleraine_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000360",
+      "name": "Coleraine_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000361",
+      "name": "Coleraine_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000362",
+      "name": "Coleraine_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000363",
+      "name": "Coleraine_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000364",
+      "name": "Coleraine_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000365",
+      "name": "Coleraine_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000366",
+      "name": "Coleraine_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000367",
+      "name": "Coleraine_K",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.6221, 55.1028, -6.6964, 55.1593],
+  "data": {
+    "N21000358": {
+      "mdm": 121,
+      "income": 58,
+      "below60": 818,
+      "employment": 121,
+      "emprop": 757,
+      "health": 158,
+      "education": 104,
+      "services": 404
+    },
+    "N21000359": {
+      "mdm": 255,
+      "income": 128,
+      "below60": 781,
+      "employment": 240,
+      "emprop": 715,
+      "health": 287,
+      "education": 239,
+      "services": 472
+    },
+    "N21000360": {
+      "mdm": 100,
+      "income": 54,
+      "below60": 767,
+      "employment": 98,
+      "emprop": 741,
+      "health": 141,
+      "education": 91,
+      "services": 517
+    },
+    "N21000361": {
+      "mdm": 165,
+      "income": 79,
+      "below60": 718,
+      "employment": 167,
+      "emprop": 697,
+      "health": 254,
+      "education": 199,
+      "services": 770
+    },
+    "N21000362": {
+      "mdm": 112,
+      "income": 63,
+      "below60": 758,
+      "employment": 110,
+      "emprop": 720,
+      "health": 176,
+      "education": 123,
+      "services": 624
+    },
+    "N21000363": {
+      "mdm": 256,
+      "income": 207,
+      "below60": 632,
+      "employment": 220,
+      "emprop": 661,
+      "health": 293,
+      "education": 238,
+      "services": 595
+    },
+    "N21000364": {
+      "mdm": 196,
+      "income": 127,
+      "below60": 686,
+      "employment": 194,
+      "emprop": 673,
+      "health": 282,
+      "education": 213,
+      "services": 682
+    },
+    "N21000365": {
+      "mdm": 619,
+      "income": 331,
+      "below60": 451,
+      "employment": 556,
+      "emprop": 263,
+      "health": 685,
+      "education": 607,
+      "services": 508
+    },
+    "N21000366": {
+      "mdm": 451,
+      "income": 297,
+      "below60": 512,
+      "employment": 364,
+      "emprop": 499,
+      "health": 470,
+      "education": 383,
+      "services": 487
+    },
+    "N21000367": {
+      "mdm": 606,
+      "income": 330,
+      "below60": 452,
+      "employment": 478,
+      "emprop": 347,
+      "health": 655,
+      "education": 578,
+      "services": 419
+    }
+  }
+}

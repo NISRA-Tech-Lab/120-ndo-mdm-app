@@ -1,0 +1,36 @@
+{
+  "code": "N21000476",
+  "name": "Enniskillen_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000601",
+      "name": "Enniskillen",
+      "type": "dea"
+    },
+    {
+      "code": "N09000006",
+      "name": "Fermanagh and Omagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.5867, 54.3462, -7.6183, 54.3612],
+  "data": {
+    "mdm": 412,
+    "income": 370,
+    "below60": 471,
+    "employment": 325,
+    "emprop": 527,
+    "health": 309,
+    "education": 531,
+    "services": 309
+  }
+}

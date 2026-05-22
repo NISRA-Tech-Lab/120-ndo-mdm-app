@@ -1,0 +1,204 @@
+{
+  "code": "N10000102",
+  "name": "Antrim",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000001",
+      "name": "Antrim and Newtownabbey",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000007",
+      "name": "Antrim_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000008",
+      "name": "Antrim_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000009",
+      "name": "Antrim_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000010",
+      "name": "Antrim_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000011",
+      "name": "Antrim_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000012",
+      "name": "Antrim_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000013",
+      "name": "Antrim_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000014",
+      "name": "Antrim_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000015",
+      "name": "Antrim_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000016",
+      "name": "Antrim_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000017",
+      "name": "Antrim_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000018",
+      "name": "Antrim_N",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.1582, 54.6959, -6.2733, 54.7441],
+  "data": {
+    "N21000007": {
+      "mdm": 665,
+      "income": 774,
+      "below60": 74,
+      "employment": 653,
+      "emprop": 209,
+      "health": 475,
+      "education": 422,
+      "services": 414
+    },
+    "N21000008": {
+      "mdm": 292,
+      "income": 486,
+      "below60": 354,
+      "employment": 295,
+      "emprop": 568,
+      "health": 191,
+      "education": 122,
+      "services": 468
+    },
+    "N21000009": {
+      "mdm": 655,
+      "income": 795,
+      "below60": 54,
+      "employment": 628,
+      "emprop": 226,
+      "health": 421,
+      "education": 401,
+      "services": 493
+    },
+    "N21000010": {
+      "mdm": 392,
+      "income": 617,
+      "below60": 211,
+      "employment": 331,
+      "emprop": 544,
+      "health": 218,
+      "education": 161,
+      "services": 540
+    },
+    "N21000011": {
+      "mdm": 194,
+      "income": 376,
+      "below60": 437,
+      "employment": 182,
+      "emprop": 666,
+      "health": 138,
+      "education": 92,
+      "services": 533
+    },
+    "N21000012": {
+      "mdm": 225,
+      "income": 407,
+      "below60": 445,
+      "employment": 197,
+      "emprop": 670,
+      "health": 160,
+      "education": 169,
+      "services": 287
+    },
+    "N21000013": {
+      "mdm": 500,
+      "income": 686,
+      "below60": 144,
+      "employment": 385,
+      "emprop": 465,
+      "health": 295,
+      "education": 315,
+      "services": 552
+    },
+    "N21000014": {
+      "mdm": 297,
+      "income": 466,
+      "below60": 346,
+      "employment": 268,
+      "emprop": 595,
+      "health": 240,
+      "education": 151,
+      "services": 505
+    },
+    "N21000015": {
+      "mdm": 589,
+      "income": 664,
+      "below60": 206,
+      "employment": 492,
+      "emprop": 409,
+      "health": 440,
+      "education": 403,
+      "services": 306
+    },
+    "N21000016": {
+      "mdm": 240,
+      "income": 435,
+      "below60": 446,
+      "employment": 233,
+      "emprop": 629,
+      "health": 174,
+      "education": 184,
+      "services": 262
+    },
+    "N21000017": {
+      "mdm": 597,
+      "income": 695,
+      "below60": 156,
+      "employment": 495,
+      "emprop": 370,
+      "health": 401,
+      "education": 433,
+      "services": 399
+    },
+    "N21000018": {
+      "mdm": 605,
+      "income": 776,
+      "below60": 71,
+      "employment": 473,
+      "emprop": 344,
+      "health": 365,
+      "education": 399,
+      "services": 457
+    }
+  }
+}

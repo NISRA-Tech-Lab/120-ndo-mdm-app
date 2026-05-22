@@ -1,0 +1,129 @@
+{
+  "code": "N10000504",
+  "name": "Foyleside",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000405",
+      "name": "Foyleside_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000406",
+      "name": "Foyleside_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000407",
+      "name": "Foyleside_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000408",
+      "name": "Foyleside_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000409",
+      "name": "Foyleside_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000410",
+      "name": "Foyleside_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000411",
+      "name": "Foyleside_G",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-7.2916, 54.9978, -7.3915, 55.0367],
+  "data": {
+    "N21000405": {
+      "mdm": 173,
+      "income": 230,
+      "below60": 672,
+      "employment": 97,
+      "emprop": 760,
+      "health": 104,
+      "education": 270,
+      "services": 365
+    },
+    "N21000406": {
+      "mdm": 558,
+      "income": 625,
+      "below60": 219,
+      "employment": 289,
+      "emprop": 550,
+      "health": 330,
+      "education": 707,
+      "services": 637
+    },
+    "N21000407": {
+      "mdm": 201,
+      "income": 219,
+      "below60": 691,
+      "employment": 138,
+      "emprop": 744,
+      "health": 153,
+      "education": 257,
+      "services": 371
+    },
+    "N21000408": {
+      "mdm": 164,
+      "income": 121,
+      "below60": 790,
+      "employment": 156,
+      "emprop": 703,
+      "health": 205,
+      "education": 394,
+      "services": 789
+    },
+    "N21000409": {
+      "mdm": 507,
+      "income": 578,
+      "below60": 258,
+      "employment": 263,
+      "emprop": 578,
+      "health": 318,
+      "education": 575,
+      "services": 411
+    },
+    "N21000410": {
+      "mdm": 92,
+      "income": 108,
+      "below60": 819,
+      "employment": 77,
+      "emprop": 790,
+      "health": 110,
+      "education": 318,
+      "services": 846
+    },
+    "N21000411": {
+      "mdm": 133,
+      "income": 194,
+      "below60": 719,
+      "employment": 82,
+      "emprop": 759,
+      "health": 120,
+      "education": 338,
+      "services": 804
+    }
+  }
+}

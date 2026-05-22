@@ -1,0 +1,189 @@
+{
+  "code": "N10001001",
+  "name": "Crotlieve",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000719",
+      "name": "Crotlieve_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000720",
+      "name": "Crotlieve_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000721",
+      "name": "Crotlieve_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000722",
+      "name": "Crotlieve_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000723",
+      "name": "Crotlieve_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000724",
+      "name": "Crotlieve_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000725",
+      "name": "Crotlieve_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000726",
+      "name": "Crotlieve_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000727",
+      "name": "Crotlieve_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000728",
+      "name": "Crotlieve_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000729",
+      "name": "Crotlieve_L",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.0685, 54.0854, -6.374, 54.2742],
+  "data": {
+    "N21000719": {
+      "mdm": 306,
+      "income": 74,
+      "below60": 746,
+      "employment": 487,
+      "emprop": 351,
+      "health": 556,
+      "education": 590,
+      "services": 159
+    },
+    "N21000720": {
+      "mdm": 470,
+      "income": 147,
+      "below60": 664,
+      "employment": 576,
+      "emprop": 253,
+      "health": 633,
+      "education": 704,
+      "services": 96
+    },
+    "N21000721": {
+      "mdm": 588,
+      "income": 481,
+      "below60": 367,
+      "employment": 481,
+      "emprop": 321,
+      "health": 544,
+      "education": 690,
+      "services": 264
+    },
+    "N21000722": {
+      "mdm": 287,
+      "income": 83,
+      "below60": 737,
+      "employment": 414,
+      "emprop": 398,
+      "health": 412,
+      "education": 410,
+      "services": 197
+    },
+    "N21000723": {
+      "mdm": 623,
+      "income": 335,
+      "below60": 475,
+      "employment": 701,
+      "emprop": 126,
+      "health": 724,
+      "education": 794,
+      "services": 75
+    },
+    "N21000724": {
+      "mdm": 562,
+      "income": 468,
+      "below60": 322,
+      "employment": 499,
+      "emprop": 330,
+      "health": 477,
+      "education": 643,
+      "services": 269
+    },
+    "N21000725": {
+      "mdm": 584,
+      "income": 274,
+      "below60": 506,
+      "employment": 617,
+      "emprop": 221,
+      "health": 714,
+      "education": 776,
+      "services": 154
+    },
+    "N21000726": {
+      "mdm": 322,
+      "income": 200,
+      "below60": 678,
+      "employment": 305,
+      "emprop": 514,
+      "health": 378,
+      "education": 413,
+      "services": 423
+    },
+    "N21000727": {
+      "mdm": 345,
+      "income": 211,
+      "below60": 616,
+      "employment": 309,
+      "emprop": 510,
+      "health": 376,
+      "education": 540,
+      "services": 447
+    },
+    "N21000728": {
+      "mdm": 285,
+      "income": 160,
+      "below60": 703,
+      "employment": 276,
+      "emprop": 549,
+      "health": 341,
+      "education": 449,
+      "services": 483
+    },
+    "N21000729": {
+      "mdm": 435,
+      "income": 123,
+      "below60": 665,
+      "employment": 486,
+      "emprop": 352,
+      "health": 607,
+      "education": 744,
+      "services": 270
+    }
+  }
+}

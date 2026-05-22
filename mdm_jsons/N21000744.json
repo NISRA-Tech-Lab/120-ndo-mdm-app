@@ -1,0 +1,36 @@
+{
+  "code": "N21000744",
+  "name": "Slieve_Croob_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001005",
+      "name": "Slieve Croob",
+      "type": "dea"
+    },
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.8468, 54.3627, -5.8593, 54.3754],
+  "data": {
+    "mdm": 480,
+    "income": 454,
+    "below60": 368,
+    "employment": 453,
+    "emprop": 418,
+    "health": 438,
+    "education": 570,
+    "services": 217
+  }
+}

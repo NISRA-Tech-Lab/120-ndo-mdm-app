@@ -1,0 +1,36 @@
+{
+  "code": "N21000599",
+  "name": "Braid_J",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000803",
+      "name": "Braid",
+      "type": "dea"
+    },
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.2693, 54.8403, -6.2953, 54.856],
+  "data": {
+    "mdm": 234,
+    "income": 218,
+    "below60": 649,
+    "employment": 273,
+    "emprop": 607,
+    "health": 273,
+    "education": 136,
+    "services": 561
+  }
+}

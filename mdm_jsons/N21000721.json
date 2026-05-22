@@ -1,0 +1,36 @@
+{
+  "code": "N21000721",
+  "name": "Crotlieve_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001001",
+      "name": "Crotlieve",
+      "type": "dea"
+    },
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.2526, 54.157, -6.3683, 54.2392],
+  "data": {
+    "mdm": 588,
+    "income": 481,
+    "below60": 367,
+    "employment": 481,
+    "emprop": 321,
+    "health": 544,
+    "education": 690,
+    "services": 264
+  }
+}

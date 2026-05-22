@@ -1,0 +1,36 @@
+{
+  "code": "N21000670",
+  "name": "Torrent_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000907",
+      "name": "Torrent",
+      "type": "dea"
+    },
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.627, 54.5345, -6.6972, 54.5954],
+  "data": {
+    "mdm": 231,
+    "income": 449,
+    "below60": 403,
+    "employment": 177,
+    "emprop": 675,
+    "health": 135,
+    "education": 282,
+    "services": 305
+  }
+}

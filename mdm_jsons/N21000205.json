@@ -1,0 +1,36 @@
+{
+  "code": "N21000205",
+  "name": "Titanic_J",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000310",
+      "name": "Titanic",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.882, 54.5934, -5.8938, 54.6011],
+  "data": {
+    "mdm": 250,
+    "income": 316,
+    "below60": 481,
+    "employment": 272,
+    "emprop": 580,
+    "health": 224,
+    "education": 144,
+    "services": 815
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "code": "N21000006",
+  "name": "Dunsilly_F",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000104",
+      "name": "Dunsilly",
+      "type": "dea"
+    },
+    {
+      "code": "N09000001",
+      "name": "Antrim and Newtownabbey",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.179, 54.701, -6.47, 54.7718],
+  "data": {
+    "mdm": 624,
+    "income": 689,
+    "below60": 171,
+    "employment": 534,
+    "emprop": 315,
+    "health": 508,
+    "education": 511,
+    "services": 314
+  }
+}

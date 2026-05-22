@@ -1,0 +1,174 @@
+{
+  "code": "N10000706",
+  "name": "Lisburn North",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000007",
+      "name": "Lisburn and Castlereagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000536",
+      "name": "Lisburn_North_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000537",
+      "name": "Lisburn_North_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000538",
+      "name": "Lisburn_North_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000539",
+      "name": "Lisburn_North_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000540",
+      "name": "Lisburn_North_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000541",
+      "name": "Lisburn_North_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000542",
+      "name": "Lisburn_North_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000543",
+      "name": "Lisburn_North_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000544",
+      "name": "Lisburn_North_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000545",
+      "name": "Lisburn_North_K",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.9937, 54.5058, -6.0634, 54.5569],
+  "data": {
+    "N21000536": {
+      "mdm": 348,
+      "income": 493,
+      "below60": 339,
+      "employment": 266,
+      "emprop": 579,
+      "health": 289,
+      "education": 233,
+      "services": 477
+    },
+    "N21000537": {
+      "mdm": 656,
+      "income": 674,
+      "below60": 169,
+      "employment": 568,
+      "emprop": 280,
+      "health": 511,
+      "education": 453,
+      "services": 338
+    },
+    "N21000538": {
+      "mdm": 486,
+      "income": 549,
+      "below60": 281,
+      "employment": 430,
+      "emprop": 429,
+      "health": 408,
+      "education": 299,
+      "services": 392
+    },
+    "N21000539": {
+      "mdm": 615,
+      "income": 613,
+      "below60": 230,
+      "employment": 503,
+      "emprop": 357,
+      "health": 500,
+      "education": 475,
+      "services": 451
+    },
+    "N21000540": {
+      "mdm": 750,
+      "income": 741,
+      "below60": 99,
+      "employment": 706,
+      "emprop": 137,
+      "health": 696,
+      "education": 562,
+      "services": 495
+    },
+    "N21000541": {
+      "mdm": 816,
+      "income": 808,
+      "below60": 42,
+      "employment": 767,
+      "emprop": 76,
+      "health": 748,
+      "education": 717,
+      "services": 619
+    },
+    "N21000542": {
+      "mdm": 844,
+      "income": 849,
+      "below60": 1,
+      "employment": 831,
+      "emprop": 20,
+      "health": 838,
+      "education": 822,
+      "services": 544
+    },
+    "N21000543": {
+      "mdm": 774,
+      "income": 697,
+      "below60": 170,
+      "employment": 779,
+      "emprop": 62,
+      "health": 793,
+      "education": 696,
+      "services": 663
+    },
+    "N21000544": {
+      "mdm": 571,
+      "income": 477,
+      "below60": 373,
+      "employment": 585,
+      "emprop": 235,
+      "health": 618,
+      "education": 349,
+      "services": 653
+    },
+    "N21000545": {
+      "mdm": 424,
+      "income": 475,
+      "below60": 340,
+      "employment": 381,
+      "emprop": 453,
+      "health": 397,
+      "education": 286,
+      "services": 791
+    }
+  }
+}

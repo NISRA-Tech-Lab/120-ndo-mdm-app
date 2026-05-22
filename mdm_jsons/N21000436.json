@@ -1,0 +1,36 @@
+{
+  "code": "N21000436",
+  "name": "Faughan_A",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000503",
+      "name": "Faughan",
+      "type": "dea"
+    },
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.26, 55.0252, -7.2805, 55.0394],
+  "data": {
+    "mdm": 639,
+    "income": 618,
+    "below60": 255,
+    "employment": 554,
+    "emprop": 311,
+    "health": 596,
+    "education": 764,
+    "services": 215
+  }
+}

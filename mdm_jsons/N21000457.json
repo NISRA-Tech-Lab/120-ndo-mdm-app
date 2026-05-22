@@ -1,0 +1,36 @@
+{
+  "code": "N21000457",
+  "name": "Derg_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000502",
+      "name": "Derg",
+      "type": "dea"
+    },
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.45, 54.7039, -7.5988, 54.7683],
+  "data": {
+    "mdm": 152,
+    "income": 215,
+    "below60": 606,
+    "employment": 144,
+    "emprop": 700,
+    "health": 197,
+    "education": 226,
+    "services": 191
+  }
+}

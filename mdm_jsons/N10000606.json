@@ -1,0 +1,144 @@
+{
+  "code": "N10000606",
+  "name": "Omagh",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000006",
+      "name": "Fermanagh and Omagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000496",
+      "name": "Omagh_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000497",
+      "name": "Omagh_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000498",
+      "name": "Omagh_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000499",
+      "name": "Omagh_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000500",
+      "name": "Omagh_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000501",
+      "name": "Omagh_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000502",
+      "name": "Omagh_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000503",
+      "name": "Omagh_H",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-7.2533, 54.5803, -7.3382, 54.6209],
+  "data": {
+    "N21000496": {
+      "mdm": 314,
+      "income": 436,
+      "below60": 466,
+      "employment": 216,
+      "emprop": 639,
+      "health": 168,
+      "education": 480,
+      "services": 332
+    },
+    "N21000497": {
+      "mdm": 114,
+      "income": 170,
+      "below60": 720,
+      "employment": 90,
+      "emprop": 773,
+      "health": 82,
+      "education": 258,
+      "services": 432
+    },
+    "N21000498": {
+      "mdm": 147,
+      "income": 256,
+      "below60": 607,
+      "employment": 95,
+      "emprop": 753,
+      "health": 97,
+      "education": 229,
+      "services": 433
+    },
+    "N21000499": {
+      "mdm": 182,
+      "income": 347,
+      "below60": 597,
+      "employment": 122,
+      "emprop": 749,
+      "health": 119,
+      "education": 348,
+      "services": 501
+    },
+    "N21000500": {
+      "mdm": 299,
+      "income": 534,
+      "below60": 351,
+      "employment": 189,
+      "emprop": 678,
+      "health": 164,
+      "education": 497,
+      "services": 316
+    },
+    "N21000501": {
+      "mdm": 239,
+      "income": 325,
+      "below60": 554,
+      "employment": 152,
+      "emprop": 719,
+      "health": 145,
+      "education": 329,
+      "services": 417
+    },
+    "N21000502": {
+      "mdm": 385,
+      "income": 562,
+      "below60": 381,
+      "employment": 244,
+      "emprop": 641,
+      "health": 234,
+      "education": 536,
+      "services": 426
+    },
+    "N21000503": {
+      "mdm": 319,
+      "income": 400,
+      "below60": 454,
+      "employment": 199,
+      "emprop": 681,
+      "health": 196,
+      "education": 414,
+      "services": 430
+    }
+  }
+}

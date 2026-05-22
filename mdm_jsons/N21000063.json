@@ -1,0 +1,36 @@
+{
+  "code": "N21000063",
+  "name": "Airport_E",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000101",
+      "name": "Airport",
+      "type": "dea"
+    },
+    {
+      "code": "N09000001",
+      "name": "Antrim and Newtownabbey",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9731, 54.6651, -5.9968, 54.6779],
+  "data": {
+    "mdm": 781,
+    "income": 798,
+    "below60": 61,
+    "employment": 784,
+    "emprop": 64,
+    "health": 701,
+    "education": 688,
+    "services": 458
+  }
+}

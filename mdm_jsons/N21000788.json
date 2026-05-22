@@ -1,0 +1,36 @@
+{
+  "code": "N21000788",
+  "name": "Newtownards_K",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001107",
+      "name": "Newtownards",
+      "type": "dea"
+    },
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.681, 54.5908, -5.691, 54.5976],
+  "data": {
+    "mdm": 529,
+    "income": 504,
+    "below60": 393,
+    "employment": 450,
+    "emprop": 425,
+    "health": 441,
+    "education": 253,
+    "services": 651
+  }
+}

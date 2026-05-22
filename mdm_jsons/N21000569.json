@@ -1,0 +1,36 @@
+{
+  "code": "N21000569",
+  "name": "Castlereagh_East_H",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000701",
+      "name": "Castlereagh East",
+      "type": "dea"
+    },
+    {
+      "code": "N09000007",
+      "name": "Lisburn and Castlereagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.7758, 54.579, -5.7993, 54.5908],
+  "data": {
+    "mdm": 478,
+    "income": 645,
+    "below60": 203,
+    "employment": 429,
+    "emprop": 395,
+    "health": 258,
+    "education": 181,
+    "services": 515
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "code": "N10000503",
+  "name": "Faughan",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000436",
+      "name": "Faughan_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000437",
+      "name": "Faughan_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000438",
+      "name": "Faughan_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000439",
+      "name": "Faughan_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000440",
+      "name": "Faughan_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000441",
+      "name": "Faughan_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000442",
+      "name": "Faughan_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000443",
+      "name": "Faughan_H",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-7.081, 54.8822, -7.4525, 55.0611],
+  "data": {
+    "N21000436": {
+      "mdm": 639,
+      "income": 618,
+      "below60": 255,
+      "employment": 554,
+      "emprop": 311,
+      "health": 596,
+      "education": 764,
+      "services": 215
+    },
+    "N21000437": {
+      "mdm": 496,
+      "income": 360,
+      "below60": 469,
+      "employment": 438,
+      "emprop": 383,
+      "health": 494,
+      "education": 718,
+      "services": 136
+    },
+    "N21000438": {
+      "mdm": 497,
+      "income": 361,
+      "below60": 470,
+      "employment": 439,
+      "emprop": 384,
+      "health": 495,
+      "education": 719,
+      "services": 137
+    },
+    "N21000439": {
+      "mdm": 381,
+      "income": 245,
+      "below60": 634,
+      "employment": 321,
+      "emprop": 516,
+      "health": 348,
+      "education": 560,
+      "services": 224
+    },
+    "N21000440": {
+      "mdm": 373,
+      "income": 266,
+      "below60": 543,
+      "employment": 359,
+      "emprop": 498,
+      "health": 413,
+      "education": 503,
+      "services": 200
+    },
+    "N21000441": {
+      "mdm": 475,
+      "income": 427,
+      "below60": 460,
+      "employment": 394,
+      "emprop": 467,
+      "health": 472,
+      "education": 544,
+      "services": 199
+    },
+    "N21000442": {
+      "mdm": 532,
+      "income": 498,
+      "below60": 333,
+      "employment": 452,
+      "emprop": 378,
+      "health": 536,
+      "education": 614,
+      "services": 164
+    },
+    "N21000443": {
+      "mdm": 259,
+      "income": 226,
+      "below60": 585,
+      "employment": 340,
+      "emprop": 440,
+      "health": 409,
+      "education": 535,
+      "services": 34
+    }
+  }
+}

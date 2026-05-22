@@ -1,0 +1,159 @@
+{
+  "code": "N10000806",
+  "name": "Knockagh",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000628",
+      "name": "Knockagh_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000629",
+      "name": "Knockagh_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000630",
+      "name": "Knockagh_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000631",
+      "name": "Knockagh_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000632",
+      "name": "Knockagh_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000633",
+      "name": "Knockagh_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000634",
+      "name": "Knockagh_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000635",
+      "name": "Knockagh_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000636",
+      "name": "Knockagh_J",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.7934, 54.6889, -5.9107, 54.8042],
+  "data": {
+    "N21000628": {
+      "mdm": 745,
+      "income": 786,
+      "below60": 69,
+      "employment": 729,
+      "emprop": 117,
+      "health": 709,
+      "education": 695,
+      "services": 235
+    },
+    "N21000629": {
+      "mdm": 760,
+      "income": 840,
+      "below60": 6,
+      "employment": 648,
+      "emprop": 214,
+      "health": 625,
+      "education": 634,
+      "services": 295
+    },
+    "N21000630": {
+      "mdm": 713,
+      "income": 788,
+      "below60": 58,
+      "employment": 662,
+      "emprop": 222,
+      "health": 543,
+      "education": 602,
+      "services": 275
+    },
+    "N21000631": {
+      "mdm": 145,
+      "income": 261,
+      "below60": 599,
+      "employment": 146,
+      "emprop": 677,
+      "health": 126,
+      "education": 71,
+      "services": 627
+    },
+    "N21000632": {
+      "mdm": 108,
+      "income": 189,
+      "below60": 690,
+      "employment": 127,
+      "emprop": 685,
+      "health": 103,
+      "education": 30,
+      "services": 585
+    },
+    "N21000633": {
+      "mdm": 541,
+      "income": 701,
+      "below60": 152,
+      "employment": 451,
+      "emprop": 417,
+      "health": 306,
+      "education": 245,
+      "services": 439
+    },
+    "N21000634": {
+      "mdm": 673,
+      "income": 691,
+      "below60": 175,
+      "employment": 667,
+      "emprop": 215,
+      "health": 589,
+      "education": 565,
+      "services": 346
+    },
+    "N21000635": {
+      "mdm": 679,
+      "income": 714,
+      "below60": 153,
+      "employment": 668,
+      "emprop": 216,
+      "health": 580,
+      "education": 551,
+      "services": 350
+    },
+    "N21000636": {
+      "mdm": 680,
+      "income": 713,
+      "below60": 154,
+      "employment": 671,
+      "emprop": 208,
+      "health": 585,
+      "education": 552,
+      "services": 372
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "code": "N10000205",
+  "name": "Lagan River",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000124",
+      "name": "Lagan_River_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000125",
+      "name": "Lagan_River_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000126",
+      "name": "Lagan_River_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000127",
+      "name": "Lagan_River_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000128",
+      "name": "Lagan_River_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000129",
+      "name": "Lagan_River_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000130",
+      "name": "Lagan_River_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000131",
+      "name": "Lagan_River_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000132",
+      "name": "Lagan_River_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000133",
+      "name": "Lagan_River_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000134",
+      "name": "Lagan_River_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000135",
+      "name": "Lagan_River_N",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.0186, 54.2909, -6.3561, 54.454],
+  "data": {
+    "N21000124": {
+      "mdm": 789,
+      "income": 746,
+      "below60": 107,
+      "employment": 796,
+      "emprop": 54,
+      "health": 743,
+      "education": 765,
+      "services": 254
+    },
+    "N21000125": {
+      "mdm": 782,
+      "income": 692,
+      "below60": 168,
+      "employment": 804,
+      "emprop": 45,
+      "health": 785,
+      "education": 785,
+      "services": 221
+    },
+    "N21000126": {
+      "mdm": 726,
+      "income": 591,
+      "below60": 264,
+      "employment": 766,
+      "emprop": 79,
+      "health": 770,
+      "education": 781,
+      "services": 175
+    },
+    "N21000127": {
+      "mdm": 736,
+      "income": 584,
+      "below60": 250,
+      "employment": 719,
+      "emprop": 129,
+      "health": 681,
+      "education": 638,
+      "services": 442
+    },
+    "N21000128": {
+      "mdm": 702,
+      "income": 531,
+      "below60": 314,
+      "employment": 757,
+      "emprop": 88,
+      "health": 761,
+      "education": 787,
+      "services": 145
+    },
+    "N21000129": {
+      "mdm": 719,
+      "income": 576,
+      "below60": 260,
+      "employment": 704,
+      "emprop": 144,
+      "health": 665,
+      "education": 580,
+      "services": 434
+    },
+    "N21000130": {
+      "mdm": 733,
+      "income": 610,
+      "below60": 251,
+      "employment": 759,
+      "emprop": 89,
+      "health": 758,
+      "education": 783,
+      "services": 184
+    },
+    "N21000131": {
+      "mdm": 720,
+      "income": 577,
+      "below60": 261,
+      "employment": 705,
+      "emprop": 145,
+      "health": 666,
+      "education": 581,
+      "services": 435
+    },
+    "N21000132": {
+      "mdm": 703,
+      "income": 585,
+      "below60": 245,
+      "employment": 711,
+      "emprop": 130,
+      "health": 722,
+      "education": 760,
+      "services": 219
+    },
+    "N21000133": {
+      "mdm": 747,
+      "income": 619,
+      "below60": 214,
+      "employment": 739,
+      "emprop": 112,
+      "health": 718,
+      "education": 702,
+      "services": 330
+    },
+    "N21000134": {
+      "mdm": 685,
+      "income": 604,
+      "below60": 252,
+      "employment": 754,
+      "emprop": 84,
+      "health": 767,
+      "education": 739,
+      "services": 59
+    },
+    "N21000135": {
+      "mdm": 547,
+      "income": 343,
+      "below60": 487,
+      "employment": 696,
+      "emprop": 131,
+      "health": 772,
+      "education": 720,
+      "services": 14
+    }
+  }
+}

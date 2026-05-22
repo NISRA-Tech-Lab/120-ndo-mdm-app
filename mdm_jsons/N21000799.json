@@ -1,0 +1,36 @@
+{
+  "code": "N21000799",
+  "name": "Holywood_and_Clandeboye_E",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001106",
+      "name": "Holywood and Clandeboye",
+      "type": "dea"
+    },
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.8083, 54.638, -5.8317, 54.6502],
+  "data": {
+    "mdm": 762,
+    "income": 648,
+    "below60": 226,
+    "employment": 798,
+    "emprop": 74,
+    "health": 822,
+    "education": 803,
+    "services": 549
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "code": "N21000108",
+  "name": "Lurgan_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000206",
+      "name": "Lurgan",
+      "type": "dea"
+    },
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.2156, 54.4414, -6.3775, 54.5425],
+  "data": {
+    "mdm": 483,
+    "income": 568,
+    "below60": 268,
+    "employment": 377,
+    "emprop": 560,
+    "health": 329,
+    "education": 477,
+    "services": 296
+  }
+}

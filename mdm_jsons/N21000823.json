@@ -1,0 +1,36 @@
+{
+  "code": "N21000823",
+  "name": "Bangor_Central_J",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001102",
+      "name": "Bangor Central",
+      "type": "dea"
+    },
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.643, 54.6429, -5.6621, 54.6545],
+  "data": {
+    "mdm": 793,
+    "income": 745,
+    "below60": 103,
+    "employment": 747,
+    "emprop": 110,
+    "health": 738,
+    "education": 736,
+    "services": 479
+  }
+}

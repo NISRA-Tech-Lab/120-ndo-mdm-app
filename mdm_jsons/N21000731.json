@@ -1,0 +1,36 @@
+{
+  "code": "N21000731",
+  "name": "The_Mournes_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001007",
+      "name": "The Mournes",
+      "type": "dea"
+    },
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.8865, 54.2148, -5.8984, 54.2266],
+  "data": {
+    "mdm": 242,
+    "income": 156,
+    "below60": 657,
+    "employment": 214,
+    "emprop": 706,
+    "health": 264,
+    "education": 375,
+    "services": 454
+  }
+}

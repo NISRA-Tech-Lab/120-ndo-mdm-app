@@ -1,0 +1,36 @@
+{
+  "code": "N21000430",
+  "name": "Waterside_H",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000507",
+      "name": "Waterside",
+      "type": "dea"
+    },
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.2739, 54.9794, -7.2987, 54.9914],
+  "data": {
+    "mdm": 610,
+    "income": 642,
+    "below60": 188,
+    "employment": 444,
+    "emprop": 388,
+    "health": 427,
+    "education": 577,
+    "services": 681
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "code": "N21000303",
+  "name": "Black_Mountain_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000302",
+      "name": "Black Mountain",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9561, 54.5899, -5.9676, 54.5954],
+  "data": {
+    "mdm": 107,
+    "income": 260,
+    "below60": 612,
+    "employment": 79,
+    "emprop": 764,
+    "health": 68,
+    "education": 148,
+    "services": 831
+  }
+}

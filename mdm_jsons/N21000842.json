@@ -1,0 +1,36 @@
+{
+  "code": "N21000842",
+  "name": "Ards_Peninsula_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001101",
+      "name": "Ards Peninsula",
+      "type": "dea"
+    },
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.4898, 54.5274, -5.6585, 54.5885],
+  "data": {
+    "mdm": 481,
+    "income": 339,
+    "below60": 478,
+    "employment": 480,
+    "emprop": 331,
+    "health": 602,
+    "education": 492,
+    "services": 108
+  }
+}

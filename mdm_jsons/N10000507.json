@@ -1,0 +1,219 @@
+{
+  "code": "N10000507",
+  "name": "Waterside",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000423",
+      "name": "Waterside_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000424",
+      "name": "Waterside_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000425",
+      "name": "Waterside_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000426",
+      "name": "Waterside_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000427",
+      "name": "Waterside_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000428",
+      "name": "Waterside_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000429",
+      "name": "Waterside_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000430",
+      "name": "Waterside_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000431",
+      "name": "Waterside_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000432",
+      "name": "Waterside_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000433",
+      "name": "Waterside_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000434",
+      "name": "Waterside_N",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000435",
+      "name": "Waterside_P",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-7.2535, 54.9653, -7.3425, 55.0189],
+  "data": {
+    "N21000423": {
+      "mdm": 302,
+      "income": 320,
+      "below60": 525,
+      "employment": 209,
+      "emprop": 646,
+      "health": 232,
+      "education": 268,
+      "services": 629
+    },
+    "N21000424": {
+      "mdm": 371,
+      "income": 402,
+      "below60": 468,
+      "employment": 201,
+      "emprop": 637,
+      "health": 241,
+      "education": 317,
+      "services": 608
+    },
+    "N21000425": {
+      "mdm": 342,
+      "income": 416,
+      "below60": 459,
+      "employment": 184,
+      "emprop": 644,
+      "health": 214,
+      "education": 273,
+      "services": 640
+    },
+    "N21000426": {
+      "mdm": 469,
+      "income": 516,
+      "below60": 310,
+      "employment": 256,
+      "emprop": 572,
+      "health": 274,
+      "education": 357,
+      "services": 693
+    },
+    "N21000427": {
+      "mdm": 120,
+      "income": 66,
+      "below60": 785,
+      "employment": 101,
+      "emprop": 755,
+      "health": 125,
+      "education": 173,
+      "services": 825
+    },
+    "N21000428": {
+      "mdm": 512,
+      "income": 487,
+      "below60": 332,
+      "employment": 307,
+      "emprop": 503,
+      "health": 321,
+      "education": 448,
+      "services": 738
+    },
+    "N21000429": {
+      "mdm": 163,
+      "income": 206,
+      "below60": 733,
+      "employment": 117,
+      "emprop": 742,
+      "health": 131,
+      "education": 201,
+      "services": 835
+    },
+    "N21000430": {
+      "mdm": 610,
+      "income": 642,
+      "below60": 188,
+      "employment": 444,
+      "emprop": 388,
+      "health": 427,
+      "education": 577,
+      "services": 681
+    },
+    "N21000431": {
+      "mdm": 350,
+      "income": 600,
+      "below60": 300,
+      "employment": 232,
+      "emprop": 664,
+      "health": 235,
+      "education": 353,
+      "services": 669
+    },
+    "N21000432": {
+      "mdm": 467,
+      "income": 425,
+      "below60": 399,
+      "employment": 373,
+      "emprop": 536,
+      "health": 390,
+      "education": 441,
+      "services": 397
+    },
+    "N21000433": {
+      "mdm": 46,
+      "income": 60,
+      "below60": 811,
+      "employment": 38,
+      "emprop": 814,
+      "health": 60,
+      "education": 145,
+      "services": 727
+    },
+    "N21000434": {
+      "mdm": 122,
+      "income": 312,
+      "below60": 633,
+      "employment": 80,
+      "emprop": 777,
+      "health": 101,
+      "education": 180,
+      "services": 708
+    },
+    "N21000435": {
+      "mdm": 456,
+      "income": 539,
+      "below60": 284,
+      "employment": 335,
+      "emprop": 575,
+      "health": 364,
+      "education": 438,
+      "services": 394
+    }
+  }
+}

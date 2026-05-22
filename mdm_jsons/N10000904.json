@@ -1,0 +1,174 @@
+{
+  "code": "N10000904",
+  "name": "Dungannon",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000676",
+      "name": "Dungannon_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000677",
+      "name": "Dungannon_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000678",
+      "name": "Dungannon_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000679",
+      "name": "Dungannon_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000680",
+      "name": "Dungannon_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000681",
+      "name": "Dungannon_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000682",
+      "name": "Dungannon_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000683",
+      "name": "Dungannon_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000684",
+      "name": "Dungannon_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000685",
+      "name": "Dungannon_K",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.6305, 54.4016, -6.7999, 54.5383],
+  "data": {
+    "N21000676": {
+      "mdm": 487,
+      "income": 662,
+      "below60": 198,
+      "employment": 375,
+      "emprop": 432,
+      "health": 314,
+      "education": 319,
+      "services": 566
+    },
+    "N21000677": {
+      "mdm": 283,
+      "income": 448,
+      "below60": 365,
+      "employment": 221,
+      "emprop": 576,
+      "health": 199,
+      "education": 252,
+      "services": 636
+    },
+    "N21000678": {
+      "mdm": 429,
+      "income": 621,
+      "below60": 209,
+      "employment": 348,
+      "emprop": 473,
+      "health": 297,
+      "education": 262,
+      "services": 638
+    },
+    "N21000679": {
+      "mdm": 691,
+      "income": 739,
+      "below60": 120,
+      "employment": 714,
+      "emprop": 141,
+      "health": 674,
+      "education": 384,
+      "services": 271
+    },
+    "N21000680": {
+      "mdm": 660,
+      "income": 710,
+      "below60": 134,
+      "employment": 692,
+      "emprop": 152,
+      "health": 652,
+      "education": 406,
+      "services": 424
+    },
+    "N21000681": {
+      "mdm": 325,
+      "income": 527,
+      "below60": 285,
+      "employment": 282,
+      "emprop": 525,
+      "health": 250,
+      "education": 261,
+      "services": 662
+    },
+    "N21000682": {
+      "mdm": 458,
+      "income": 294,
+      "below60": 574,
+      "employment": 491,
+      "emprop": 358,
+      "health": 447,
+      "education": 485,
+      "services": 187
+    },
+    "N21000683": {
+      "mdm": 640,
+      "income": 708,
+      "below60": 135,
+      "employment": 664,
+      "emprop": 172,
+      "health": 616,
+      "education": 377,
+      "services": 385
+    },
+    "N21000684": {
+      "mdm": 587,
+      "income": 358,
+      "below60": 462,
+      "employment": 700,
+      "emprop": 133,
+      "health": 677,
+      "education": 661,
+      "services": 125
+    },
+    "N21000685": {
+      "mdm": 504,
+      "income": 242,
+      "below60": 566,
+      "employment": 657,
+      "emprop": 164,
+      "health": 635,
+      "education": 594,
+      "services": 116
+    }
+  }
+}

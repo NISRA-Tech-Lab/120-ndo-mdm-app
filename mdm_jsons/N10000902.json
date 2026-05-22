@@ -1,0 +1,144 @@
+{
+  "code": "N10000902",
+  "name": "Clogher Valley",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000686",
+      "name": "Clogher_Valley_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000687",
+      "name": "Clogher_Valley_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000688",
+      "name": "Clogher_Valley_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000689",
+      "name": "Clogher_Valley_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000690",
+      "name": "Clogher_Valley_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000691",
+      "name": "Clogher_Valley_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000692",
+      "name": "Clogher_Valley_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000693",
+      "name": "Clogher_Valley_H",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.7366, 54.3252, -7.367, 54.549],
+  "data": {
+    "N21000686": {
+      "mdm": 436,
+      "income": 426,
+      "below60": 366,
+      "employment": 360,
+      "emprop": 435,
+      "health": 298,
+      "education": 409,
+      "services": 383
+    },
+    "N21000687": {
+      "mdm": 450,
+      "income": 311,
+      "below60": 494,
+      "employment": 527,
+      "emprop": 289,
+      "health": 496,
+      "education": 636,
+      "services": 46
+    },
+    "N21000688": {
+      "mdm": 331,
+      "income": 142,
+      "below60": 650,
+      "employment": 531,
+      "emprop": 298,
+      "health": 558,
+      "education": 658,
+      "services": 31
+    },
+    "N21000689": {
+      "mdm": 370,
+      "income": 201,
+      "below60": 621,
+      "employment": 564,
+      "emprop": 269,
+      "health": 630,
+      "education": 628,
+      "services": 36
+    },
+    "N21000690": {
+      "mdm": 581,
+      "income": 476,
+      "below60": 358,
+      "employment": 666,
+      "emprop": 168,
+      "health": 631,
+      "education": 722,
+      "services": 70
+    },
+    "N21000691": {
+      "mdm": 394,
+      "income": 317,
+      "below60": 474,
+      "employment": 593,
+      "emprop": 241,
+      "health": 620,
+      "education": 564,
+      "services": 40
+    },
+    "N21000692": {
+      "mdm": 360,
+      "income": 148,
+      "below60": 651,
+      "employment": 607,
+      "emprop": 205,
+      "health": 576,
+      "education": 649,
+      "services": 33
+    },
+    "N21000693": {
+      "mdm": 276,
+      "income": 224,
+      "below60": 590,
+      "employment": 472,
+      "emprop": 366,
+      "health": 561,
+      "education": 396,
+      "services": 58
+    }
+  }
+}

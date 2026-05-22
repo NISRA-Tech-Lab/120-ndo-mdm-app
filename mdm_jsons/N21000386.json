@@ -1,0 +1,36 @@
+{
+  "code": "N21000386",
+  "name": "Ballymoney_A",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000401",
+      "name": "Ballymoney",
+      "type": "dea"
+    },
+    {
+      "code": "N09000004",
+      "name": "Causeway Coast and Glens",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.4844, 55.0444, -6.6079, 55.13],
+  "data": {
+    "mdm": 437,
+    "income": 366,
+    "below60": 513,
+    "employment": 311,
+    "emprop": 565,
+    "health": 404,
+    "education": 517,
+    "services": 396
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "code": "N21000648",
+  "name": "Moyola_F",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000906",
+      "name": "Moyola",
+      "type": "dea"
+    },
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.5448, 54.7699, -6.5684, 54.7808],
+  "data": {
+    "mdm": 609,
+    "income": 654,
+    "below60": 208,
+    "employment": 572,
+    "emprop": 288,
+    "health": 487,
+    "education": 486,
+    "services": 248
+  }
+}
