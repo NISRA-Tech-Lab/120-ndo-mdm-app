@@ -70,105 +70,110 @@
   ],
   "bounds": [-5.7575, 54.507, -5.8926, 54.6196],
   "data": {
-    "N21000562": {
-      "mdm": 659,
-      "income": 679,
-      "below60": 117,
-      "employment": 615,
-      "emprop": 260,
-      "health": 442,
-      "education": 354,
-      "services": 667
+    "ranks": {
+      "N21000562": {
+        "mdm": 659,
+        "income": 679,
+        "below60": 117,
+        "employment": 615,
+        "emprop": 260,
+        "health": 442,
+        "education": 354,
+        "services": 667
+      },
+      "N21000563": {
+        "mdm": 509,
+        "income": 666,
+        "below60": 163,
+        "employment": 428,
+        "emprop": 410,
+        "health": 276,
+        "education": 188,
+        "services": 639
+      },
+      "N21000564": {
+        "mdm": 711,
+        "income": 698,
+        "below60": 118,
+        "employment": 672,
+        "emprop": 182,
+        "health": 519,
+        "education": 462,
+        "services": 687
+      },
+      "N21000565": {
+        "mdm": 701,
+        "income": 721,
+        "below60": 125,
+        "employment": 609,
+        "emprop": 251,
+        "health": 504,
+        "education": 530,
+        "services": 620
+      },
+      "N21000566": {
+        "mdm": 329,
+        "income": 499,
+        "below60": 294,
+        "employment": 292,
+        "emprop": 488,
+        "health": 170,
+        "education": 112,
+        "services": 711
+      },
+      "N21000567": {
+        "mdm": 258,
+        "income": 520,
+        "below60": 295,
+        "employment": 219,
+        "emprop": 566,
+        "health": 108,
+        "education": 69,
+        "services": 628
+      },
+      "N21000568": {
+        "mdm": 689,
+        "income": 727,
+        "below60": 112,
+        "employment": 630,
+        "emprop": 213,
+        "health": 545,
+        "education": 470,
+        "services": 460
+      },
+      "N21000569": {
+        "mdm": 478,
+        "income": 645,
+        "below60": 203,
+        "employment": 429,
+        "emprop": 395,
+        "health": 258,
+        "education": 181,
+        "services": 515
+      },
+      "N21000570": {
+        "mdm": 811,
+        "income": 828,
+        "below60": 30,
+        "employment": 799,
+        "emprop": 52,
+        "health": 796,
+        "education": 812,
+        "services": 237
+      },
+      "N21000571": {
+        "mdm": 802,
+        "income": 820,
+        "below60": 40,
+        "employment": 795,
+        "emprop": 59,
+        "health": 806,
+        "education": 818,
+        "services": 174
+      }
     },
-    "N21000563": {
-      "mdm": 509,
-      "income": 666,
-      "below60": 163,
-      "employment": 428,
-      "emprop": 410,
-      "health": 276,
-      "education": 188,
-      "services": 639
-    },
-    "N21000564": {
-      "mdm": 711,
-      "income": 698,
-      "below60": 118,
-      "employment": 672,
-      "emprop": 182,
-      "health": 519,
-      "education": 462,
-      "services": 687
-    },
-    "N21000565": {
-      "mdm": 701,
-      "income": 721,
-      "below60": 125,
-      "employment": 609,
-      "emprop": 251,
-      "health": 504,
-      "education": 530,
-      "services": 620
-    },
-    "N21000566": {
-      "mdm": 329,
-      "income": 499,
-      "below60": 294,
-      "employment": 292,
-      "emprop": 488,
-      "health": 170,
-      "education": 112,
-      "services": 711
-    },
-    "N21000567": {
-      "mdm": 258,
-      "income": 520,
-      "below60": 295,
-      "employment": 219,
-      "emprop": 566,
-      "health": 108,
-      "education": 69,
-      "services": 628
-    },
-    "N21000568": {
-      "mdm": 689,
-      "income": 727,
-      "below60": 112,
-      "employment": 630,
-      "emprop": 213,
-      "health": 545,
-      "education": 470,
-      "services": 460
-    },
-    "N21000569": {
-      "mdm": 478,
-      "income": 645,
-      "below60": 203,
-      "employment": 429,
-      "emprop": 395,
-      "health": 258,
-      "education": 181,
-      "services": 515
-    },
-    "N21000570": {
-      "mdm": 811,
-      "income": 828,
-      "below60": 30,
-      "employment": 799,
-      "emprop": 52,
-      "health": 796,
-      "education": 812,
-      "services": 237
-    },
-    "N21000571": {
-      "mdm": 802,
-      "income": 820,
-      "below60": 40,
-      "employment": 795,
-      "emprop": 59,
-      "health": 806,
-      "education": 818,
-      "services": 174
-    }
+    "population": 22590,
+    "hectares": 4759.9674,
+    "location": "part of Belfast City, Carryduff Castlereagh settlements"
   }
 }

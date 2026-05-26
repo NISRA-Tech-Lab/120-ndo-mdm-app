@@ -55,75 +55,80 @@
   ],
   "bounds": [-6.4692, 54.6507, -6.8927, 54.7713],
   "data": {
-    "N21000651": {
-      "mdm": 454,
-      "income": 408,
-      "below60": 390,
-      "employment": 391,
-      "emprop": 445,
-      "health": 320,
-      "education": 323,
-      "services": 588
+    "ranks": {
+      "N21000651": {
+        "mdm": 454,
+        "income": 408,
+        "below60": 390,
+        "employment": 391,
+        "emprop": 445,
+        "health": 320,
+        "education": 323,
+        "services": 588
+      },
+      "N21000652": {
+        "mdm": 280,
+        "income": 270,
+        "below60": 538,
+        "employment": 250,
+        "emprop": 562,
+        "health": 203,
+        "education": 196,
+        "services": 643
+      },
+      "N21000653": {
+        "mdm": 515,
+        "income": 422,
+        "below60": 410,
+        "employment": 447,
+        "emprop": 396,
+        "health": 352,
+        "education": 390,
+        "services": 527
+      },
+      "N21000654": {
+        "mdm": 440,
+        "income": 443,
+        "below60": 420,
+        "employment": 577,
+        "emprop": 276,
+        "health": 502,
+        "education": 482,
+        "services": 141
+      },
+      "N21000655": {
+        "mdm": 531,
+        "income": 337,
+        "below60": 530,
+        "employment": 597,
+        "emprop": 210,
+        "health": 534,
+        "education": 621,
+        "services": 216
+      },
+      "N21000656": {
+        "mdm": 533,
+        "income": 545,
+        "below60": 311,
+        "employment": 612,
+        "emprop": 190,
+        "health": 557,
+        "education": 663,
+        "services": 53
+      },
+      "N21000657": {
+        "mdm": 548,
+        "income": 593,
+        "below60": 274,
+        "employment": 569,
+        "emprop": 240,
+        "health": 499,
+        "education": 662,
+        "services": 60
+      }
     },
-    "N21000652": {
-      "mdm": 280,
-      "income": 270,
-      "below60": 538,
-      "employment": 250,
-      "emprop": 562,
-      "health": 203,
-      "education": 196,
-      "services": 643
-    },
-    "N21000653": {
-      "mdm": 515,
-      "income": 422,
-      "below60": 410,
-      "employment": 447,
-      "emprop": 396,
-      "health": 352,
-      "education": 390,
-      "services": 527
-    },
-    "N21000654": {
-      "mdm": 440,
-      "income": 443,
-      "below60": 420,
-      "employment": 577,
-      "emprop": 276,
-      "health": 502,
-      "education": 482,
-      "services": 141
-    },
-    "N21000655": {
-      "mdm": 531,
-      "income": 337,
-      "below60": 530,
-      "employment": 597,
-      "emprop": 210,
-      "health": 534,
-      "education": 621,
-      "services": 216
-    },
-    "N21000656": {
-      "mdm": 533,
-      "income": 545,
-      "below60": 311,
-      "employment": 612,
-      "emprop": 190,
-      "health": 557,
-      "education": 663,
-      "services": 53
-    },
-    "N21000657": {
-      "mdm": 548,
-      "income": 593,
-      "below60": 274,
-      "employment": 569,
-      "emprop": 240,
-      "health": 499,
-      "education": 662,
-      "services": 60
-    }
+    "population": 19660,
+    "hectares": 20652.018,
+    "location": "part of Cookstown and Magherafelt settlements"
   }
 }

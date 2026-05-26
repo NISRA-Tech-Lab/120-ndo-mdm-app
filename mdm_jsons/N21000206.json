@@ -24,13 +24,17 @@
   "children": [],
   "bounds": [-5.8751, 54.5935, -5.8857, 54.5989],
   "data": {
-    "mdm": 596,
-    "income": 570,
-    "below60": 257,
-    "employment": 540,
-    "emprop": 304,
-    "health": 518,
-    "education": 514,
-    "services": 842
+    "ranks": {
+      "mdm": 596,
+      "income": 570,
+      "below60": 257,
+      "employment": 540,
+      "emprop": 304,
+      "health": 518,
+      "education": 514,
+      "services": 842
+    },
+    "population": 1388,
+    "hectares": 20.6752
   }
 }

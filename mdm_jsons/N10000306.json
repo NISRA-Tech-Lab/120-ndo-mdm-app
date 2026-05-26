@@ -120,205 +120,210 @@
   ],
   "bounds": [-5.935, 54.5891, -6.0219, 54.6255],
   "data": {
-    "N21000316": {
-      "mdm": 161,
-      "income": 413,
-      "below60": 511,
-      "employment": 132,
-      "emprop": 734,
-      "health": 109,
-      "education": 121,
-      "services": 594
+    "ranks": {
+      "N21000316": {
+        "mdm": 161,
+        "income": 413,
+        "below60": 511,
+        "employment": 132,
+        "emprop": 734,
+        "health": 109,
+        "education": 121,
+        "services": 594
+      },
+      "N21000317": {
+        "mdm": 39,
+        "income": 19,
+        "below60": 833,
+        "employment": 55,
+        "emprop": 794,
+        "health": 61,
+        "education": 46,
+        "services": 795
+      },
+      "N21000318": {
+        "mdm": 135,
+        "income": 345,
+        "below60": 528,
+        "employment": 131,
+        "emprop": 738,
+        "health": 111,
+        "education": 96,
+        "services": 532
+      },
+      "N21000319": {
+        "mdm": 11,
+        "income": 11,
+        "below60": 844,
+        "employment": 24,
+        "emprop": 823,
+        "health": 25,
+        "education": 2,
+        "services": 719
+      },
+      "N21000320": {
+        "mdm": 273,
+        "income": 485,
+        "below60": 356,
+        "employment": 202,
+        "emprop": 632,
+        "health": 185,
+        "education": 135,
+        "services": 535
+      },
+      "N21000321": {
+        "mdm": 3,
+        "income": 9,
+        "below60": 846,
+        "employment": 15,
+        "emprop": 835,
+        "health": 30,
+        "education": 10,
+        "services": 722
+      },
+      "N21000322": {
+        "mdm": 2,
+        "income": 20,
+        "below60": 822,
+        "employment": 13,
+        "emprop": 838,
+        "health": 9,
+        "education": 4,
+        "services": 680
+      },
+      "N21000323": {
+        "mdm": 16,
+        "income": 30,
+        "below60": 823,
+        "employment": 27,
+        "emprop": 818,
+        "health": 16,
+        "education": 1,
+        "services": 664
+      },
+      "N21000324": {
+        "mdm": 26,
+        "income": 33,
+        "below60": 831,
+        "employment": 28,
+        "emprop": 817,
+        "health": 37,
+        "education": 37,
+        "services": 678
+      },
+      "N21000325": {
+        "mdm": 9,
+        "income": 71,
+        "below60": 757,
+        "employment": 5,
+        "emprop": 845,
+        "health": 12,
+        "education": 3,
+        "services": 690
+      },
+      "N21000326": {
+        "mdm": 228,
+        "income": 467,
+        "below60": 418,
+        "employment": 169,
+        "emprop": 671,
+        "health": 130,
+        "education": 142,
+        "services": 488
+      },
+      "N21000327": {
+        "mdm": 23,
+        "income": 31,
+        "below60": 832,
+        "employment": 29,
+        "emprop": 810,
+        "health": 19,
+        "education": 38,
+        "services": 683
+      },
+      "N21000328": {
+        "mdm": 17,
+        "income": 29,
+        "below60": 830,
+        "employment": 21,
+        "emprop": 816,
+        "health": 17,
+        "education": 16,
+        "services": 657
+      },
+      "N21000329": {
+        "mdm": 12,
+        "income": 85,
+        "below60": 732,
+        "employment": 16,
+        "emprop": 840,
+        "health": 13,
+        "education": 7,
+        "services": 731
+      },
+      "N21000330": {
+        "mdm": 64,
+        "income": 283,
+        "below60": 561,
+        "employment": 53,
+        "emprop": 793,
+        "health": 43,
+        "education": 54,
+        "services": 547
+      },
+      "N21000331": {
+        "mdm": 13,
+        "income": 113,
+        "below60": 671,
+        "employment": 6,
+        "emprop": 834,
+        "health": 3,
+        "education": 21,
+        "services": 820
+      },
+      "N21000332": {
+        "mdm": 56,
+        "income": 129,
+        "below60": 742,
+        "employment": 47,
+        "emprop": 798,
+        "health": 46,
+        "education": 85,
+        "services": 773
+      },
+      "N21000333": {
+        "mdm": 37,
+        "income": 73,
+        "below60": 792,
+        "employment": 35,
+        "emprop": 809,
+        "health": 27,
+        "education": 55,
+        "services": 781
+      },
+      "N21000334": {
+        "mdm": 6,
+        "income": 138,
+        "below60": 647,
+        "employment": 9,
+        "emprop": 831,
+        "health": 1,
+        "education": 9,
+        "services": 805
+      },
+      "N21000335": {
+        "mdm": 52,
+        "income": 96,
+        "below60": 748,
+        "employment": 44,
+        "emprop": 800,
+        "health": 44,
+        "education": 74,
+        "services": 840
+      }
     },
-    "N21000317": {
-      "mdm": 39,
-      "income": 19,
-      "below60": 833,
-      "employment": 55,
-      "emprop": 794,
-      "health": 61,
-      "education": 46,
-      "services": 795
-    },
-    "N21000318": {
-      "mdm": 135,
-      "income": 345,
-      "below60": 528,
-      "employment": 131,
-      "emprop": 738,
-      "health": 111,
-      "education": 96,
-      "services": 532
-    },
-    "N21000319": {
-      "mdm": 11,
-      "income": 11,
-      "below60": 844,
-      "employment": 24,
-      "emprop": 823,
-      "health": 25,
-      "education": 2,
-      "services": 719
-    },
-    "N21000320": {
-      "mdm": 273,
-      "income": 485,
-      "below60": 356,
-      "employment": 202,
-      "emprop": 632,
-      "health": 185,
-      "education": 135,
-      "services": 535
-    },
-    "N21000321": {
-      "mdm": 3,
-      "income": 9,
-      "below60": 846,
-      "employment": 15,
-      "emprop": 835,
-      "health": 30,
-      "education": 10,
-      "services": 722
-    },
-    "N21000322": {
-      "mdm": 2,
-      "income": 20,
-      "below60": 822,
-      "employment": 13,
-      "emprop": 838,
-      "health": 9,
-      "education": 4,
-      "services": 680
-    },
-    "N21000323": {
-      "mdm": 16,
-      "income": 30,
-      "below60": 823,
-      "employment": 27,
-      "emprop": 818,
-      "health": 16,
-      "education": 1,
-      "services": 664
-    },
-    "N21000324": {
-      "mdm": 26,
-      "income": 33,
-      "below60": 831,
-      "employment": 28,
-      "emprop": 817,
-      "health": 37,
-      "education": 37,
-      "services": 678
-    },
-    "N21000325": {
-      "mdm": 9,
-      "income": 71,
-      "below60": 757,
-      "employment": 5,
-      "emprop": 845,
-      "health": 12,
-      "education": 3,
-      "services": 690
-    },
-    "N21000326": {
-      "mdm": 228,
-      "income": 467,
-      "below60": 418,
-      "employment": 169,
-      "emprop": 671,
-      "health": 130,
-      "education": 142,
-      "services": 488
-    },
-    "N21000327": {
-      "mdm": 23,
-      "income": 31,
-      "below60": 832,
-      "employment": 29,
-      "emprop": 810,
-      "health": 19,
-      "education": 38,
-      "services": 683
-    },
-    "N21000328": {
-      "mdm": 17,
-      "income": 29,
-      "below60": 830,
-      "employment": 21,
-      "emprop": 816,
-      "health": 17,
-      "education": 16,
-      "services": 657
-    },
-    "N21000329": {
-      "mdm": 12,
-      "income": 85,
-      "below60": 732,
-      "employment": 16,
-      "emprop": 840,
-      "health": 13,
-      "education": 7,
-      "services": 731
-    },
-    "N21000330": {
-      "mdm": 64,
-      "income": 283,
-      "below60": 561,
-      "employment": 53,
-      "emprop": 793,
-      "health": 43,
-      "education": 54,
-      "services": 547
-    },
-    "N21000331": {
-      "mdm": 13,
-      "income": 113,
-      "below60": 671,
-      "employment": 6,
-      "emprop": 834,
-      "health": 3,
-      "education": 21,
-      "services": 820
-    },
-    "N21000332": {
-      "mdm": 56,
-      "income": 129,
-      "below60": 742,
-      "employment": 47,
-      "emprop": 798,
-      "health": 46,
-      "education": 85,
-      "services": 773
-    },
-    "N21000333": {
-      "mdm": 37,
-      "income": 73,
-      "below60": 792,
-      "employment": 35,
-      "emprop": 809,
-      "health": 27,
-      "education": 55,
-      "services": 781
-    },
-    "N21000334": {
-      "mdm": 6,
-      "income": 138,
-      "below60": 647,
-      "employment": 9,
-      "emprop": 831,
-      "health": 1,
-      "education": 9,
-      "services": 805
-    },
-    "N21000335": {
-      "mdm": 52,
-      "income": 96,
-      "below60": 748,
-      "employment": 44,
-      "emprop": 800,
-      "health": 44,
-      "education": 74,
-      "services": 840
-    }
+    "population": 34070,
+    "hectares": 1092.8352,
+    "location": "part of Belfast City settlement"
   }
 }

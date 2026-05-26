@@ -55,75 +55,80 @@
   ],
   "bounds": [-7.3314, 54.336, -8.1155, 54.6105],
   "data": {
-    "N21000482": {
-      "mdm": 218,
-      "income": 76,
-      "below60": 763,
-      "employment": 345,
-      "emprop": 532,
-      "health": 369,
-      "education": 407,
-      "services": 119
+    "ranks": {
+      "N21000482": {
+        "mdm": 218,
+        "income": 76,
+        "below60": 763,
+        "employment": 345,
+        "emprop": 532,
+        "health": 369,
+        "education": 407,
+        "services": 119
+      },
+      "N21000483": {
+        "mdm": 189,
+        "income": 70,
+        "below60": 783,
+        "employment": 421,
+        "emprop": 389,
+        "health": 632,
+        "education": 510,
+        "services": 4
+      },
+      "N21000484": {
+        "mdm": 245,
+        "income": 150,
+        "below60": 662,
+        "employment": 324,
+        "emprop": 557,
+        "health": 344,
+        "education": 452,
+        "services": 124
+      },
+      "N21000485": {
+        "mdm": 268,
+        "income": 135,
+        "below60": 675,
+        "employment": 367,
+        "emprop": 521,
+        "health": 396,
+        "education": 484,
+        "services": 135
+      },
+      "N21000486": {
+        "mdm": 355,
+        "income": 280,
+        "below60": 563,
+        "employment": 461,
+        "emprop": 463,
+        "health": 398,
+        "education": 529,
+        "services": 123
+      },
+      "N21000487": {
+        "mdm": 404,
+        "income": 284,
+        "below60": 491,
+        "employment": 559,
+        "emprop": 264,
+        "health": 594,
+        "education": 668,
+        "services": 30
+      },
+      "N21000488": {
+        "mdm": 517,
+        "income": 471,
+        "below60": 357,
+        "employment": 552,
+        "emprop": 313,
+        "health": 546,
+        "education": 521,
+        "services": 181
+      }
     },
-    "N21000483": {
-      "mdm": 189,
-      "income": 70,
-      "below60": 783,
-      "employment": 421,
-      "emprop": 389,
-      "health": 632,
-      "education": 510,
-      "services": 4
-    },
-    "N21000484": {
-      "mdm": 245,
-      "income": 150,
-      "below60": 662,
-      "employment": 324,
-      "emprop": 557,
-      "health": 344,
-      "education": 452,
-      "services": 124
-    },
-    "N21000485": {
-      "mdm": 268,
-      "income": 135,
-      "below60": 675,
-      "employment": 367,
-      "emprop": 521,
-      "health": 396,
-      "education": 484,
-      "services": 135
-    },
-    "N21000486": {
-      "mdm": 355,
-      "income": 280,
-      "below60": 563,
-      "employment": 461,
-      "emprop": 463,
-      "health": 398,
-      "education": 529,
-      "services": 123
-    },
-    "N21000487": {
-      "mdm": 404,
-      "income": 284,
-      "below60": 491,
-      "employment": 559,
-      "emprop": 264,
-      "health": 594,
-      "education": 668,
-      "services": 30
-    },
-    "N21000488": {
-      "mdm": 517,
-      "income": 471,
-      "below60": 357,
-      "employment": 552,
-      "emprop": 313,
-      "health": 546,
-      "education": 521,
-      "services": 181
-    }
+    "population": 15130,
+    "hectares": 39042.8128,
+    "location": "part of Enniskillen settlement"
   }
 }

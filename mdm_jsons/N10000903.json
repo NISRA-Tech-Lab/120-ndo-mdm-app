@@ -70,105 +70,110 @@
   ],
   "bounds": [-6.5167, 54.5641, -7.0112, 54.7435],
   "data": {
-    "N21000658": {
-      "mdm": 298,
-      "income": 172,
-      "below60": 677,
-      "employment": 509,
-      "emprop": 333,
-      "health": 505,
-      "education": 584,
-      "services": 7
+    "ranks": {
+      "N21000658": {
+        "mdm": 298,
+        "income": 172,
+        "below60": 677,
+        "employment": 509,
+        "emprop": 333,
+        "health": 505,
+        "education": 584,
+        "services": 7
+      },
+      "N21000659": {
+        "mdm": 320,
+        "income": 547,
+        "below60": 296,
+        "employment": 280,
+        "emprop": 554,
+        "health": 172,
+        "education": 214,
+        "services": 567
+      },
+      "N21000660": {
+        "mdm": 388,
+        "income": 513,
+        "below60": 321,
+        "employment": 322,
+        "emprop": 485,
+        "health": 206,
+        "education": 241,
+        "services": 570
+      },
+      "N21000661": {
+        "mdm": 399,
+        "income": 544,
+        "below60": 297,
+        "employment": 298,
+        "emprop": 523,
+        "health": 204,
+        "education": 336,
+        "services": 542
+      },
+      "N21000662": {
+        "mdm": 401,
+        "income": 429,
+        "below60": 421,
+        "employment": 431,
+        "emprop": 363,
+        "health": 317,
+        "education": 432,
+        "services": 66
+      },
+      "N21000663": {
+        "mdm": 364,
+        "income": 561,
+        "below60": 271,
+        "employment": 284,
+        "emprop": 524,
+        "health": 219,
+        "education": 251,
+        "services": 548
+      },
+      "N21000664": {
+        "mdm": 300,
+        "income": 479,
+        "below60": 353,
+        "employment": 270,
+        "emprop": 529,
+        "health": 216,
+        "education": 255,
+        "services": 361
+      },
+      "N21000665": {
+        "mdm": 375,
+        "income": 582,
+        "below60": 256,
+        "employment": 279,
+        "emprop": 533,
+        "health": 217,
+        "education": 254,
+        "services": 507
+      },
+      "N21000666": {
+        "mdm": 369,
+        "income": 249,
+        "below60": 620,
+        "employment": 490,
+        "emprop": 342,
+        "health": 501,
+        "education": 505,
+        "services": 29
+      },
+      "N21000667": {
+        "mdm": 219,
+        "income": 145,
+        "below60": 715,
+        "employment": 349,
+        "emprop": 446,
+        "health": 371,
+        "education": 487,
+        "services": 8
+      }
     },
-    "N21000659": {
-      "mdm": 320,
-      "income": 547,
-      "below60": 296,
-      "employment": 280,
-      "emprop": 554,
-      "health": 172,
-      "education": 214,
-      "services": 567
-    },
-    "N21000660": {
-      "mdm": 388,
-      "income": 513,
-      "below60": 321,
-      "employment": 322,
-      "emprop": 485,
-      "health": 206,
-      "education": 241,
-      "services": 570
-    },
-    "N21000661": {
-      "mdm": 399,
-      "income": 544,
-      "below60": 297,
-      "employment": 298,
-      "emprop": 523,
-      "health": 204,
-      "education": 336,
-      "services": 542
-    },
-    "N21000662": {
-      "mdm": 401,
-      "income": 429,
-      "below60": 421,
-      "employment": 431,
-      "emprop": 363,
-      "health": 317,
-      "education": 432,
-      "services": 66
-    },
-    "N21000663": {
-      "mdm": 364,
-      "income": 561,
-      "below60": 271,
-      "employment": 284,
-      "emprop": 524,
-      "health": 219,
-      "education": 251,
-      "services": 548
-    },
-    "N21000664": {
-      "mdm": 300,
-      "income": 479,
-      "below60": 353,
-      "employment": 270,
-      "emprop": 529,
-      "health": 216,
-      "education": 255,
-      "services": 361
-    },
-    "N21000665": {
-      "mdm": 375,
-      "income": 582,
-      "below60": 256,
-      "employment": 279,
-      "emprop": 533,
-      "health": 217,
-      "education": 254,
-      "services": 507
-    },
-    "N21000666": {
-      "mdm": 369,
-      "income": 249,
-      "below60": 620,
-      "employment": 490,
-      "emprop": 342,
-      "health": 501,
-      "education": 505,
-      "services": 29
-    },
-    "N21000667": {
-      "mdm": 219,
-      "income": 145,
-      "below60": 715,
-      "employment": 349,
-      "emprop": 446,
-      "health": 371,
-      "education": 487,
-      "services": 8
-    }
+    "population": 24930,
+    "hectares": 26740.7679,
+    "location": "part of Cookstown settlement"
   }
 }

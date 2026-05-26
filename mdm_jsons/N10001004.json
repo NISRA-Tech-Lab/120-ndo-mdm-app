@@ -65,95 +65,100 @@
   ],
   "bounds": [-5.5838, 54.3702, -5.9456, 54.4957],
   "data": {
-    "N21000752": {
-      "mdm": 785,
-      "income": 703,
-      "below60": 159,
-      "employment": 785,
-      "emprop": 66,
-      "health": 821,
-      "education": 816,
-      "services": 240
+    "ranks": {
+      "N21000752": {
+        "mdm": 785,
+        "income": 703,
+        "below60": 159,
+        "employment": 785,
+        "emprop": 66,
+        "health": 821,
+        "education": 816,
+        "services": 240
+      },
+      "N21000753": {
+        "mdm": 788,
+        "income": 696,
+        "below60": 160,
+        "employment": 783,
+        "emprop": 67,
+        "health": 818,
+        "education": 814,
+        "services": 247
+      },
+      "N21000754": {
+        "mdm": 749,
+        "income": 629,
+        "below60": 232,
+        "employment": 768,
+        "emprop": 87,
+        "health": 786,
+        "education": 795,
+        "services": 276
+      },
+      "N21000755": {
+        "mdm": 499,
+        "income": 394,
+        "below60": 426,
+        "employment": 562,
+        "emprop": 295,
+        "health": 582,
+        "education": 554,
+        "services": 170
+      },
+      "N21000756": {
+        "mdm": 718,
+        "income": 612,
+        "below60": 221,
+        "employment": 732,
+        "emprop": 118,
+        "health": 752,
+        "education": 757,
+        "services": 207
+      },
+      "N21000757": {
+        "mdm": 425,
+        "income": 298,
+        "below60": 517,
+        "employment": 424,
+        "emprop": 486,
+        "health": 337,
+        "education": 361,
+        "services": 485
+      },
+      "N21000758": {
+        "mdm": 426,
+        "income": 299,
+        "below60": 518,
+        "employment": 425,
+        "emprop": 487,
+        "health": 338,
+        "education": 362,
+        "services": 486
+      },
+      "N21000759": {
+        "mdm": 476,
+        "income": 364,
+        "below60": 444,
+        "employment": 539,
+        "emprop": 314,
+        "health": 548,
+        "education": 603,
+        "services": 142
+      },
+      "N21000760": {
+        "mdm": 722,
+        "income": 623,
+        "below60": 210,
+        "employment": 763,
+        "emprop": 83,
+        "health": 792,
+        "education": 772,
+        "services": 133
+      }
     },
-    "N21000753": {
-      "mdm": 788,
-      "income": 696,
-      "below60": 160,
-      "employment": 783,
-      "emprop": 67,
-      "health": 818,
-      "education": 814,
-      "services": 247
-    },
-    "N21000754": {
-      "mdm": 749,
-      "income": 629,
-      "below60": 232,
-      "employment": 768,
-      "emprop": 87,
-      "health": 786,
-      "education": 795,
-      "services": 276
-    },
-    "N21000755": {
-      "mdm": 499,
-      "income": 394,
-      "below60": 426,
-      "employment": 562,
-      "emprop": 295,
-      "health": 582,
-      "education": 554,
-      "services": 170
-    },
-    "N21000756": {
-      "mdm": 718,
-      "income": 612,
-      "below60": 221,
-      "employment": 732,
-      "emprop": 118,
-      "health": 752,
-      "education": 757,
-      "services": 207
-    },
-    "N21000757": {
-      "mdm": 425,
-      "income": 298,
-      "below60": 517,
-      "employment": 424,
-      "emprop": 486,
-      "health": 337,
-      "education": 361,
-      "services": 485
-    },
-    "N21000758": {
-      "mdm": 426,
-      "income": 299,
-      "below60": 518,
-      "employment": 425,
-      "emprop": 487,
-      "health": 338,
-      "education": 362,
-      "services": 486
-    },
-    "N21000759": {
-      "mdm": 476,
-      "income": 364,
-      "below60": 444,
-      "employment": 539,
-      "emprop": 314,
-      "health": 548,
-      "education": 603,
-      "services": 142
-    },
-    "N21000760": {
-      "mdm": 722,
-      "income": 623,
-      "below60": 210,
-      "employment": 763,
-      "emprop": 83,
-      "health": 792,
-      "education": 772,
-      "services": 133
-    }
+    "population": 21350,
+    "hectares": 15497.8606,
+    "location": "part of Ballynahinch settlement"
   }
 }

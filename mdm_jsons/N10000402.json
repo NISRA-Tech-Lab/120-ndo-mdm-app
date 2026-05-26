@@ -60,85 +60,90 @@
   ],
   "bounds": [-6.5363, 54.9144, -6.8705, 55.1719],
   "data": {
-    "N21000350": {
-      "mdm": 635,
-      "income": 350,
-      "below60": 457,
-      "employment": 663,
-      "emprop": 187,
-      "health": 765,
-      "education": 721,
-      "services": 308
+    "ranks": {
+      "N21000350": {
+        "mdm": 635,
+        "income": 350,
+        "below60": 457,
+        "employment": 663,
+        "emprop": 187,
+        "health": 765,
+        "education": 721,
+        "services": 308
+      },
+      "N21000351": {
+        "mdm": 670,
+        "income": 421,
+        "below60": 405,
+        "employment": 733,
+        "emprop": 122,
+        "health": 824,
+        "education": 746,
+        "services": 246
+      },
+      "N21000352": {
+        "mdm": 513,
+        "income": 460,
+        "below60": 361,
+        "employment": 417,
+        "emprop": 447,
+        "health": 570,
+        "education": 443,
+        "services": 337
+      },
+      "N21000353": {
+        "mdm": 449,
+        "income": 232,
+        "below60": 549,
+        "employment": 512,
+        "emprop": 312,
+        "health": 699,
+        "education": 559,
+        "services": 104
+      },
+      "N21000354": {
+        "mdm": 397,
+        "income": 216,
+        "below60": 605,
+        "employment": 515,
+        "emprop": 318,
+        "health": 668,
+        "education": 501,
+        "services": 83
+      },
+      "N21000355": {
+        "mdm": 352,
+        "income": 104,
+        "below60": 706,
+        "employment": 560,
+        "emprop": 275,
+        "health": 717,
+        "education": 585,
+        "services": 67
+      },
+      "N21000356": {
+        "mdm": 444,
+        "income": 164,
+        "below60": 652,
+        "employment": 599,
+        "emprop": 244,
+        "health": 729,
+        "education": 685,
+        "services": 79
+      },
+      "N21000357": {
+        "mdm": 479,
+        "income": 253,
+        "below60": 553,
+        "employment": 571,
+        "emprop": 296,
+        "health": 683,
+        "education": 645,
+        "services": 132
+      }
     },
-    "N21000351": {
-      "mdm": 670,
-      "income": 421,
-      "below60": 405,
-      "employment": 733,
-      "emprop": 122,
-      "health": 824,
-      "education": 746,
-      "services": 246
-    },
-    "N21000352": {
-      "mdm": 513,
-      "income": 460,
-      "below60": 361,
-      "employment": 417,
-      "emprop": 447,
-      "health": 570,
-      "education": 443,
-      "services": 337
-    },
-    "N21000353": {
-      "mdm": 449,
-      "income": 232,
-      "below60": 549,
-      "employment": 512,
-      "emprop": 312,
-      "health": 699,
-      "education": 559,
-      "services": 104
-    },
-    "N21000354": {
-      "mdm": 397,
-      "income": 216,
-      "below60": 605,
-      "employment": 515,
-      "emprop": 318,
-      "health": 668,
-      "education": 501,
-      "services": 83
-    },
-    "N21000355": {
-      "mdm": 352,
-      "income": 104,
-      "below60": 706,
-      "employment": 560,
-      "emprop": 275,
-      "health": 717,
-      "education": 585,
-      "services": 67
-    },
-    "N21000356": {
-      "mdm": 444,
-      "income": 164,
-      "below60": 652,
-      "employment": 599,
-      "emprop": 244,
-      "health": 729,
-      "education": 685,
-      "services": 79
-    },
-    "N21000357": {
-      "mdm": 479,
-      "income": 253,
-      "below60": 553,
-      "employment": 571,
-      "emprop": 296,
-      "health": 683,
-      "education": 645,
-      "services": 132
-    }
+    "population": 17540,
+    "hectares": 36131.2161,
+    "location": "part of Coleraine settlement"
   }
 }

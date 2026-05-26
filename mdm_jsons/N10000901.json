@@ -50,65 +50,70 @@
   ],
   "bounds": [-6.4756, 54.7763, -6.9224, 54.952],
   "data": {
-    "N21000637": {
-      "mdm": 445,
-      "income": 228,
-      "below60": 565,
-      "employment": 565,
-      "emprop": 252,
-      "health": 566,
-      "education": 646,
-      "services": 81
+    "ranks": {
+      "N21000637": {
+        "mdm": 445,
+        "income": 228,
+        "below60": 565,
+        "employment": 565,
+        "emprop": 252,
+        "health": 566,
+        "education": 646,
+        "services": 81
+      },
+      "N21000638": {
+        "mdm": 408,
+        "income": 197,
+        "below60": 600,
+        "employment": 533,
+        "emprop": 281,
+        "health": 529,
+        "education": 639,
+        "services": 110
+      },
+      "N21000639": {
+        "mdm": 577,
+        "income": 445,
+        "below60": 363,
+        "employment": 634,
+        "emprop": 201,
+        "health": 597,
+        "education": 677,
+        "services": 86
+      },
+      "N21000640": {
+        "mdm": 524,
+        "income": 463,
+        "below60": 370,
+        "employment": 532,
+        "emprop": 307,
+        "health": 490,
+        "education": 647,
+        "services": 173
+      },
+      "N21000641": {
+        "mdm": 460,
+        "income": 437,
+        "below60": 386,
+        "employment": 432,
+        "emprop": 392,
+        "health": 449,
+        "education": 515,
+        "services": 242
+      },
+      "N21000642": {
+        "mdm": 461,
+        "income": 438,
+        "below60": 387,
+        "employment": 433,
+        "emprop": 393,
+        "health": 450,
+        "education": 516,
+        "services": 243
+      }
     },
-    "N21000638": {
-      "mdm": 408,
-      "income": 197,
-      "below60": 600,
-      "employment": 533,
-      "emprop": 281,
-      "health": 529,
-      "education": 639,
-      "services": 110
-    },
-    "N21000639": {
-      "mdm": 577,
-      "income": 445,
-      "below60": 363,
-      "employment": 634,
-      "emprop": 201,
-      "health": 597,
-      "education": 677,
-      "services": 86
-    },
-    "N21000640": {
-      "mdm": 524,
-      "income": 463,
-      "below60": 370,
-      "employment": 532,
-      "emprop": 307,
-      "health": 490,
-      "education": 647,
-      "services": 173
-    },
-    "N21000641": {
-      "mdm": 460,
-      "income": 437,
-      "below60": 386,
-      "employment": 432,
-      "emprop": 392,
-      "health": 449,
-      "education": 515,
-      "services": 242
-    },
-    "N21000642": {
-      "mdm": 461,
-      "income": 438,
-      "below60": 387,
-      "employment": 433,
-      "emprop": 393,
-      "health": 450,
-      "education": 516,
-      "services": 243
-    }
+    "population": 17130,
+    "hectares": 26163.7302,
+    "location": "all of Maghera settlement"
   }
 }

@@ -55,75 +55,80 @@
   ],
   "bounds": [-6.014, 54.4095, -6.2581, 54.5142],
   "data": {
-    "N21000511": {
-      "mdm": 522,
-      "income": 492,
-      "below60": 401,
-      "employment": 422,
-      "emprop": 444,
-      "health": 468,
-      "education": 345,
-      "services": 692
+    "ranks": {
+      "N21000511": {
+        "mdm": 522,
+        "income": 492,
+        "below60": 401,
+        "employment": 422,
+        "emprop": 444,
+        "health": 468,
+        "education": 345,
+        "services": 692
+      },
+      "N21000512": {
+        "mdm": 643,
+        "income": 608,
+        "below60": 229,
+        "employment": 642,
+        "emprop": 230,
+        "health": 651,
+        "education": 546,
+        "services": 263
+      },
+      "N21000513": {
+        "mdm": 752,
+        "income": 702,
+        "below60": 157,
+        "employment": 753,
+        "emprop": 109,
+        "health": 735,
+        "education": 767,
+        "services": 241
+      },
+      "N21000514": {
+        "mdm": 759,
+        "income": 717,
+        "below60": 140,
+        "employment": 760,
+        "emprop": 107,
+        "health": 733,
+        "education": 774,
+        "services": 245
+      },
+      "N21000515": {
+        "mdm": 804,
+        "income": 728,
+        "below60": 111,
+        "employment": 803,
+        "emprop": 43,
+        "health": 826,
+        "education": 802,
+        "services": 284
+      },
+      "N21000516": {
+        "mdm": 801,
+        "income": 690,
+        "below60": 151,
+        "employment": 806,
+        "emprop": 42,
+        "health": 827,
+        "education": 801,
+        "services": 283
+      },
+      "N21000517": {
+        "mdm": 775,
+        "income": 723,
+        "below60": 124,
+        "employment": 805,
+        "emprop": 48,
+        "health": 819,
+        "education": 800,
+        "services": 178
+      }
     },
-    "N21000512": {
-      "mdm": 643,
-      "income": 608,
-      "below60": 229,
-      "employment": 642,
-      "emprop": 230,
-      "health": 651,
-      "education": 546,
-      "services": 263
-    },
-    "N21000513": {
-      "mdm": 752,
-      "income": 702,
-      "below60": 157,
-      "employment": 753,
-      "emprop": 109,
-      "health": 735,
-      "education": 767,
-      "services": 241
-    },
-    "N21000514": {
-      "mdm": 759,
-      "income": 717,
-      "below60": 140,
-      "employment": 760,
-      "emprop": 107,
-      "health": 733,
-      "education": 774,
-      "services": 245
-    },
-    "N21000515": {
-      "mdm": 804,
-      "income": 728,
-      "below60": 111,
-      "employment": 803,
-      "emprop": 43,
-      "health": 826,
-      "education": 802,
-      "services": 284
-    },
-    "N21000516": {
-      "mdm": 801,
-      "income": 690,
-      "below60": 151,
-      "employment": 806,
-      "emprop": 42,
-      "health": 827,
-      "education": 801,
-      "services": 283
-    },
-    "N21000517": {
-      "mdm": 775,
-      "income": 723,
-      "below60": 124,
-      "employment": 805,
-      "emprop": 48,
-      "health": 819,
-      "education": 800,
-      "services": 178
-    }
+    "population": 17600,
+    "hectares": 9842.1408,
+    "location": "part of Lisburn City settlement"
   }
 }

@@ -50,65 +50,70 @@
   ],
   "bounds": [-6.0098, 54.6488, -6.4959, 54.8119],
   "data": {
-    "N21000001": {
-      "mdm": 666,
-      "income": 675,
-      "below60": 166,
-      "employment": 647,
-      "emprop": 194,
-      "health": 646,
-      "education": 648,
-      "services": 234
+    "ranks": {
+      "N21000001": {
+        "mdm": 666,
+        "income": 675,
+        "below60": 166,
+        "employment": 647,
+        "emprop": 194,
+        "health": 646,
+        "education": 648,
+        "services": 234
+      },
+      "N21000002": {
+        "mdm": 754,
+        "income": 653,
+        "below60": 189,
+        "employment": 812,
+        "emprop": 37,
+        "health": 825,
+        "education": 779,
+        "services": 144
+      },
+      "N21000003": {
+        "mdm": 628,
+        "income": 563,
+        "below60": 288,
+        "employment": 678,
+        "emprop": 224,
+        "health": 706,
+        "education": 762,
+        "services": 72
+      },
+      "N21000004": {
+        "mdm": 644,
+        "income": 754,
+        "below60": 100,
+        "employment": 507,
+        "emprop": 334,
+        "health": 479,
+        "education": 488,
+        "services": 312
+      },
+      "N21000005": {
+        "mdm": 645,
+        "income": 755,
+        "below60": 101,
+        "employment": 508,
+        "emprop": 335,
+        "health": 480,
+        "education": 489,
+        "services": 313
+      },
+      "N21000006": {
+        "mdm": 624,
+        "income": 689,
+        "below60": 171,
+        "employment": 534,
+        "emprop": 315,
+        "health": 508,
+        "education": 511,
+        "services": 314
+      }
     },
-    "N21000002": {
-      "mdm": 754,
-      "income": 653,
-      "below60": 189,
-      "employment": 812,
-      "emprop": 37,
-      "health": 825,
-      "education": 779,
-      "services": 144
-    },
-    "N21000003": {
-      "mdm": 628,
-      "income": 563,
-      "below60": 288,
-      "employment": 678,
-      "emprop": 224,
-      "health": 706,
-      "education": 762,
-      "services": 72
-    },
-    "N21000004": {
-      "mdm": 644,
-      "income": 754,
-      "below60": 100,
-      "employment": 507,
-      "emprop": 334,
-      "health": 479,
-      "education": 488,
-      "services": 312
-    },
-    "N21000005": {
-      "mdm": 645,
-      "income": 755,
-      "below60": 101,
-      "employment": 508,
-      "emprop": 335,
-      "health": 480,
-      "education": 489,
-      "services": 313
-    },
-    "N21000006": {
-      "mdm": 624,
-      "income": 689,
-      "below60": 171,
-      "employment": 534,
-      "emprop": 315,
-      "health": 508,
-      "education": 511,
-      "services": 314
-    }
+    "population": 18300,
+    "hectares": 23136.6536,
+    "location": "all of Randalstown and part of Antrim settlements"
   }
 }

@@ -55,75 +55,80 @@
   ],
   "bounds": [-6.7825, 54.9738, -7.0235, 55.195],
   "data": {
-    "N21000343": {
-      "mdm": 376,
-      "income": 367,
-      "below60": 537,
-      "employment": 357,
-      "emprop": 586,
-      "health": 471,
-      "education": 563,
-      "services": 260
+    "ranks": {
+      "N21000343": {
+        "mdm": 376,
+        "income": 367,
+        "below60": 537,
+        "employment": 357,
+        "emprop": 586,
+        "health": 471,
+        "education": 563,
+        "services": 260
+      },
+      "N21000344": {
+        "mdm": 125,
+        "income": 220,
+        "below60": 727,
+        "employment": 92,
+        "emprop": 797,
+        "health": 149,
+        "education": 152,
+        "services": 606
+      },
+      "N21000345": {
+        "mdm": 232,
+        "income": 236,
+        "below60": 660,
+        "employment": 173,
+        "emprop": 735,
+        "health": 263,
+        "education": 295,
+        "services": 429
+      },
+      "N21000346": {
+        "mdm": 418,
+        "income": 385,
+        "below60": 440,
+        "employment": 277,
+        "emprop": 548,
+        "health": 366,
+        "education": 509,
+        "services": 291
+      },
+      "N21000347": {
+        "mdm": 59,
+        "income": 91,
+        "below60": 779,
+        "employment": 41,
+        "emprop": 821,
+        "health": 65,
+        "education": 78,
+        "services": 456
+      },
+      "N21000348": {
+        "mdm": 468,
+        "income": 439,
+        "below60": 380,
+        "employment": 363,
+        "emprop": 443,
+        "health": 428,
+        "education": 593,
+        "services": 213
+      },
+      "N21000349": {
+        "mdm": 227,
+        "income": 234,
+        "below60": 613,
+        "employment": 159,
+        "emprop": 725,
+        "health": 212,
+        "education": 307,
+        "services": 310
+      }
     },
-    "N21000344": {
-      "mdm": 125,
-      "income": 220,
-      "below60": 727,
-      "employment": 92,
-      "emprop": 797,
-      "health": 149,
-      "education": 152,
-      "services": 606
-    },
-    "N21000345": {
-      "mdm": 232,
-      "income": 236,
-      "below60": 660,
-      "employment": 173,
-      "emprop": 735,
-      "health": 263,
-      "education": 295,
-      "services": 429
-    },
-    "N21000346": {
-      "mdm": 418,
-      "income": 385,
-      "below60": 440,
-      "employment": 277,
-      "emprop": 548,
-      "health": 366,
-      "education": 509,
-      "services": 291
-    },
-    "N21000347": {
-      "mdm": 59,
-      "income": 91,
-      "below60": 779,
-      "employment": 41,
-      "emprop": 821,
-      "health": 65,
-      "education": 78,
-      "services": 456
-    },
-    "N21000348": {
-      "mdm": 468,
-      "income": 439,
-      "below60": 380,
-      "employment": 363,
-      "emprop": 443,
-      "health": 428,
-      "education": 593,
-      "services": 213
-    },
-    "N21000349": {
-      "mdm": 227,
-      "income": 234,
-      "below60": 613,
-      "employment": 159,
-      "emprop": 725,
-      "health": 212,
-      "education": 307,
-      "services": 310
-    }
+    "population": 16390,
+    "hectares": 19356.3579,
+    "location": "part of Limavady settlement"
   }
 }

@@ -70,105 +70,110 @@
   ],
   "bounds": [-6.0414, 54.4974, -6.1176, 54.5299],
   "data": {
-    "N21000526": {
-      "mdm": 730,
-      "income": 744,
-      "below60": 81,
-      "employment": 723,
-      "emprop": 136,
-      "health": 705,
-      "education": 654,
-      "services": 378
+    "ranks": {
+      "N21000526": {
+        "mdm": 730,
+        "income": 744,
+        "below60": 81,
+        "employment": 723,
+        "emprop": 136,
+        "health": 705,
+        "education": 654,
+        "services": 378
+      },
+      "N21000527": {
+        "mdm": 521,
+        "income": 580,
+        "below60": 270,
+        "employment": 500,
+        "emprop": 391,
+        "health": 407,
+        "education": 393,
+        "services": 317
+      },
+      "N21000528": {
+        "mdm": 810,
+        "income": 806,
+        "below60": 28,
+        "employment": 807,
+        "emprop": 39,
+        "health": 805,
+        "education": 742,
+        "services": 522
+      },
+      "N21000529": {
+        "mdm": 403,
+        "income": 555,
+        "below60": 316,
+        "employment": 407,
+        "emprop": 469,
+        "health": 303,
+        "education": 237,
+        "services": 303
+      },
+      "N21000530": {
+        "mdm": 359,
+        "income": 506,
+        "below60": 382,
+        "employment": 366,
+        "emprop": 505,
+        "health": 275,
+        "education": 190,
+        "services": 281
+      },
+      "N21000531": {
+        "mdm": 642,
+        "income": 636,
+        "below60": 196,
+        "employment": 573,
+        "emprop": 274,
+        "health": 588,
+        "education": 424,
+        "services": 591
+      },
+      "N21000532": {
+        "mdm": 387,
+        "income": 560,
+        "below60": 338,
+        "employment": 384,
+        "emprop": 448,
+        "health": 253,
+        "education": 155,
+        "services": 351
+      },
+      "N21000533": {
+        "mdm": 301,
+        "income": 406,
+        "below60": 436,
+        "employment": 286,
+        "emprop": 508,
+        "health": 247,
+        "education": 165,
+        "services": 633
+      },
+      "N21000534": {
+        "mdm": 279,
+        "income": 289,
+        "below60": 588,
+        "employment": 255,
+        "emprop": 570,
+        "health": 239,
+        "education": 182,
+        "services": 607
+      },
+      "N21000535": {
+        "mdm": 151,
+        "income": 112,
+        "below60": 714,
+        "employment": 179,
+        "emprop": 623,
+        "health": 150,
+        "education": 101,
+        "services": 568
+      }
     },
-    "N21000527": {
-      "mdm": 521,
-      "income": 580,
-      "below60": 270,
-      "employment": 500,
-      "emprop": 391,
-      "health": 407,
-      "education": 393,
-      "services": 317
-    },
-    "N21000528": {
-      "mdm": 810,
-      "income": 806,
-      "below60": 28,
-      "employment": 807,
-      "emprop": 39,
-      "health": 805,
-      "education": 742,
-      "services": 522
-    },
-    "N21000529": {
-      "mdm": 403,
-      "income": 555,
-      "below60": 316,
-      "employment": 407,
-      "emprop": 469,
-      "health": 303,
-      "education": 237,
-      "services": 303
-    },
-    "N21000530": {
-      "mdm": 359,
-      "income": 506,
-      "below60": 382,
-      "employment": 366,
-      "emprop": 505,
-      "health": 275,
-      "education": 190,
-      "services": 281
-    },
-    "N21000531": {
-      "mdm": 642,
-      "income": 636,
-      "below60": 196,
-      "employment": 573,
-      "emprop": 274,
-      "health": 588,
-      "education": 424,
-      "services": 591
-    },
-    "N21000532": {
-      "mdm": 387,
-      "income": 560,
-      "below60": 338,
-      "employment": 384,
-      "emprop": 448,
-      "health": 253,
-      "education": 155,
-      "services": 351
-    },
-    "N21000533": {
-      "mdm": 301,
-      "income": 406,
-      "below60": 436,
-      "employment": 286,
-      "emprop": 508,
-      "health": 247,
-      "education": 165,
-      "services": 633
-    },
-    "N21000534": {
-      "mdm": 279,
-      "income": 289,
-      "below60": 588,
-      "employment": 255,
-      "emprop": 570,
-      "health": 239,
-      "education": 182,
-      "services": 607
-    },
-    "N21000535": {
-      "mdm": 151,
-      "income": 112,
-      "below60": 714,
-      "employment": 179,
-      "emprop": 623,
-      "health": 150,
-      "education": 101,
-      "services": 568
-    }
+    "population": 24420,
+    "hectares": 942.6819,
+    "location": "part of Lisburn City settlement"
   }
 }

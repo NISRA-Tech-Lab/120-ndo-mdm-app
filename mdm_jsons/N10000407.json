@@ -55,75 +55,80 @@
   ],
   "bounds": [-5.9769, 54.984, -6.4315, 55.313],
   "data": {
-    "N21000379": {
-      "mdm": 261,
-      "income": 106,
-      "below60": 728,
-      "employment": 241,
-      "emprop": 605,
-      "health": 332,
-      "education": 464,
-      "services": 285
+    "ranks": {
+      "N21000379": {
+        "mdm": 261,
+        "income": 106,
+        "below60": 728,
+        "employment": 241,
+        "emprop": 605,
+        "health": 332,
+        "education": 464,
+        "services": 285
+      },
+      "N21000380": {
+        "mdm": 262,
+        "income": 107,
+        "below60": 729,
+        "employment": 242,
+        "emprop": 606,
+        "health": 333,
+        "education": 465,
+        "services": 286
+      },
+      "N21000381": {
+        "mdm": 217,
+        "income": 82,
+        "below60": 754,
+        "employment": 208,
+        "emprop": 626,
+        "health": 301,
+        "education": 447,
+        "services": 273
+      },
+      "N21000382": {
+        "mdm": 267,
+        "income": 97,
+        "below60": 709,
+        "employment": 395,
+        "emprop": 406,
+        "health": 516,
+        "education": 434,
+        "services": 43
+      },
+      "N21000383": {
+        "mdm": 489,
+        "income": 351,
+        "below60": 432,
+        "employment": 553,
+        "emprop": 248,
+        "health": 672,
+        "education": 752,
+        "services": 32
+      },
+      "N21000384": {
+        "mdm": 492,
+        "income": 428,
+        "below60": 398,
+        "employment": 603,
+        "emprop": 220,
+        "health": 673,
+        "education": 633,
+        "services": 18
+      },
+      "N21000385": {
+        "mdm": 474,
+        "income": 363,
+        "below60": 433,
+        "employment": 506,
+        "emprop": 287,
+        "health": 647,
+        "education": 711,
+        "services": 42
+      }
     },
-    "N21000380": {
-      "mdm": 262,
-      "income": 107,
-      "below60": 729,
-      "employment": 242,
-      "emprop": 606,
-      "health": 333,
-      "education": 465,
-      "services": 286
-    },
-    "N21000381": {
-      "mdm": 217,
-      "income": 82,
-      "below60": 754,
-      "employment": 208,
-      "emprop": 626,
-      "health": 301,
-      "education": 447,
-      "services": 273
-    },
-    "N21000382": {
-      "mdm": 267,
-      "income": 97,
-      "below60": 709,
-      "employment": 395,
-      "emprop": 406,
-      "health": 516,
-      "education": 434,
-      "services": 43
-    },
-    "N21000383": {
-      "mdm": 489,
-      "income": 351,
-      "below60": 432,
-      "employment": 553,
-      "emprop": 248,
-      "health": 672,
-      "education": 752,
-      "services": 32
-    },
-    "N21000384": {
-      "mdm": 492,
-      "income": 428,
-      "below60": 398,
-      "employment": 603,
-      "emprop": 220,
-      "health": 673,
-      "education": 633,
-      "services": 18
-    },
-    "N21000385": {
-      "mdm": 474,
-      "income": 363,
-      "below60": 433,
-      "employment": 506,
-      "emprop": 287,
-      "health": 647,
-      "education": 711,
-      "services": 42
-    }
+    "population": 17350,
+    "hectares": 52984.916,
+    "location": "all of Ballycastle settlement"
   }
 }

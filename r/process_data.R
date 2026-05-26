@@ -31,7 +31,10 @@ map_bounds <- read_excel(paste0(data_dir, geog_file),
 
 
 hectares <- read_excel(paste0(data_dir, geog_file),
-                       sheet = "geog_areas")
+                       sheet = "geog_areas") %>% 
+  filter(substr(geocode, 1, 3) != "N08") %>% 
+  mutate(type = unlist(code_lookup[substr(geocode, 1, 3)])) %>% 
+  filter(type != "dz")
 
 dea_description <- read_excel(paste0(data_dir, geog_file),
                               sheet = "dea_description")
@@ -43,6 +46,120 @@ lgd_description <- read_excel(paste0(data_dir, geog_file),
 # Import dummy data ####
 
 nimdm <- read.csv("r/data/nimdm-2026-ranks-sdz-dummy-data.csv")
+
+# Import from Data Portal ####
+
+data_portal_tables <- fromJSON(txt = "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadCollection")
+
+## MYE01T012 - MYE by SDZ ####
+
+sdz_index <- which(data_portal_tables$link$item$extension$matrix == "MYE01T012")
+sdz_year <- unlist(data_portal_tables$link$item$dimension$`TLIST(A1)`$category$index[sdz_index]) %>% tail(1)
+
+sdz_mye_raw <- fromJSON(
+  txt = paste0(
+    "https://ws-data.nisra.gov.uk/public/api.jsonrpc?data=%7B%22jsonrpc%22:%222.0%22,%22method%22:%22PxStat.Data.Cube_API.ReadDataset%22,%22params%22:%7B%22class%22:%22query%22,%22id%22:%5B%22TLIST(A1)%22,%22broadage4%22,%22Sex%22%5D,%22dimension%22:%7B%22TLIST(A1)%22:%7B%22category%22:%7B%22index%22:%5B%22",
+    sdz_year,
+    "%22%5D%7D%7D,%22broadage4%22:%7B%22category%22:%7B%22index%22:%5B%22All%22%5D%7D%7D,%22Sex%22:%7B%22category%22:%7B%22index%22:%5B%22All%22%5D%7D%7D%7D,%22extension%22:%7B%22pivot%22:null,%22codes%22:false,%22language%22:%7B%22code%22:%22en%22%7D,%22format%22:%7B%22type%22:%22JSON-stat%22,%22version%22:%222.0%22%7D,%22matrix%22:%22MYE01T012%22%7D,%22version%22:%222.0%22%7D%7D"
+  )
+)
+
+sdz_mye <- data.frame(
+  area = sdz_mye_raw$result$dimension$SDZ2021$category$index,
+  mye = sdz_mye_raw$result$value
+)
+
+## MYE01T010 - MYE by DEA ####
+
+dea_index <- which(data_portal_tables$link$item$extension$matrix == "MYE01T010")
+dea_year <- unlist(data_portal_tables$link$item$dimension$`TLIST(A1)`$category$index[dea_index]) %>% tail(1)
+
+dea_mye_raw <- fromJSON(
+  txt = paste0(
+    "https://ws-data.nisra.gov.uk/public/api.jsonrpc?data=%7B%22jsonrpc%22:%222.0%22,%22method%22:%22PxStat.Data.Cube_API.ReadDataset%22,%22params%22:%7B%22class%22:%22query%22,%22id%22:%5B%22TLIST(A1)%22,%22broadage4%22,%22Sex%22%5D,%22dimension%22:%7B%22TLIST(A1)%22:%7B%22category%22:%7B%22index%22:%5B%22",
+    dea_year,
+    "%22%5D%7D%7D,%22broadage4%22:%7B%22category%22:%7B%22index%22:%5B%22All%22%5D%7D%7D,%22Sex%22:%7B%22category%22:%7B%22index%22:%5B%22All%22%5D%7D%7D%7D,%22extension%22:%7B%22pivot%22:null,%22codes%22:false,%22language%22:%7B%22code%22:%22en%22%7D,%22format%22:%7B%22type%22:%22JSON-stat%22,%22version%22:%222.0%22%7D,%22matrix%22:%22MYE01T010%22%7D,%22version%22:%222.0%22%7D%7D"
+  )
+)
+
+dea_mye <- data.frame(
+  area = dea_mye_raw$result$dimension$DEA2014$category$index,
+  mye = dea_mye_raw$result$value
+)
+
+## MYE01T06 - MYE by LGD ####
+
+lgd_index <- which(data_portal_tables$link$item$extension$matrix == "MYE01T06")
+lgd_year <- unlist(data_portal_tables$link$item$dimension$`TLIST(A1)`$category$index[lgd_index]) %>% tail(1)
+
+lgd_mye_raw <- fromJSON(
+  txt = paste0(
+    "https://ws-data.nisra.gov.uk/public/api.jsonrpc?data=%7B%22jsonrpc%22:%222.0%22,%22method%22:%22PxStat.Data.Cube_API.ReadDataset%22,%22params%22:%7B%22class%22:%22query%22,%22id%22:%5B%22TLIST(A1)%22,%22rounded_unrounded%22%5D,%22dimension%22:%7B%22TLIST(A1)%22:%7B%22category%22:%7B%22index%22:%5B%22",
+    lgd_year,
+    "%22%5D%7D%7D,%22rounded_unrounded%22:%7B%22category%22:%7B%22index%22:%5B%22Unrounded%22%5D%7D%7D%7D,%22extension%22:%7B%22pivot%22:null,%22codes%22:false,%22language%22:%7B%22code%22:%22en%22%7D,%22format%22:%7B%22type%22:%22JSON-stat%22,%22version%22:%222.0%22%7D,%22matrix%22:%22MYE01T06%22%7D,%22version%22:%222.0%22%7D%7D"
+  )
+)
+
+lgd_mye <- data.frame(
+  area = lgd_mye_raw$result$dimension$LGD2014$category$index,
+  mye = lgd_mye_raw$result$value
+)
+
+# JSON creation ####
+
+## NI JSON to contain metadata only ####
+
+ni_code <- children %>% 
+  filter(type == "ctry") %>% 
+  pull("code")
+
+ni_children <- list()
+
+child_rows <- children %>% 
+  filter(parent_code == ni_code)
+
+for (i in 1:nrow(child_rows)) {
+  ni_children[[i]] <- list(
+    code = child_rows$code[i],
+    name = child_rows$name[i],
+    type = child_rows$type[[i]]
+  )
+}
+
+ni_bounds <- map_bounds %>% 
+  filter(geog_code == ni_code)
+
+ni_data <- list(
+  code = ni_code,
+  name = "Northern Ireland",
+  comment = "This json includes data for the MDM app.",
+  type = "ni",
+  parents = list(
+    list(code = "",
+         name = "",
+         type = "")
+  ),
+  children = ni_children,
+  bounds = c(
+    c(ni_bounds$long_max, ni_bounds$lat_min),
+    c(ni_bounds$long_min, ni_bounds$lat_max)
+  ),
+  data = list(population = lgd_mye %>% 
+                filter(area == ni_code) %>% 
+                pull("mye"),
+              hectares = hectares %>% 
+                filter(geocode == ni_code) %>%
+              pull("Area_ha"))
+)
+
+cat("Writing data for Northern Ireland...\n\n")
+
+write_json(ni_data,
+           paste0(output_dir, ni_code, ".json"),
+           auto_unbox = TRUE,
+           pretty = TRUE)
+
+
 
 ## LGD JSONs to contain ranks of all SDZ ####
 
@@ -80,7 +197,7 @@ for (lgd in LGDs) {
     comment = "This json includes data for the MDM app.",
     type = "lgd",
     parents = list(
-      list(code = "N92000002",
+      list(code = ni_code,
            name = "Northern Ireland",
            type = "ctry")
     ),
@@ -89,7 +206,17 @@ for (lgd in LGDs) {
       c(lgd_bounds$long_max, lgd_bounds$lat_min),
       c(lgd_bounds$long_min, lgd_bounds$lat_max)
     ),
-    data = list()
+    data = list(ranks = list(),
+                population = lgd_mye %>% 
+                  filter(area == lgd) %>% 
+                  pull("mye"),
+                hectares = hectares %>% 
+                  filter(geocode == lgd) %>% 
+                  pull("Area_ha"),
+                location = lgd_description %>% 
+                  filter(geog_code == lgd) %>% 
+                  pull("geog_location")
+                )
   )
   
   assign(paste0(lgd, "_data"), lgd_data)
@@ -141,7 +268,7 @@ for (dea in DEAs) {
              filter(code == dea_info$parent_code) %>% 
              pull("name"),
            type = "lgd"),
-      list(code = "N92000002",
+      list(code = ni_code,
            name = "Northern Ireland",
            type = "ctry")
     ),
@@ -150,7 +277,16 @@ for (dea in DEAs) {
       c(dea_bounds$long_max, dea_bounds$lat_min),
       c(dea_bounds$long_min, dea_bounds$lat_max)
     ),
-    data = list()
+    data = list(ranks = list(),
+                population = dea_mye %>% 
+                  filter(area == dea) %>% 
+                  pull("mye"),
+                hectares = hectares %>% 
+                  filter(geocode == dea) %>% 
+                  pull("Area_ha"),
+                location = dea_description %>% 
+                  filter(geog_code == dea) %>% 
+                  pull("geog_location"))
   )
   
   assign(paste0(dea, "_data"), dea_data)
@@ -205,7 +341,7 @@ for (sdz in SDZs) {
              filter(code == sdz_info$grandparent_code) %>% 
              pull("name"),
            type = "lgd"),
-      list(code = "N92000002",
+      list(code = ni_code,
            name = "Northern Ireland",
            type = "ctry")
     ),
@@ -214,7 +350,13 @@ for (sdz in SDZs) {
       c(sdz_bounds$long_max, sdz_bounds$lat_min),
       c(sdz_bounds$long_min, sdz_bounds$lat_max)
     ),
-    data = sdz_data_values
+    data = list(ranks = sdz_data_values,
+                population = sdz_mye %>% 
+                  filter(area == sdz) %>% 
+                  pull("mye"),
+                hectares = hectares %>% 
+                  filter(geocode == sdz) %>% 
+                  pull("Area_ha"))
   )
   
   write_json(sdz_data,
@@ -225,8 +367,8 @@ for (sdz in SDZs) {
   lgd_data <- get(paste0(sdz_info$grandparent_code, "_data"))
   dea_data <- get(paste0(sdz_info$parent_code, "_data"))
   
-  lgd_data$data[[sdz]] <- sdz_data_values
-  dea_data$data[[sdz]] <- sdz_data_values
+  lgd_data$data$ranks[[sdz]] <- sdz_data_values
+  dea_data$data$ranks[[sdz]] <- sdz_data_values
   
   assign(paste0(sdz_info$grandparent_code, "_data"), lgd_data)
   assign(paste0(sdz_info$parent_code, "_data"), dea_data)

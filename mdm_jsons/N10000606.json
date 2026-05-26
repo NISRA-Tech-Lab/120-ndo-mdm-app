@@ -60,85 +60,90 @@
   ],
   "bounds": [-7.2533, 54.5803, -7.3382, 54.6209],
   "data": {
-    "N21000496": {
-      "mdm": 314,
-      "income": 436,
-      "below60": 466,
-      "employment": 216,
-      "emprop": 639,
-      "health": 168,
-      "education": 480,
-      "services": 332
+    "ranks": {
+      "N21000496": {
+        "mdm": 314,
+        "income": 436,
+        "below60": 466,
+        "employment": 216,
+        "emprop": 639,
+        "health": 168,
+        "education": 480,
+        "services": 332
+      },
+      "N21000497": {
+        "mdm": 114,
+        "income": 170,
+        "below60": 720,
+        "employment": 90,
+        "emprop": 773,
+        "health": 82,
+        "education": 258,
+        "services": 432
+      },
+      "N21000498": {
+        "mdm": 147,
+        "income": 256,
+        "below60": 607,
+        "employment": 95,
+        "emprop": 753,
+        "health": 97,
+        "education": 229,
+        "services": 433
+      },
+      "N21000499": {
+        "mdm": 182,
+        "income": 347,
+        "below60": 597,
+        "employment": 122,
+        "emprop": 749,
+        "health": 119,
+        "education": 348,
+        "services": 501
+      },
+      "N21000500": {
+        "mdm": 299,
+        "income": 534,
+        "below60": 351,
+        "employment": 189,
+        "emprop": 678,
+        "health": 164,
+        "education": 497,
+        "services": 316
+      },
+      "N21000501": {
+        "mdm": 239,
+        "income": 325,
+        "below60": 554,
+        "employment": 152,
+        "emprop": 719,
+        "health": 145,
+        "education": 329,
+        "services": 417
+      },
+      "N21000502": {
+        "mdm": 385,
+        "income": 562,
+        "below60": 381,
+        "employment": 244,
+        "emprop": 641,
+        "health": 234,
+        "education": 536,
+        "services": 426
+      },
+      "N21000503": {
+        "mdm": 319,
+        "income": 400,
+        "below60": 454,
+        "employment": 199,
+        "emprop": 681,
+        "health": 196,
+        "education": 414,
+        "services": 430
+      }
     },
-    "N21000497": {
-      "mdm": 114,
-      "income": 170,
-      "below60": 720,
-      "employment": 90,
-      "emprop": 773,
-      "health": 82,
-      "education": 258,
-      "services": 432
-    },
-    "N21000498": {
-      "mdm": 147,
-      "income": 256,
-      "below60": 607,
-      "employment": 95,
-      "emprop": 753,
-      "health": 97,
-      "education": 229,
-      "services": 433
-    },
-    "N21000499": {
-      "mdm": 182,
-      "income": 347,
-      "below60": 597,
-      "employment": 122,
-      "emprop": 749,
-      "health": 119,
-      "education": 348,
-      "services": 501
-    },
-    "N21000500": {
-      "mdm": 299,
-      "income": 534,
-      "below60": 351,
-      "employment": 189,
-      "emprop": 678,
-      "health": 164,
-      "education": 497,
-      "services": 316
-    },
-    "N21000501": {
-      "mdm": 239,
-      "income": 325,
-      "below60": 554,
-      "employment": 152,
-      "emprop": 719,
-      "health": 145,
-      "education": 329,
-      "services": 417
-    },
-    "N21000502": {
-      "mdm": 385,
-      "income": 562,
-      "below60": 381,
-      "employment": 244,
-      "emprop": 641,
-      "health": 234,
-      "education": 536,
-      "services": 426
-    },
-    "N21000503": {
-      "mdm": 319,
-      "income": 400,
-      "below60": 454,
-      "employment": 199,
-      "emprop": 681,
-      "health": 196,
-      "education": 414,
-      "services": 430
-    }
+    "population": 18960,
+    "hectares": 1645.2817,
+    "location": "part of Omagh Town settlement"
   }
 }

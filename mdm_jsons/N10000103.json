@@ -60,85 +60,90 @@
   ],
   "bounds": [-5.8874, 54.6939, -6.0778, 54.7883],
   "data": {
-    "N21000019": {
-      "mdm": 654,
-      "income": 551,
-      "below60": 306,
-      "employment": 695,
-      "emprop": 189,
-      "health": 687,
-      "education": 587,
-      "services": 319
+    "ranks": {
+      "N21000019": {
+        "mdm": 654,
+        "income": 551,
+        "below60": 306,
+        "employment": 695,
+        "emprop": 189,
+        "health": 687,
+        "education": 587,
+        "services": 319
+      },
+      "N21000020": {
+        "mdm": 428,
+        "income": 529,
+        "below60": 326,
+        "employment": 383,
+        "emprop": 497,
+        "health": 375,
+        "education": 207,
+        "services": 572
+      },
+      "N21000021": {
+        "mdm": 471,
+        "income": 637,
+        "below60": 212,
+        "employment": 400,
+        "emprop": 476,
+        "health": 391,
+        "education": 168,
+        "services": 550
+      },
+      "N21000022": {
+        "mdm": 459,
+        "income": 624,
+        "below60": 244,
+        "employment": 370,
+        "emprop": 480,
+        "health": 393,
+        "education": 147,
+        "services": 541
+      },
+      "N21000023": {
+        "mdm": 613,
+        "income": 716,
+        "below60": 122,
+        "employment": 536,
+        "emprop": 367,
+        "health": 526,
+        "education": 298,
+        "services": 496
+      },
+      "N21000024": {
+        "mdm": 598,
+        "income": 643,
+        "below60": 234,
+        "employment": 582,
+        "emprop": 303,
+        "health": 636,
+        "education": 379,
+        "services": 373
+      },
+      "N21000025": {
+        "mdm": 764,
+        "income": 762,
+        "below60": 83,
+        "employment": 756,
+        "emprop": 101,
+        "health": 781,
+        "education": 689,
+        "services": 272
+      },
+      "N21000026": {
+        "mdm": 734,
+        "income": 797,
+        "below60": 55,
+        "employment": 699,
+        "emprop": 180,
+        "health": 731,
+        "education": 568,
+        "services": 290
+      }
     },
-    "N21000020": {
-      "mdm": 428,
-      "income": 529,
-      "below60": 326,
-      "employment": 383,
-      "emprop": 497,
-      "health": 375,
-      "education": 207,
-      "services": 572
-    },
-    "N21000021": {
-      "mdm": 471,
-      "income": 637,
-      "below60": 212,
-      "employment": 400,
-      "emprop": 476,
-      "health": 391,
-      "education": 168,
-      "services": 550
-    },
-    "N21000022": {
-      "mdm": 459,
-      "income": 624,
-      "below60": 244,
-      "employment": 370,
-      "emprop": 480,
-      "health": 393,
-      "education": 147,
-      "services": 541
-    },
-    "N21000023": {
-      "mdm": 613,
-      "income": 716,
-      "below60": 122,
-      "employment": 536,
-      "emprop": 367,
-      "health": 526,
-      "education": 298,
-      "services": 496
-    },
-    "N21000024": {
-      "mdm": 598,
-      "income": 643,
-      "below60": 234,
-      "employment": 582,
-      "emprop": 303,
-      "health": 636,
-      "education": 379,
-      "services": 373
-    },
-    "N21000025": {
-      "mdm": 764,
-      "income": 762,
-      "below60": 83,
-      "employment": 756,
-      "emprop": 101,
-      "health": 781,
-      "education": 689,
-      "services": 272
-    },
-    "N21000026": {
-      "mdm": 734,
-      "income": 797,
-      "below60": 55,
-      "employment": 699,
-      "emprop": 180,
-      "health": 731,
-      "education": 568,
-      "services": 290
-    }
+    "population": 19490,
+    "hectares": 7796.7121,
+    "location": "all of Ballyclare and part of Newtownabbey settlements"
   }
 }
