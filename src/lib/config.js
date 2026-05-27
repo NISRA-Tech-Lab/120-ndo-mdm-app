@@ -18,15 +18,14 @@ export const themes = {
 
 export const app_inputs = {
 //	search_data: 'https://datavis.nisra.gov.uk/techlab/yalcbs/places_dz_extra.csv',
-	search_data: 'https://raw.githubusercontent.com/nisra-explore/local-stats/main/search_data/places_dz_full_postcode_JULY2024.csv',
+	search_data: 'https://raw.githubusercontent.com/NISRA-Tech-Lab/120-ndo-mdm-app/main/search_data/places_dz_full_postcode_JULY2024.csv',
 	//search_data: '/search_data/places_dz_full_postcode.csv',
 	//postcode_data: '/search_data/cpd_light_with_lat_long_2.csv',
-	postcode_data: 'https://raw.githubusercontent.com/nisra-explore/local-stats/main/search_data/CPD_LIGHT_JULY_2024.csv',
+	postcode_data: 'https://raw.githubusercontent.com/NISRA-Tech-Lab/120-ndo-mdm-app/main/search_data/CPD_LIGHT_JULY_2024.csv',
 	// app_json_data: 'https://datavis.nisra.gov.uk/techlab/yalcbs/',
 //	 app_json_data: '/data_jsons_dea_20240408/',
 	//app_json_data: '/alternative_jsons/',
-	 app_json_data: "https://raw.githubusercontent.com/NISRA-Tech-Lab/120-ndo-mdm-app/main/github_action_jsons/",
-	//  app_json_data: "https://raw.githubusercontent.com/NISRA-Tech-Lab/120-ndo-mdm-app/main/mdm_jsons/",
+	 app_json_data: "https://raw.githubusercontent.com/NISRA-Tech-Lab/120-ndo-mdm-app/main/mdm_jsons/",
 	//app_json_data: "/jsons_nogroup/",
 	base: 'https://explore.nisra.gov.uk/local-stats/'
 };
