@@ -25,7 +25,8 @@ export const app_inputs = {
 	// app_json_data: 'https://datavis.nisra.gov.uk/techlab/yalcbs/',
 //	 app_json_data: '/data_jsons_dea_20240408/',
 	//app_json_data: '/alternative_jsons/',
-	 app_json_data: "https://raw.githubusercontent.com/nisra-explore/local-stats/main/github_action_jsons/",
+	 app_json_data: "https://raw.githubusercontent.com/NISRA-Tech-Lab/120-ndo-mdm-app/main/github_action_jsons/",
+	//  app_json_data: "https://raw.githubusercontent.com/NISRA-Tech-Lab/120-ndo-mdm-app/main/mdm_jsons/",
 	//app_json_data: "/jsons_nogroup/",
 	base: 'https://explore.nisra.gov.uk/local-stats/'
 };

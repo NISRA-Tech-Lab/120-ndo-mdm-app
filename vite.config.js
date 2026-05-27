@@ -6,7 +6,7 @@ const config = {
 
         server: {
                     fs: {
-                        allow: ['search_data', 'jsons_nogroup', 'data_jsons','data_jsons_dz', 'alternative_jsons','data_jsons_dea_2202','data_jsons_dea_2302','data_jsons_dea_20240408', 'alternative_20240508', 'github_action_jsons']
+                        allow: ['search_data', 'jsons_nogroup', 'data_jsons','data_jsons_dz', 'alternative_jsons','data_jsons_dea_2202','data_jsons_dea_2302','data_jsons_dea_20240408', 'alternative_20240508', 'github_action_jsons', 'mdm_jsons']
                     }
                 }
 };
