@@ -1,0 +1,40 @@
+{
+  "code": "N21000362",
+  "name": "Coleraine_E",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000405",
+      "name": "Coleraine",
+      "type": "dea"
+    },
+    {
+      "code": "N09000004",
+      "name": "Causeway Coast and Glens",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.645, 55.1245, -6.6662, 55.14],
+  "data": {
+    "ranks": {
+      "mdm": 112,
+      "income": 63,
+      "below60": 758,
+      "employment": 110,
+      "emprop": 720,
+      "health": 176,
+      "education": 123,
+      "services": 624
+    },
+    "population": 1894,
+    "hectares": 117.6103
+  }
+}

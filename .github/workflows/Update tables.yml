@@ -15,30 +15,21 @@ jobs:
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
-            any::pacman 
             any::dplyr
-            any::openxlsx
             any::readxl
-            any::rjson
             any::jsonlite
-            any::janitor
-            any::gtools
-            any::httr
             any::stringr
-            any::readr
-            any::tidyr
 
       - name: Check out repository
         uses: actions/checkout@v6
 
       - name: createJSONs
-        run: Rscript -e 'source("create_jsons/create_JSONs.R")'
+        run: Rscript -e 'source("r/process_data.R")'
 
       - name: Commit results
         run: |
           git config --local user.email "explore@nisra.gov.uk"
           git config --local user.name "nisra-explore"
-          git add github_action_jsons
-          git add create_jsons/date_of_last_run.RDS
+          git add mdm_jsons
           git commit -m 'Data updated' || echo "No changes to commit"
           git push origin || echo "No changes to commit"

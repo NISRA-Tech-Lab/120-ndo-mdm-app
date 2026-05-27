@@ -1,0 +1,40 @@
+{
+  "code": "N21000013",
+  "name": "Antrim_G",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000102",
+      "name": "Antrim",
+      "type": "dea"
+    },
+    {
+      "code": "N09000001",
+      "name": "Antrim and Newtownabbey",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.2073, 54.7086, -6.2226, 54.7238],
+  "data": {
+    "ranks": {
+      "mdm": 500,
+      "income": 686,
+      "below60": 144,
+      "employment": 385,
+      "emprop": 465,
+      "health": 295,
+      "education": 315,
+      "services": 552
+    },
+    "population": 2132,
+    "hectares": 91.8774
+  }
+}

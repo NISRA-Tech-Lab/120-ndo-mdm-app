@@ -1,0 +1,179 @@
+{
+  "code": "N10001002",
+  "name": "Downpatrick",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000761",
+      "name": "Downpatrick_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000762",
+      "name": "Downpatrick_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000763",
+      "name": "Downpatrick_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000764",
+      "name": "Downpatrick_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000765",
+      "name": "Downpatrick_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000766",
+      "name": "Downpatrick_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000767",
+      "name": "Downpatrick_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000768",
+      "name": "Downpatrick_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000769",
+      "name": "Downpatrick_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000770",
+      "name": "Downpatrick_K",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.516, 54.2256, -5.7854, 54.4069],
+  "data": {
+    "ranks": {
+      "N21000761": {
+        "mdm": 600,
+        "income": 684,
+        "below60": 155,
+        "employment": 494,
+        "emprop": 415,
+        "health": 525,
+        "education": 669,
+        "services": 253
+      },
+      "N21000762": {
+        "mdm": 338,
+        "income": 535,
+        "below60": 323,
+        "employment": 341,
+        "emprop": 537,
+        "health": 374,
+        "education": 496,
+        "services": 61
+      },
+      "N21000763": {
+        "mdm": 423,
+        "income": 663,
+        "below60": 178,
+        "employment": 278,
+        "emprop": 622,
+        "health": 272,
+        "education": 436,
+        "services": 340
+      },
+      "N21000764": {
+        "mdm": 357,
+        "income": 616,
+        "below60": 235,
+        "employment": 246,
+        "emprop": 653,
+        "health": 227,
+        "education": 368,
+        "services": 339
+      },
+      "N21000765": {
+        "mdm": 277,
+        "income": 589,
+        "below60": 263,
+        "employment": 187,
+        "emprop": 701,
+        "health": 187,
+        "education": 305,
+        "services": 384
+      },
+      "N21000766": {
+        "mdm": 110,
+        "income": 333,
+        "below60": 519,
+        "employment": 87,
+        "emprop": 768,
+        "health": 71,
+        "education": 129,
+        "services": 448
+      },
+      "N21000767": {
+        "mdm": 157,
+        "income": 341,
+        "below60": 507,
+        "employment": 135,
+        "emprop": 737,
+        "health": 105,
+        "education": 163,
+        "services": 405
+      },
+      "N21000768": {
+        "mdm": 247,
+        "income": 344,
+        "below60": 508,
+        "employment": 258,
+        "emprop": 634,
+        "health": 233,
+        "education": 334,
+        "services": 212
+      },
+      "N21000769": {
+        "mdm": 213,
+        "income": 281,
+        "below60": 577,
+        "employment": 227,
+        "emprop": 616,
+        "health": 319,
+        "education": 367,
+        "services": 56
+      },
+      "N21000770": {
+        "mdm": 190,
+        "income": 244,
+        "below60": 608,
+        "employment": 213,
+        "emprop": 619,
+        "health": 283,
+        "education": 314,
+        "services": 121
+      }
+    },
+    "population": 22380,
+    "hectares": 18264.4365,
+    "location": "all of Downpatrick settlement"
+  }
+}

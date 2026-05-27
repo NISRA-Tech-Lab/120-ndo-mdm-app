@@ -1,0 +1,254 @@
+{
+  "code": "N10000302",
+  "name": "Black Mountain",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000301",
+      "name": "Black_Mountain_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000302",
+      "name": "Black_Mountain_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000303",
+      "name": "Black_Mountain_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000304",
+      "name": "Black_Mountain_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000305",
+      "name": "Black_Mountain_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000306",
+      "name": "Black_Mountain_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000307",
+      "name": "Black_Mountain_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000308",
+      "name": "Black_Mountain_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000309",
+      "name": "Black_Mountain_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000310",
+      "name": "Black_Mountain_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000311",
+      "name": "Black_Mountain_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000312",
+      "name": "Black_Mountain_N",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000313",
+      "name": "Black_Mountain_P",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000314",
+      "name": "Black_Mountain_Q",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000315",
+      "name": "Black_Mountain_R",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.9561, 54.5676, -6.0457, 54.6129],
+  "data": {
+    "ranks": {
+      "N21000301": {
+        "mdm": 30,
+        "income": 452,
+        "below60": 348,
+        "employment": 10,
+        "emprop": 837,
+        "health": 7,
+        "education": 26,
+        "services": 668
+      },
+      "N21000302": {
+        "mdm": 43,
+        "income": 100,
+        "below60": 712,
+        "employment": 48,
+        "emprop": 799,
+        "health": 26,
+        "education": 56,
+        "services": 808
+      },
+      "N21000303": {
+        "mdm": 107,
+        "income": 260,
+        "below60": 612,
+        "employment": 79,
+        "emprop": 764,
+        "health": 68,
+        "education": 148,
+        "services": 831
+      },
+      "N21000304": {
+        "mdm": 83,
+        "income": 356,
+        "below60": 536,
+        "employment": 58,
+        "emprop": 789,
+        "health": 56,
+        "education": 125,
+        "services": 721
+      },
+      "N21000305": {
+        "mdm": 57,
+        "income": 308,
+        "below60": 503,
+        "employment": 51,
+        "emprop": 805,
+        "health": 28,
+        "education": 49,
+        "services": 803
+      },
+      "N21000306": {
+        "mdm": 136,
+        "income": 622,
+        "below60": 215,
+        "employment": 81,
+        "emprop": 785,
+        "health": 67,
+        "education": 149,
+        "services": 796
+      },
+      "N21000307": {
+        "mdm": 324,
+        "income": 665,
+        "below60": 187,
+        "employment": 174,
+        "emprop": 657,
+        "health": 143,
+        "education": 320,
+        "services": 822
+      },
+      "N21000308": {
+        "mdm": 363,
+        "income": 647,
+        "below60": 216,
+        "employment": 181,
+        "emprop": 638,
+        "health": 134,
+        "education": 346,
+        "services": 810
+      },
+      "N21000309": {
+        "mdm": 76,
+        "income": 357,
+        "below60": 504,
+        "employment": 66,
+        "emprop": 774,
+        "health": 58,
+        "education": 117,
+        "services": 823
+      },
+      "N21000310": {
+        "mdm": 138,
+        "income": 334,
+        "below60": 569,
+        "employment": 84,
+        "emprop": 756,
+        "health": 73,
+        "education": 195,
+        "services": 793
+      },
+      "N21000311": {
+        "mdm": 212,
+        "income": 595,
+        "below60": 262,
+        "employment": 119,
+        "emprop": 718,
+        "health": 90,
+        "education": 301,
+        "services": 788
+      },
+      "N21000312": {
+        "mdm": 171,
+        "income": 488,
+        "below60": 349,
+        "employment": 88,
+        "emprop": 766,
+        "health": 77,
+        "education": 222,
+        "services": 807
+      },
+      "N21000313": {
+        "mdm": 119,
+        "income": 528,
+        "below60": 329,
+        "employment": 65,
+        "emprop": 772,
+        "health": 57,
+        "education": 119,
+        "services": 655
+      },
+      "N21000314": {
+        "mdm": 129,
+        "income": 575,
+        "below60": 299,
+        "employment": 70,
+        "emprop": 778,
+        "health": 64,
+        "education": 106,
+        "services": 755
+      },
+      "N21000315": {
+        "mdm": 402,
+        "income": 594,
+        "below60": 254,
+        "employment": 231,
+        "emprop": 598,
+        "health": 156,
+        "education": 416,
+        "services": 782
+      }
+    },
+    "population": 35330,
+    "hectares": 1853.5403,
+    "location": "part of Belfast City and Lisburn settlements"
+  }
+}

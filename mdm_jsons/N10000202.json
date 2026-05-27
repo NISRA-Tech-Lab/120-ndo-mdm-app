@@ -1,0 +1,239 @@
+{
+  "code": "N10000202",
+  "name": "Banbridge",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000136",
+      "name": "Banbridge_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000137",
+      "name": "Banbridge_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000138",
+      "name": "Banbridge_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000139",
+      "name": "Banbridge_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000140",
+      "name": "Banbridge_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000141",
+      "name": "Banbridge_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000142",
+      "name": "Banbridge_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000143",
+      "name": "Banbridge_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000144",
+      "name": "Banbridge_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000145",
+      "name": "Banbridge_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000146",
+      "name": "Banbridge_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000147",
+      "name": "Banbridge_N",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000148",
+      "name": "Banbridge_P",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000149",
+      "name": "Banbridge_Q",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.0387, 54.2189, -6.4004, 54.4135],
+  "data": {
+    "ranks": {
+      "N21000136": {
+        "mdm": 579,
+        "income": 533,
+        "below60": 269,
+        "employment": 543,
+        "emprop": 282,
+        "health": 599,
+        "education": 604,
+        "services": 185
+      },
+      "N21000137": {
+        "mdm": 540,
+        "income": 409,
+        "below60": 438,
+        "employment": 549,
+        "emprop": 291,
+        "health": 521,
+        "education": 463,
+        "services": 236
+      },
+      "N21000138": {
+        "mdm": 409,
+        "income": 424,
+        "below60": 488,
+        "employment": 293,
+        "emprop": 601,
+        "health": 335,
+        "education": 386,
+        "services": 590
+      },
+      "N21000139": {
+        "mdm": 251,
+        "income": 502,
+        "below60": 428,
+        "employment": 148,
+        "emprop": 695,
+        "health": 190,
+        "education": 204,
+        "services": 621
+      },
+      "N21000140": {
+        "mdm": 272,
+        "income": 392,
+        "below60": 533,
+        "employment": 212,
+        "emprop": 651,
+        "health": 223,
+        "education": 217,
+        "services": 673
+      },
+      "N21000141": {
+        "mdm": 607,
+        "income": 510,
+        "below60": 355,
+        "employment": 591,
+        "emprop": 200,
+        "health": 657,
+        "education": 542,
+        "services": 249
+      },
+      "N21000142": {
+        "mdm": 220,
+        "income": 393,
+        "below60": 546,
+        "employment": 168,
+        "emprop": 656,
+        "health": 209,
+        "education": 131,
+        "services": 574
+      },
+      "N21000143": {
+        "mdm": 390,
+        "income": 532,
+        "below60": 372,
+        "employment": 291,
+        "emprop": 542,
+        "health": 331,
+        "education": 197,
+        "services": 450
+      },
+      "N21000144": {
+        "mdm": 488,
+        "income": 417,
+        "below60": 480,
+        "employment": 413,
+        "emprop": 520,
+        "health": 399,
+        "education": 446,
+        "services": 581
+      },
+      "N21000145": {
+        "mdm": 493,
+        "income": 596,
+        "below60": 273,
+        "employment": 343,
+        "emprop": 481,
+        "health": 419,
+        "education": 288,
+        "services": 437
+      },
+      "N21000146": {
+        "mdm": 618,
+        "income": 522,
+        "below60": 328,
+        "employment": 640,
+        "emprop": 206,
+        "health": 707,
+        "education": 727,
+        "services": 229
+      },
+      "N21000147": {
+        "mdm": 563,
+        "income": 420,
+        "below60": 447,
+        "employment": 575,
+        "emprop": 237,
+        "health": 671,
+        "education": 670,
+        "services": 176
+      },
+      "N21000148": {
+        "mdm": 391,
+        "income": 175,
+        "below60": 639,
+        "employment": 475,
+        "emprop": 346,
+        "health": 562,
+        "education": 506,
+        "services": 179
+      },
+      "N21000149": {
+        "mdm": 380,
+        "income": 139,
+        "below60": 643,
+        "employment": 456,
+        "emprop": 375,
+        "health": 476,
+        "education": 460,
+        "services": 195
+      }
+    },
+    "population": 35420,
+    "hectares": 23112.9085,
+    "location": "all of Banbridge settlement"
+  }
+}

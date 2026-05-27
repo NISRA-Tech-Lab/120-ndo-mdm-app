@@ -1,0 +1,40 @@
+{
+  "code": "N21000380",
+  "name": "The_Glens_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000407",
+      "name": "The Glens",
+      "type": "dea"
+    },
+    {
+      "code": "N09000004",
+      "name": "Causeway Coast and Glens",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.1682, 55.1939, -6.2867, 55.313],
+  "data": {
+    "ranks": {
+      "mdm": 262,
+      "income": 107,
+      "below60": 729,
+      "employment": 242,
+      "emprop": 606,
+      "health": 333,
+      "education": 465,
+      "services": 286
+    },
+    "population": 2667,
+    "hectares": 1594.4719
+  }
+}

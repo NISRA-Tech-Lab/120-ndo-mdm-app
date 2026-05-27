@@ -1,0 +1,40 @@
+{
+  "code": "N21000491",
+  "name": "West_Tyrone_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000607",
+      "name": "West Tyrone",
+      "type": "dea"
+    },
+    {
+      "code": "N09000006",
+      "name": "Fermanagh and Omagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.2663, 54.4365, -7.4937, 54.6048],
+  "data": {
+    "ranks": {
+      "mdm": 248,
+      "income": 365,
+      "below60": 529,
+      "employment": 297,
+      "emprop": 599,
+      "health": 256,
+      "education": 592,
+      "services": 88
+    },
+    "population": 2966,
+    "hectares": 10932.4317
+  }
+}

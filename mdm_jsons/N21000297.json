@@ -1,0 +1,40 @@
+{
+  "code": "N21000297",
+  "name": "Collin_N",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000305",
+      "name": "Collin",
+      "type": "dea"
+    },
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.0265, 54.5468, -6.0473, 54.5573],
+  "data": {
+    "ranks": {
+      "mdm": 58,
+      "income": 163,
+      "below60": 738,
+      "employment": 57,
+      "emprop": 806,
+      "health": 32,
+      "education": 48,
+      "services": 576
+    },
+    "population": 2655,
+    "hectares": 65.5802
+  }
+}

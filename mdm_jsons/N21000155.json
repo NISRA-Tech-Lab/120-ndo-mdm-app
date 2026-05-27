@@ -1,0 +1,40 @@
+{
+  "code": "N21000155",
+  "name": "Cusher_F",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000204",
+      "name": "Cusher",
+      "type": "dea"
+    },
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.3961, 54.3467, -6.422, 54.3591],
+  "data": {
+    "ranks": {
+      "mdm": 555,
+      "income": 433,
+      "below60": 449,
+      "employment": 590,
+      "emprop": 229,
+      "health": 551,
+      "education": 382,
+      "services": 259
+    },
+    "population": 1726,
+    "hectares": 99.7545
+  }
+}

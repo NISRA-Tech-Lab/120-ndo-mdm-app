@@ -1,0 +1,134 @@
+{
+  "code": "N10000703",
+  "name": "Downshire East",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000007",
+      "name": "Lisburn and Castlereagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000546",
+      "name": "Downshire_East_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000547",
+      "name": "Downshire_East_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000548",
+      "name": "Downshire_East_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000549",
+      "name": "Downshire_East_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000550",
+      "name": "Downshire_East_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000551",
+      "name": "Downshire_East_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000552",
+      "name": "Downshire_East_G",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.8716, 54.3705, -6.0793, 54.5437],
+  "data": {
+    "ranks": {
+      "N21000546": {
+        "mdm": 780,
+        "income": 734,
+        "below60": 115,
+        "employment": 830,
+        "emprop": 23,
+        "health": 842,
+        "education": 827,
+        "services": 152
+      },
+      "N21000547": {
+        "mdm": 312,
+        "income": 419,
+        "below60": 374,
+        "employment": 259,
+        "emprop": 552,
+        "health": 302,
+        "education": 137,
+        "services": 724
+      },
+      "N21000548": {
+        "mdm": 505,
+        "income": 586,
+        "below60": 241,
+        "employment": 408,
+        "emprop": 441,
+        "health": 446,
+        "education": 246,
+        "services": 602
+      },
+      "N21000549": {
+        "mdm": 800,
+        "income": 760,
+        "below60": 91,
+        "employment": 840,
+        "emprop": 14,
+        "health": 844,
+        "education": 839,
+        "services": 138
+      },
+      "N21000550": {
+        "mdm": 825,
+        "income": 773,
+        "below60": 82,
+        "employment": 832,
+        "emprop": 19,
+        "health": 828,
+        "education": 838,
+        "services": 256
+      },
+      "N21000551": {
+        "mdm": 777,
+        "income": 735,
+        "below60": 116,
+        "employment": 813,
+        "emprop": 40,
+        "health": 797,
+        "education": 828,
+        "services": 94
+      },
+      "N21000552": {
+        "mdm": 676,
+        "income": 550,
+        "below60": 302,
+        "employment": 746,
+        "emprop": 98,
+        "health": 751,
+        "education": 775,
+        "services": 54
+      }
+    },
+    "population": 16890,
+    "hectares": 15085.0688,
+    "location": "part of Carryduff, Lisburn City and Castlereagh settlements"
+  }
+}

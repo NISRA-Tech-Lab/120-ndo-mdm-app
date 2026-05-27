@@ -1,0 +1,40 @@
+{
+  "code": "N21000519",
+  "name": "Killultagh_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000705",
+      "name": "Killultagh",
+      "type": "dea"
+    },
+    {
+      "code": "N09000007",
+      "name": "Lisburn and Castlereagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.0395, 54.5312, -6.2116, 54.6244],
+  "data": {
+    "ranks": {
+      "mdm": 542,
+      "income": 700,
+      "below60": 141,
+      "employment": 602,
+      "emprop": 320,
+      "health": 603,
+      "education": 508,
+      "services": 117
+    },
+    "population": 2690,
+    "hectares": 5979.0787
+  }
+}

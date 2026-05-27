@@ -1,0 +1,40 @@
+{
+  "code": "N21000602",
+  "name": "Coast_Road_B",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000805",
+      "name": "Coast Road",
+      "type": "dea"
+    },
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.9459, 54.9093, -6.098, 55.0563],
+  "data": {
+    "ranks": {
+      "mdm": 417,
+      "income": 398,
+      "below60": 414,
+      "employment": 579,
+      "emprop": 246,
+      "health": 690,
+      "education": 697,
+      "services": 11
+    },
+    "population": 1218,
+    "hectares": 7126.0952
+  }
+}

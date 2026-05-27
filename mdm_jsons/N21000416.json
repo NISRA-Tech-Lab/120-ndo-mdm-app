@@ -1,0 +1,40 @@
+{
+  "code": "N21000416",
+  "name": "Ballyarnett_E",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000501",
+      "name": "Ballyarnett",
+      "type": "dea"
+    },
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.3269, 55.0285, -7.3413, 55.0358],
+  "data": {
+    "ranks": {
+      "mdm": 51,
+      "income": 93,
+      "below60": 768,
+      "employment": 46,
+      "emprop": 807,
+      "health": 53,
+      "education": 109,
+      "services": 388
+    },
+    "population": 2303,
+    "hectares": 34.6673
+  }
+}

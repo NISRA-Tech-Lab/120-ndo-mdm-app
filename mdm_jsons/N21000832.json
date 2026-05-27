@@ -1,0 +1,40 @@
+{
+  "code": "N21000832",
+  "name": "Bangor_East_and_Donaghadee_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001103",
+      "name": "Bangor East and Donaghadee",
+      "type": "dea"
+    },
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.6292, 54.6498, -5.6393, 54.658],
+  "data": {
+    "ranks": {
+      "mdm": 818,
+      "income": 803,
+      "below60": 60,
+      "employment": 772,
+      "emprop": 78,
+      "health": 754,
+      "education": 753,
+      "services": 461
+    },
+    "population": 1194,
+    "hectares": 32.5388
+  }
+}

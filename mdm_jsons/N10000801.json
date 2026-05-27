@@ -1,0 +1,179 @@
+{
+  "code": "N10000801",
+  "name": "Ballymena",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000581",
+      "name": "Ballymena_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000582",
+      "name": "Ballymena_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000583",
+      "name": "Ballymena_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000584",
+      "name": "Ballymena_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000585",
+      "name": "Ballymena_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000586",
+      "name": "Ballymena_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000587",
+      "name": "Ballymena_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000588",
+      "name": "Ballymena_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000589",
+      "name": "Ballymena_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000590",
+      "name": "Ballymena_K",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.2494, 54.8369, -6.322, 54.8845],
+  "data": {
+    "ranks": {
+      "N21000581": {
+        "mdm": 464,
+        "income": 518,
+        "below60": 341,
+        "employment": 416,
+        "emprop": 484,
+        "health": 359,
+        "education": 281,
+        "services": 377
+      },
+      "N21000582": {
+        "mdm": 753,
+        "income": 768,
+        "below60": 66,
+        "employment": 736,
+        "emprop": 134,
+        "health": 747,
+        "education": 703,
+        "services": 490
+      },
+      "N21000583": {
+        "mdm": 410,
+        "income": 451,
+        "below60": 402,
+        "employment": 342,
+        "emprop": 528,
+        "health": 343,
+        "education": 283,
+        "services": 464
+      },
+      "N21000584": {
+        "mdm": 432,
+        "income": 465,
+        "below60": 383,
+        "employment": 354,
+        "emprop": 475,
+        "health": 349,
+        "education": 274,
+        "services": 427
+      },
+      "N21000585": {
+        "mdm": 374,
+        "income": 252,
+        "below60": 626,
+        "employment": 524,
+        "emprop": 361,
+        "health": 491,
+        "education": 232,
+        "services": 704
+      },
+      "N21000586": {
+        "mdm": 763,
+        "income": 747,
+        "below60": 133,
+        "employment": 770,
+        "emprop": 85,
+        "health": 800,
+        "education": 770,
+        "services": 354
+      },
+      "N21000587": {
+        "mdm": 117,
+        "income": 99,
+        "below60": 766,
+        "employment": 226,
+        "emprop": 609,
+        "health": 248,
+        "education": 84,
+        "services": 725
+      },
+      "N21000588": {
+        "mdm": 106,
+        "income": 89,
+        "below60": 764,
+        "employment": 126,
+        "emprop": 736,
+        "health": 152,
+        "education": 107,
+        "services": 480
+      },
+      "N21000589": {
+        "mdm": 103,
+        "income": 86,
+        "below60": 745,
+        "employment": 123,
+        "emprop": 728,
+        "health": 124,
+        "education": 86,
+        "services": 630
+      },
+      "N21000590": {
+        "mdm": 755,
+        "income": 733,
+        "below60": 126,
+        "employment": 776,
+        "emprop": 86,
+        "health": 773,
+        "education": 680,
+        "services": 359
+      }
+    },
+    "population": 24360,
+    "hectares": 1329.5622,
+    "location": "part of Ballymena settlement"
+  }
+}

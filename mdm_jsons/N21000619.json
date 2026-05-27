@@ -1,0 +1,40 @@
+{
+  "code": "N21000619",
+  "name": "Carrick_Castle_A",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000804",
+      "name": "Carrick Castle",
+      "type": "dea"
+    },
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.7538, 54.7345, -5.8224, 54.7805],
+  "data": {
+    "ranks": {
+      "mdm": 772,
+      "income": 751,
+      "below60": 113,
+      "employment": 765,
+      "emprop": 82,
+      "health": 764,
+      "education": 726,
+      "services": 257
+    },
+    "population": 2459,
+    "hectares": 1185.6221
+  }
+}

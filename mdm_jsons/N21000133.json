@@ -1,0 +1,40 @@
+{
+  "code": "N21000133",
+  "name": "Lagan_River_K",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000205",
+      "name": "Lagan River",
+      "type": "dea"
+    },
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.0539, 54.3545, -6.2089, 54.4441],
+  "data": {
+    "ranks": {
+      "mdm": 747,
+      "income": 619,
+      "below60": 214,
+      "employment": 739,
+      "emprop": 112,
+      "health": 718,
+      "education": 702,
+      "services": 330
+    },
+    "population": 2444,
+    "hectares": 4482.0542
+  }
+}

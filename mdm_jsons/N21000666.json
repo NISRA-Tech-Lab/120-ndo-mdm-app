@@ -1,0 +1,40 @@
+{
+  "code": "N21000666",
+  "name": "Cookstown_J",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000903",
+      "name": "Cookstown",
+      "type": "dea"
+    },
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.7608, 54.5666, -6.9342, 54.6505],
+  "data": {
+    "ranks": {
+      "mdm": 369,
+      "income": 249,
+      "below60": 620,
+      "employment": 490,
+      "emprop": 342,
+      "health": 501,
+      "education": 505,
+      "services": 29
+    },
+    "population": 2928,
+    "hectares": 6828.6912
+  }
+}

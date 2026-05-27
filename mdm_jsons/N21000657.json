@@ -1,0 +1,40 @@
+{
+  "code": "N21000657",
+  "name": "Magherafelt_G",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000905",
+      "name": "Magherafelt",
+      "type": "dea"
+    },
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.5192, 54.6563, -6.6005, 54.7235],
+  "data": {
+    "ranks": {
+      "mdm": 548,
+      "income": 593,
+      "below60": 274,
+      "employment": 569,
+      "emprop": 240,
+      "health": 499,
+      "education": 662,
+      "services": 60
+    },
+    "population": 2397,
+    "hectares": 2636.5375
+  }
+}

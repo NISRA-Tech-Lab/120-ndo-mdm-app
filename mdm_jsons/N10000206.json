@@ -1,0 +1,284 @@
+{
+  "code": "N10000206",
+  "name": "Lurgan",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000107",
+      "name": "Lurgan_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000108",
+      "name": "Lurgan_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000109",
+      "name": "Lurgan_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000110",
+      "name": "Lurgan_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000111",
+      "name": "Lurgan_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000112",
+      "name": "Lurgan_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000113",
+      "name": "Lurgan_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000114",
+      "name": "Lurgan_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000115",
+      "name": "Lurgan_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000116",
+      "name": "Lurgan_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000117",
+      "name": "Lurgan_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000118",
+      "name": "Lurgan_N",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000119",
+      "name": "Lurgan_P",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000120",
+      "name": "Lurgan_Q",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000121",
+      "name": "Lurgan_R",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000122",
+      "name": "Lurgan_S",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000123",
+      "name": "Lurgan_T",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.2156, 54.4414, -6.4485, 54.5913],
+  "data": {
+    "ranks": {
+      "N21000107": {
+        "mdm": 721,
+        "income": 680,
+        "below60": 174,
+        "employment": 716,
+        "emprop": 128,
+        "health": 720,
+        "education": 713,
+        "services": 165
+      },
+      "N21000108": {
+        "mdm": 483,
+        "income": 568,
+        "below60": 268,
+        "employment": 377,
+        "emprop": 560,
+        "health": 329,
+        "education": 477,
+        "services": 296
+      },
+      "N21000109": {
+        "mdm": 400,
+        "income": 462,
+        "below60": 465,
+        "employment": 314,
+        "emprop": 581,
+        "health": 286,
+        "education": 371,
+        "services": 471
+      },
+      "N21000110": {
+        "mdm": 340,
+        "income": 505,
+        "below60": 327,
+        "employment": 249,
+        "emprop": 643,
+        "health": 226,
+        "education": 355,
+        "services": 421
+      },
+      "N21000111": {
+        "mdm": 236,
+        "income": 359,
+        "below60": 523,
+        "employment": 180,
+        "emprop": 714,
+        "health": 178,
+        "education": 256,
+        "services": 452
+      },
+      "N21000112": {
+        "mdm": 118,
+        "income": 304,
+        "below60": 638,
+        "employment": 113,
+        "emprop": 746,
+        "health": 129,
+        "education": 114,
+        "services": 718
+      },
+      "N21000113": {
+        "mdm": 68,
+        "income": 68,
+        "below60": 808,
+        "employment": 72,
+        "emprop": 767,
+        "health": 88,
+        "education": 80,
+        "services": 710
+      },
+      "N21000114": {
+        "mdm": 744,
+        "income": 732,
+        "below60": 114,
+        "employment": 712,
+        "emprop": 142,
+        "health": 692,
+        "education": 738,
+        "services": 261
+      },
+      "N21000115": {
+        "mdm": 681,
+        "income": 611,
+        "below60": 213,
+        "employment": 645,
+        "emprop": 185,
+        "health": 644,
+        "education": 543,
+        "services": 376
+      },
+      "N21000116": {
+        "mdm": 85,
+        "income": 52,
+        "below60": 828,
+        "employment": 139,
+        "emprop": 702,
+        "health": 146,
+        "education": 77,
+        "services": 747
+      },
+      "N21000117": {
+        "mdm": 63,
+        "income": 182,
+        "below60": 694,
+        "employment": 67,
+        "emprop": 762,
+        "health": 75,
+        "education": 40,
+        "services": 778
+      },
+      "N21000118": {
+        "mdm": 140,
+        "income": 564,
+        "below60": 278,
+        "employment": 103,
+        "emprop": 731,
+        "health": 81,
+        "education": 103,
+        "services": 504
+      },
+      "N21000119": {
+        "mdm": 534,
+        "income": 543,
+        "below60": 502,
+        "employment": 511,
+        "emprop": 316,
+        "health": 462,
+        "education": 243,
+        "services": 560
+      },
+      "N21000120": {
+        "mdm": 167,
+        "income": 119,
+        "below60": 750,
+        "employment": 222,
+        "emprop": 583,
+        "health": 211,
+        "education": 88,
+        "services": 584
+      },
+      "N21000121": {
+        "mdm": 137,
+        "income": 442,
+        "below60": 417,
+        "employment": 129,
+        "emprop": 710,
+        "health": 85,
+        "education": 116,
+        "services": 555
+      },
+      "N21000122": {
+        "mdm": 561,
+        "income": 598,
+        "below60": 249,
+        "employment": 504,
+        "emprop": 325,
+        "health": 466,
+        "education": 236,
+        "services": 494
+      },
+      "N21000123": {
+        "mdm": 222,
+        "income": 278,
+        "below60": 602,
+        "employment": 251,
+        "emprop": 571,
+        "health": 225,
+        "education": 120,
+        "services": 503
+      }
+    },
+    "population": 39290,
+    "hectares": 7419.0967,
+    "location": "all of Lurgan and Magheralin"
+  }
+}

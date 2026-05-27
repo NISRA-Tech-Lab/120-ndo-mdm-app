@@ -1,0 +1,40 @@
+{
+  "code": "N21000763",
+  "name": "Downpatrick_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001002",
+      "name": "Downpatrick",
+      "type": "dea"
+    },
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.6852, 54.3314, -5.7227, 54.3454],
+  "data": {
+    "ranks": {
+      "mdm": 423,
+      "income": 663,
+      "below60": 178,
+      "employment": 278,
+      "emprop": 622,
+      "health": 272,
+      "education": 436,
+      "services": 340
+    },
+    "population": 2893,
+    "hectares": 192.5863
+  }
+}

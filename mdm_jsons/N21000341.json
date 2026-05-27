@@ -1,0 +1,40 @@
+{
+  "code": "N21000341",
+  "name": "Benbradagh_F",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000403",
+      "name": "Benbradagh",
+      "type": "dea"
+    },
+    {
+      "code": "N09000004",
+      "name": "Causeway Coast and Glens",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.9079, 54.9166, -6.9321, 54.9344],
+  "data": {
+    "ranks": {
+      "mdm": 223,
+      "income": 45,
+      "below60": 776,
+      "employment": 274,
+      "emprop": 546,
+      "health": 429,
+      "education": 499,
+      "services": 160
+    },
+    "population": 3344,
+    "hectares": 143.386
+  }
+}

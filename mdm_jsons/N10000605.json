@@ -1,0 +1,134 @@
+{
+  "code": "N10000605",
+  "name": "Mid Tyrone",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000006",
+      "name": "Fermanagh and Omagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000504",
+      "name": "Mid_Tyrone_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000505",
+      "name": "Mid_Tyrone_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000506",
+      "name": "Mid_Tyrone_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000507",
+      "name": "Mid_Tyrone_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000508",
+      "name": "Mid_Tyrone_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000509",
+      "name": "Mid_Tyrone_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000510",
+      "name": "Mid_Tyrone_G",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.936, 54.4936, -7.3565, 54.7805],
+  "data": {
+    "ranks": {
+      "N21000504": {
+        "mdm": 288,
+        "income": 176,
+        "below60": 676,
+        "employment": 442,
+        "emprop": 350,
+        "health": 422,
+        "education": 763,
+        "services": 5
+      },
+      "N21000505": {
+        "mdm": 472,
+        "income": 389,
+        "below60": 492,
+        "employment": 501,
+        "emprop": 368,
+        "health": 362,
+        "education": 673,
+        "services": 112
+      },
+      "N21000506": {
+        "mdm": 294,
+        "income": 340,
+        "below60": 598,
+        "employment": 235,
+        "emprop": 631,
+        "health": 159,
+        "education": 495,
+        "services": 302
+      },
+      "N21000507": {
+        "mdm": 351,
+        "income": 450,
+        "below60": 400,
+        "employment": 350,
+        "emprop": 468,
+        "health": 255,
+        "education": 622,
+        "services": 82
+      },
+      "N21000508": {
+        "mdm": 197,
+        "income": 169,
+        "below60": 697,
+        "employment": 260,
+        "emprop": 539,
+        "health": 280,
+        "education": 650,
+        "services": 13
+      },
+      "N21000509": {
+        "mdm": 442,
+        "income": 546,
+        "below60": 293,
+        "employment": 396,
+        "emprop": 494,
+        "health": 305,
+        "education": 687,
+        "services": 214
+      },
+      "N21000510": {
+        "mdm": 406,
+        "income": 496,
+        "below60": 334,
+        "employment": 466,
+        "emprop": 343,
+        "health": 432,
+        "education": 686,
+        "services": 10
+      }
+    },
+    "population": 17690,
+    "hectares": 56888.2779,
+    "location": "part of Omagh Town settlement"
+  }
+}

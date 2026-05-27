@@ -1,0 +1,149 @@
+{
+  "code": "N10000907",
+  "name": "Torrent",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000668",
+      "name": "Torrent_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000669",
+      "name": "Torrent_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000670",
+      "name": "Torrent_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000671",
+      "name": "Torrent_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000672",
+      "name": "Torrent_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000673",
+      "name": "Torrent_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000674",
+      "name": "Torrent_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000675",
+      "name": "Torrent_H",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.4071, 54.5016, -6.9886, 54.6852],
+  "data": {
+    "ranks": {
+      "N21000668": {
+        "mdm": 383,
+        "income": 405,
+        "below60": 422,
+        "employment": 435,
+        "emprop": 369,
+        "health": 327,
+        "education": 429,
+        "services": 24
+      },
+      "N21000669": {
+        "mdm": 463,
+        "income": 440,
+        "below60": 391,
+        "employment": 460,
+        "emprop": 379,
+        "health": 403,
+        "education": 597,
+        "services": 140
+      },
+      "N21000670": {
+        "mdm": 231,
+        "income": 449,
+        "below60": 403,
+        "employment": 177,
+        "emprop": 675,
+        "health": 135,
+        "education": 282,
+        "services": 305
+      },
+      "N21000671": {
+        "mdm": 347,
+        "income": 473,
+        "below60": 343,
+        "employment": 285,
+        "emprop": 540,
+        "health": 231,
+        "education": 425,
+        "services": 189
+      },
+      "N21000672": {
+        "mdm": 405,
+        "income": 196,
+        "below60": 614,
+        "employment": 541,
+        "emprop": 277,
+        "health": 517,
+        "education": 600,
+        "services": 95
+      },
+      "N21000673": {
+        "mdm": 179,
+        "income": 303,
+        "below60": 573,
+        "employment": 128,
+        "emprop": 705,
+        "health": 115,
+        "education": 210,
+        "services": 321
+      },
+      "N21000674": {
+        "mdm": 290,
+        "income": 379,
+        "below60": 515,
+        "employment": 264,
+        "emprop": 593,
+        "health": 261,
+        "education": 359,
+        "services": 293
+      },
+      "N21000675": {
+        "mdm": 193,
+        "income": 348,
+        "below60": 545,
+        "employment": 147,
+        "emprop": 694,
+        "health": 122,
+        "education": 212,
+        "services": 318
+      }
+    },
+    "population": 23330,
+    "hectares": 21805.3559,
+    "location": "part of Coalisland settlement"
+  }
+}

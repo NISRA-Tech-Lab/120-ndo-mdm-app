@@ -1,0 +1,40 @@
+{
+  "code": "N21000580",
+  "name": "Bannside_J",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000802",
+      "name": "Bannside",
+      "type": "dea"
+    },
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.2977, 54.7791, -6.4293, 54.8586],
+  "data": {
+    "ranks": {
+      "mdm": 657,
+      "income": 673,
+      "below60": 204,
+      "employment": 724,
+      "emprop": 138,
+      "health": 732,
+      "education": 672,
+      "services": 105
+    },
+    "population": 2551,
+    "hectares": 4145.2034
+  }
+}

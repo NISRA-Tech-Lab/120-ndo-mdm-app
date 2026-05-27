@@ -1,0 +1,40 @@
+{
+  "code": "N21000353",
+  "name": "Bann_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000402",
+      "name": "Bann",
+      "type": "dea"
+    },
+    {
+      "code": "N09000004",
+      "name": "Causeway Coast and Glens",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.5787, 54.9835, -6.8186, 55.1116],
+  "data": {
+    "ranks": {
+      "mdm": 449,
+      "income": 232,
+      "below60": 549,
+      "employment": 512,
+      "emprop": 312,
+      "health": 699,
+      "education": 559,
+      "services": 104
+    },
+    "population": 3477,
+    "hectares": 11903.7409
+  }
+}

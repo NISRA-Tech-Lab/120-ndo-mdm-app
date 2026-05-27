@@ -1,0 +1,194 @@
+{
+  "code": "N10001106",
+  "name": "Holywood and Clandeboye",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000795",
+      "name": "Holywood_and_Clandeboye_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000796",
+      "name": "Holywood_and_Clandeboye_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000797",
+      "name": "Holywood_and_Clandeboye_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000798",
+      "name": "Holywood_and_Clandeboye_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000799",
+      "name": "Holywood_and_Clandeboye_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000800",
+      "name": "Holywood_and_Clandeboye_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000801",
+      "name": "Holywood_and_Clandeboye_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000802",
+      "name": "Holywood_and_Clandeboye_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000803",
+      "name": "Holywood_and_Clandeboye_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000804",
+      "name": "Holywood_and_Clandeboye_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000805",
+      "name": "Holywood_and_Clandeboye_L",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.6741, 54.6106, -5.8585, 54.6776],
+  "data": {
+    "ranks": {
+      "N21000795": {
+        "mdm": 832,
+        "income": 825,
+        "below60": 32,
+        "employment": 826,
+        "emprop": 28,
+        "health": 841,
+        "education": 842,
+        "services": 205
+      },
+      "N21000796": {
+        "mdm": 827,
+        "income": 796,
+        "below60": 59,
+        "employment": 752,
+        "emprop": 94,
+        "health": 799,
+        "education": 799,
+        "services": 453
+      },
+      "N21000797": {
+        "mdm": 820,
+        "income": 818,
+        "below60": 41,
+        "employment": 791,
+        "emprop": 61,
+        "health": 808,
+        "education": 793,
+        "services": 280
+      },
+      "N21000798": {
+        "mdm": 831,
+        "income": 794,
+        "below60": 70,
+        "employment": 841,
+        "emprop": 18,
+        "health": 845,
+        "education": 841,
+        "services": 333
+      },
+      "N21000799": {
+        "mdm": 762,
+        "income": 648,
+        "below60": 226,
+        "employment": 798,
+        "emprop": 74,
+        "health": 822,
+        "education": 803,
+        "services": 549
+      },
+      "N21000800": {
+        "mdm": 807,
+        "income": 778,
+        "below60": 87,
+        "employment": 828,
+        "emprop": 22,
+        "health": 847,
+        "education": 846,
+        "services": 177
+      },
+      "N21000801": {
+        "mdm": 631,
+        "income": 444,
+        "below60": 522,
+        "employment": 670,
+        "emprop": 198,
+        "health": 627,
+        "education": 481,
+        "services": 344
+      },
+      "N21000802": {
+        "mdm": 549,
+        "income": 248,
+        "below60": 617,
+        "employment": 618,
+        "emprop": 267,
+        "health": 628,
+        "education": 666,
+        "services": 717
+      },
+      "N21000803": {
+        "mdm": 308,
+        "income": 188,
+        "below60": 683,
+        "employment": 393,
+        "emprop": 534,
+        "health": 296,
+        "education": 267,
+        "services": 268
+      },
+      "N21000804": {
+        "mdm": 746,
+        "income": 579,
+        "below60": 287,
+        "employment": 788,
+        "emprop": 70,
+        "health": 804,
+        "education": 804,
+        "services": 578
+      },
+      "N21000805": {
+        "mdm": 519,
+        "income": 221,
+        "below60": 642,
+        "employment": 638,
+        "emprop": 231,
+        "health": 634,
+        "education": 573,
+        "services": 644
+      }
+    },
+    "population": 20680,
+    "hectares": 5025.8207,
+    "location": "all of Holywood and part of Bangor and Belfast City settlements"
+  }
+}

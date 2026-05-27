@@ -1,0 +1,224 @@
+{
+  "code": "N10000301",
+  "name": "Balmoral",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000003",
+      "name": "Belfast",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000273",
+      "name": "Balmoral_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000274",
+      "name": "Balmoral_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000275",
+      "name": "Balmoral_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000276",
+      "name": "Balmoral_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000277",
+      "name": "Balmoral_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000278",
+      "name": "Balmoral_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000279",
+      "name": "Balmoral_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000280",
+      "name": "Balmoral_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000281",
+      "name": "Balmoral_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000282",
+      "name": "Balmoral_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000283",
+      "name": "Balmoral_L",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000284",
+      "name": "Balmoral_N",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000285",
+      "name": "Balmoral_P",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-5.9097, 54.5306, -5.9969, 54.5758],
+  "data": {
+    "ranks": {
+      "N21000273": {
+        "mdm": 824,
+        "income": 810,
+        "below60": 43,
+        "employment": 839,
+        "emprop": 11,
+        "health": 833,
+        "education": 840,
+        "services": 767
+      },
+      "N21000274": {
+        "mdm": 649,
+        "income": 687,
+        "below60": 139,
+        "employment": 574,
+        "emprop": 301,
+        "health": 458,
+        "education": 676,
+        "services": 714
+      },
+      "N21000275": {
+        "mdm": 422,
+        "income": 597,
+        "below60": 239,
+        "employment": 334,
+        "emprop": 561,
+        "health": 304,
+        "education": 290,
+        "services": 559
+      },
+      "N21000276": {
+        "mdm": 783,
+        "income": 801,
+        "below60": 39,
+        "employment": 690,
+        "emprop": 162,
+        "health": 664,
+        "education": 819,
+        "services": 742
+      },
+      "N21000277": {
+        "mdm": 748,
+        "income": 830,
+        "below60": 24,
+        "employment": 720,
+        "emprop": 243,
+        "health": 725,
+        "education": 778,
+        "services": 475
+      },
+      "N21000278": {
+        "mdm": 840,
+        "income": 815,
+        "below60": 33,
+        "employment": 835,
+        "emprop": 12,
+        "health": 834,
+        "education": 844,
+        "services": 564
+      },
+      "N21000279": {
+        "mdm": 591,
+        "income": 592,
+        "below60": 246,
+        "employment": 458,
+        "emprop": 385,
+        "health": 363,
+        "education": 418,
+        "services": 654
+      },
+      "N21000280": {
+        "mdm": 799,
+        "income": 819,
+        "below60": 25,
+        "employment": 707,
+        "emprop": 146,
+        "health": 662,
+        "education": 811,
+        "services": 764
+      },
+      "N21000281": {
+        "mdm": 466,
+        "income": 646,
+        "below60": 186,
+        "employment": 352,
+        "emprop": 530,
+        "health": 326,
+        "education": 308,
+        "services": 534
+      },
+      "N21000282": {
+        "mdm": 620,
+        "income": 812,
+        "below60": 50,
+        "employment": 471,
+        "emprop": 403,
+        "health": 346,
+        "education": 427,
+        "services": 526
+      },
+      "N21000283": {
+        "mdm": 671,
+        "income": 719,
+        "below60": 90,
+        "employment": 584,
+        "emprop": 293,
+        "health": 598,
+        "education": 626,
+        "services": 513
+      },
+      "N21000284": {
+        "mdm": 795,
+        "income": 793,
+        "below60": 34,
+        "employment": 738,
+        "emprop": 104,
+        "health": 698,
+        "education": 766,
+        "services": 611
+      },
+      "N21000285": {
+        "mdm": 535,
+        "income": 784,
+        "below60": 80,
+        "employment": 419,
+        "emprop": 430,
+        "health": 328,
+        "education": 364,
+        "services": 415
+      }
+    },
+    "population": 24470,
+    "hectares": 1614.7157,
+    "location": "part of Belfast City and Castlereagh settlements"
+  }
+}

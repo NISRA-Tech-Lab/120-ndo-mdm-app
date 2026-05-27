@@ -1,0 +1,40 @@
+{
+  "code": "N21000485",
+  "name": "Erne_North_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000603",
+      "name": "Erne North",
+      "type": "dea"
+    },
+    {
+      "code": "N09000006",
+      "name": "Fermanagh and Omagh",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-7.62, 54.4645, -7.656, 54.4806],
+  "data": {
+    "ranks": {
+      "mdm": 268,
+      "income": 135,
+      "below60": 675,
+      "employment": 367,
+      "emprop": 521,
+      "health": 396,
+      "education": 484,
+      "services": 135
+    },
+    "population": 2414,
+    "hectares": 220.2792
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "code": "N21000758",
+  "name": "Rowallane_G",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001004",
+      "name": "Rowallane",
+      "type": "dea"
+    },
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.8808, 54.3929, -5.9168, 54.4139],
+  "data": {
+    "ranks": {
+      "mdm": 426,
+      "income": 299,
+      "below60": 518,
+      "employment": 425,
+      "emprop": 487,
+      "health": 338,
+      "education": 362,
+      "services": 486
+    },
+    "population": 3123,
+    "hectares": 145.9426
+  }
+}

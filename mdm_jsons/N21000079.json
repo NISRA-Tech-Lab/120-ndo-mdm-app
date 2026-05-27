@@ -1,0 +1,40 @@
+{
+  "code": "N21000079",
+  "name": "Portadown_A",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000207",
+      "name": "Portadown",
+      "type": "dea"
+    },
+    {
+      "code": "N09000002",
+      "name": "Armagh City, Banbridge and Craigavon",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.5395, 54.4523, -6.654, 54.5201],
+  "data": {
+    "ranks": {
+      "mdm": 520,
+      "income": 401,
+      "below60": 378,
+      "employment": 561,
+      "emprop": 233,
+      "health": 584,
+      "education": 667,
+      "services": 26
+    },
+    "population": 3067,
+    "hectares": 3098.8049
+  }
+}

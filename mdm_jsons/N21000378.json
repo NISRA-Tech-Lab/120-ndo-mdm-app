@@ -1,0 +1,40 @@
+{
+  "code": "N21000378",
+  "name": "Causeway_L",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000404",
+      "name": "Causeway",
+      "type": "dea"
+    },
+    {
+      "code": "N09000004",
+      "name": "Causeway Coast and Glens",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.3957, 55.0565, -6.5005, 55.1829],
+  "data": {
+    "ranks": {
+      "mdm": 416,
+      "income": 287,
+      "below60": 524,
+      "employment": 415,
+      "emprop": 397,
+      "health": 522,
+      "education": 430,
+      "services": 203
+    },
+    "population": 2915,
+    "hectares": 5108.6189
+  }
+}

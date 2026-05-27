@@ -1,0 +1,194 @@
+{
+  "code": "N10000501",
+  "name": "Ballyarnett",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000412",
+      "name": "Ballyarnett_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000413",
+      "name": "Ballyarnett_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000414",
+      "name": "Ballyarnett_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000415",
+      "name": "Ballyarnett_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000416",
+      "name": "Ballyarnett_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000417",
+      "name": "Ballyarnett_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000418",
+      "name": "Ballyarnett_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000419",
+      "name": "Ballyarnett_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000420",
+      "name": "Ballyarnett_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000421",
+      "name": "Ballyarnett_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000422",
+      "name": "Ballyarnett_L",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-7.2455, 55.0163, -7.368, 55.0672],
+  "data": {
+    "ranks": {
+      "N21000412": {
+        "mdm": 564,
+        "income": 553,
+        "below60": 330,
+        "employment": 440,
+        "emprop": 427,
+        "health": 451,
+        "education": 699,
+        "services": 201
+      },
+      "N21000413": {
+        "mdm": 32,
+        "income": 49,
+        "below60": 805,
+        "employment": 40,
+        "emprop": 812,
+        "health": 48,
+        "education": 76,
+        "services": 347
+      },
+      "N21000414": {
+        "mdm": 565,
+        "income": 554,
+        "below60": 331,
+        "employment": 441,
+        "emprop": 428,
+        "health": 452,
+        "education": 700,
+        "services": 202
+      },
+      "N21000415": {
+        "mdm": 159,
+        "income": 205,
+        "below60": 695,
+        "employment": 136,
+        "emprop": 765,
+        "health": 148,
+        "education": 279,
+        "services": 353
+      },
+      "N21000416": {
+        "mdm": 51,
+        "income": 93,
+        "below60": 768,
+        "employment": 46,
+        "emprop": 807,
+        "health": 53,
+        "education": 109,
+        "services": 388
+      },
+      "N21000417": {
+        "mdm": 25,
+        "income": 55,
+        "below60": 806,
+        "employment": 23,
+        "emprop": 826,
+        "health": 31,
+        "education": 67,
+        "services": 514
+      },
+      "N21000418": {
+        "mdm": 34,
+        "income": 59,
+        "below60": 793,
+        "employment": 30,
+        "emprop": 813,
+        "health": 36,
+        "education": 95,
+        "services": 445
+      },
+      "N21000419": {
+        "mdm": 434,
+        "income": 434,
+        "below60": 453,
+        "employment": 316,
+        "emprop": 636,
+        "health": 345,
+        "education": 583,
+        "services": 413
+      },
+      "N21000420": {
+        "mdm": 172,
+        "income": 251,
+        "below60": 584,
+        "employment": 108,
+        "emprop": 751,
+        "health": 121,
+        "education": 276,
+        "services": 358
+      },
+      "N21000421": {
+        "mdm": 204,
+        "income": 193,
+        "below60": 688,
+        "employment": 133,
+        "emprop": 752,
+        "health": 154,
+        "education": 333,
+        "services": 598
+      },
+      "N21000422": {
+        "mdm": 168,
+        "income": 272,
+        "below60": 570,
+        "employment": 73,
+        "emprop": 775,
+        "health": 100,
+        "education": 300,
+        "services": 686
+      }
+    },
+    "population": 25880,
+    "hectares": 1937.1035,
+    "location": "part of Derry City settlement"
+  }
+}

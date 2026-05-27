@@ -1,0 +1,40 @@
+{
+  "code": "N21000639",
+  "name": "Carntogher_C",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000901",
+      "name": "Carntogher",
+      "type": "dea"
+    },
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.4761, 54.8168, -6.6702, 54.8885],
+  "data": {
+    "ranks": {
+      "mdm": 577,
+      "income": 445,
+      "below60": 363,
+      "employment": 634,
+      "emprop": 201,
+      "health": 597,
+      "education": 677,
+      "services": 86
+    },
+    "population": 3419,
+    "hectares": 5139.3614
+  }
+}

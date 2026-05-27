@@ -1,0 +1,40 @@
+{
+  "code": "N21000614",
+  "name": "Larne_Lough_E",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10000807",
+      "name": "Larne Lough",
+      "type": "dea"
+    },
+    {
+      "code": "N09000008",
+      "name": "Mid and East Antrim",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.6881, 54.759, -5.7908, 54.8593],
+  "data": {
+    "ranks": {
+      "mdm": 652,
+      "income": 655,
+      "below60": 197,
+      "employment": 710,
+      "emprop": 132,
+      "health": 802,
+      "education": 609,
+      "services": 74
+    },
+    "population": 2024,
+    "hectares": 2714.863
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "code": "N10000506",
+  "name": "The Moor",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000005",
+      "name": "Derry City and Strabane",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000397",
+      "name": "The_Moor_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000398",
+      "name": "The_Moor_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000399",
+      "name": "The_Moor_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000400",
+      "name": "The_Moor_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000401",
+      "name": "The_Moor_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000402",
+      "name": "The_Moor_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000403",
+      "name": "The_Moor_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000404",
+      "name": "The_Moor_H",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-7.3144, 54.9454, -7.4075, 55.0202],
+  "data": {
+    "ranks": {
+      "N21000397": {
+        "mdm": 75,
+        "income": 109,
+        "below60": 713,
+        "employment": 52,
+        "emprop": 795,
+        "health": 63,
+        "education": 154,
+        "services": 797
+      },
+      "N21000398": {
+        "mdm": 69,
+        "income": 131,
+        "below60": 803,
+        "employment": 39,
+        "emprop": 822,
+        "health": 55,
+        "education": 157,
+        "services": 827
+      },
+      "N21000399": {
+        "mdm": 45,
+        "income": 53,
+        "below60": 834,
+        "employment": 20,
+        "emprop": 848,
+        "health": 39,
+        "education": 141,
+        "services": 834
+      },
+      "N21000400": {
+        "mdm": 27,
+        "income": 27,
+        "below60": 815,
+        "employment": 14,
+        "emprop": 832,
+        "health": 22,
+        "education": 52,
+        "services": 672
+      },
+      "N21000401": {
+        "mdm": 28,
+        "income": 35,
+        "below60": 809,
+        "employment": 12,
+        "emprop": 833,
+        "health": 21,
+        "education": 58,
+        "services": 642
+      },
+      "N21000402": {
+        "mdm": 20,
+        "income": 15,
+        "below60": 840,
+        "employment": 7,
+        "emprop": 842,
+        "health": 33,
+        "education": 100,
+        "services": 701
+      },
+      "N21000403": {
+        "mdm": 22,
+        "income": 12,
+        "below60": 842,
+        "employment": 17,
+        "emprop": 841,
+        "health": 45,
+        "education": 115,
+        "services": 763
+      },
+      "N21000404": {
+        "mdm": 42,
+        "income": 43,
+        "below60": 798,
+        "employment": 25,
+        "emprop": 819,
+        "health": 50,
+        "education": 79,
+        "services": 674
+      }
+    },
+    "population": 17120,
+    "hectares": 2509.9386,
+    "location": "part of Derry City settlement"
+  }
+}

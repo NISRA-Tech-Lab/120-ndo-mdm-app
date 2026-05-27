@@ -1,0 +1,40 @@
+{
+  "code": "N21000775",
+  "name": "Comber_E",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001105",
+      "name": "Comber",
+      "type": "dea"
+    },
+    {
+      "code": "N09000011",
+      "name": "Ards and North Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-5.6966, 54.4855, -5.8331, 54.5754],
+  "data": {
+    "ranks": {
+      "mdm": 786,
+      "income": 676,
+      "below60": 181,
+      "employment": 824,
+      "emprop": 30,
+      "health": 830,
+      "education": 806,
+      "services": 297
+    },
+    "population": 1397,
+    "hectares": 3069.4948
+  }
+}

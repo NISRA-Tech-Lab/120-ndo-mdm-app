@@ -1,0 +1,40 @@
+{
+  "code": "N21000697",
+  "name": "Slieve_Gullion_D",
+  "comment": "This json includes data for the MDM app",
+  "type": "sdz",
+  "count": 850,
+  "parents": [
+    {
+      "code": "N10001006",
+      "name": "Slieve Gullion",
+      "type": "dea"
+    },
+    {
+      "code": "N09000010",
+      "name": "Newry, Mourne and Down",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [],
+  "bounds": [-6.3707, 54.1861, -6.4009, 54.1988],
+  "data": {
+    "ranks": {
+      "mdm": 166,
+      "income": 187,
+      "below60": 622,
+      "employment": 185,
+      "emprop": 647,
+      "health": 184,
+      "education": 208,
+      "services": 294
+    },
+    "population": 2359,
+    "hectares": 114.5072
+  }
+}

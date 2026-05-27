@@ -1,0 +1,179 @@
+{
+  "code": "N10000903",
+  "name": "Cookstown",
+  "comment": "This json includes data for the MDM app",
+  "type": "dea",
+  "count": 80,
+  "parents": [
+    {
+      "code": "N09000009",
+      "name": "Mid Ulster",
+      "type": "lgd"
+    },
+    {
+      "code": "N92000002",
+      "name": "Northern Ireland",
+      "type": "ctry"
+    }
+  ],
+  "children": [
+    {
+      "code": "N21000658",
+      "name": "Cookstown_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000659",
+      "name": "Cookstown_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000660",
+      "name": "Cookstown_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000661",
+      "name": "Cookstown_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000662",
+      "name": "Cookstown_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000663",
+      "name": "Cookstown_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000664",
+      "name": "Cookstown_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000665",
+      "name": "Cookstown_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000666",
+      "name": "Cookstown_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000667",
+      "name": "Cookstown_K",
+      "type": "sdz"
+    }
+  ],
+  "bounds": [-6.5167, 54.5641, -7.0112, 54.7435],
+  "data": {
+    "ranks": {
+      "N21000658": {
+        "mdm": 298,
+        "income": 172,
+        "below60": 677,
+        "employment": 509,
+        "emprop": 333,
+        "health": 505,
+        "education": 584,
+        "services": 7
+      },
+      "N21000659": {
+        "mdm": 320,
+        "income": 547,
+        "below60": 296,
+        "employment": 280,
+        "emprop": 554,
+        "health": 172,
+        "education": 214,
+        "services": 567
+      },
+      "N21000660": {
+        "mdm": 388,
+        "income": 513,
+        "below60": 321,
+        "employment": 322,
+        "emprop": 485,
+        "health": 206,
+        "education": 241,
+        "services": 570
+      },
+      "N21000661": {
+        "mdm": 399,
+        "income": 544,
+        "below60": 297,
+        "employment": 298,
+        "emprop": 523,
+        "health": 204,
+        "education": 336,
+        "services": 542
+      },
+      "N21000662": {
+        "mdm": 401,
+        "income": 429,
+        "below60": 421,
+        "employment": 431,
+        "emprop": 363,
+        "health": 317,
+        "education": 432,
+        "services": 66
+      },
+      "N21000663": {
+        "mdm": 364,
+        "income": 561,
+        "below60": 271,
+        "employment": 284,
+        "emprop": 524,
+        "health": 219,
+        "education": 251,
+        "services": 548
+      },
+      "N21000664": {
+        "mdm": 300,
+        "income": 479,
+        "below60": 353,
+        "employment": 270,
+        "emprop": 529,
+        "health": 216,
+        "education": 255,
+        "services": 361
+      },
+      "N21000665": {
+        "mdm": 375,
+        "income": 582,
+        "below60": 256,
+        "employment": 279,
+        "emprop": 533,
+        "health": 217,
+        "education": 254,
+        "services": 507
+      },
+      "N21000666": {
+        "mdm": 369,
+        "income": 249,
+        "below60": 620,
+        "employment": 490,
+        "emprop": 342,
+        "health": 501,
+        "education": 505,
+        "services": 29
+      },
+      "N21000667": {
+        "mdm": 219,
+        "income": 145,
+        "below60": 715,
+        "employment": 349,
+        "emprop": 446,
+        "health": 371,
+        "education": 487,
+        "services": 8
+      }
+    },
+    "population": 24930,
+    "hectares": 26740.7679,
+    "location": "part of Cookstown settlement"
+  }
+}
