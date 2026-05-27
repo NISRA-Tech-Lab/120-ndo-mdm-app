@@ -124,10 +124,10 @@
 		top: 0;
 	}
 	.bar {
-		background-color: #00205B !important;
+		background-color: var(--nisra_navy) !important;
 	}
 	.bar2 {
-		background-color: #3878c5 !important;
+		background-color: var(--nisra_blue) !important;
 	}
 	ul.legend-block {
 		list-style-type: none;

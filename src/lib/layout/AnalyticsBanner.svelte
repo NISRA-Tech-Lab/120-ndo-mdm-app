@@ -116,7 +116,7 @@
 </script>
 
 {#if showBanner}
-<section style="background-color:#00205b;color:#FFF">
+<section style="background-color:var(--nisra_navy);color:#FFF">
   <form
     id="global-cookie-message"
     class="cookies-banner clearfix"
@@ -126,7 +126,7 @@
       <div>
         <div class="cookies-banner__message font-size--18">
           <h1 class="cookies-banner__heading font-size--h3">
-            Cookies on the Northern Ireland Local Statistics Explorer website
+            Cookies on the NISRA Multiple Deprivation Measures app
           </h1>
           <p class="cookies-banner__body">
             This prototype web application places small amounts of information known as cookies on your device.
@@ -251,7 +251,7 @@
     margin:8px 0;
   }
   .wrapper,.clearfix{  
-    *zoom:1;
+    zoom:1;
   }
   .wrapper:before,.clearfix:before,.wrapper:after,.clearfix:after{
     content:"";

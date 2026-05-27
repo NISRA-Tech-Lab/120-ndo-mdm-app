@@ -53,7 +53,7 @@
 
       <!-- Data Tools Column -->
       <div class="footer-col">
-        <h3 style="color: #fff; font-size: 15px; font-weight: normal; margin-top: 0;">Data Tools</h3>
+        <h3 style="color: #fff; font-size: 1.25em; font-weight: bold; margin-top: 0;">Data Tools</h3>
         <ul class="footer-list">
           <li><a href="https://explore.nisra.gov.uk/local-stats/">Local Statistics Explorer</a></li>
           <li><a href="https://data.nisra.gov.uk">Data Portal</a></li>
@@ -63,7 +63,7 @@
 
       <!-- Corporate Column -->
       <div class="footer-col">
-        <h3 style="color: #fff; font-size: 15px; font-weight: normal; margin-top: 0;">Corporate</h3>
+        <h3 style="color: #fff; font-size: 1.25em; font-weight: bold; margin-top: 0;">Corporate</h3>
         <ul class="footer-list">
           <li><a href="https://www.nisra.gov.uk/">NISRA Website</a></li>
           <li><a href="https://www.nisra.gov.uk/statistics/about-nisra/careers">Careers</a></li>
@@ -73,7 +73,7 @@
 
       <!-- Follow NISRA Column -->
       <div class="footer-col">
-        <h3 style="color: #fff; font-size: 15px; font-weight: normal; margin-top: 0;">Follow NISRA</h3>
+        <h3 style="color: #fff; font-size: 1.25em; font-weight: bold; margin-top: 0;">Follow NISRA</h3>
         <ul class="footer-social">
           <li>
             <a href="https://www.facebook.com/nisra.gov.uk">
@@ -93,6 +93,11 @@
           <li>
             <a href="https://www.linkedin.com/company/northern-ireland-statistics-and-research-agency/">
               <img src="img/logo/linkedin-in-brands-solid-full.svg" title="LinkedIn" role="img" class="img" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/nisra.gov.uk/">
+              <img src="img/logo/instagram-brands-solid-full.svg" title="Instagram" role="img" class="img" />
             </a>
           </li>
         </ul>
@@ -124,9 +129,9 @@
    Footer Wrapper
    =========================== */
 .nisra-footer {
-  background-color: #00205B;
+  background-color: var(--nisra_navy);
   color: #fff;
-  border-top: 4px solid #3878c5;
+  border-top: 4px solid var(--nisra_blue);
   padding: 2rem 0 2.5rem; /* extra bottom padding for Back to top bar */
   margin-top: 1rem;
   font-family: Arial, sans-serif;
@@ -214,6 +219,8 @@
 .footer-social img {
   width: 50px;
   height: 50px;
+  min-width: 50px;
+  min-height: 50px;
   object-fit: contain;
   transition: box-shadow 0.2s ease, border 0.2s ease;
 }

@@ -2,8 +2,8 @@
 	export let data;
 	//export let xKey = "x";
 	export let yKey = "y";
-	export let colors = ['#308182', '#3878c5',   '#002417', '#BD00BD', 'lightgrey'];
-//	export let colors = ['#00205B','#6C63AC', '#781C87',   '#C11B71', '#FB7979', '#F66068', '#801650', '#0D9AA2', 'lightgrey'];
+	export let colors = ['#308182', 'var(--nisra_blue)',   '#002417', '#BD00BD', 'lightgrey'];
+//	export let colors = ['var(--nisra_navy)','#6C63AC', '#781C87',   '#C11B71', '#FB7979', '#F66068', '#801650', '#0D9AA2', 'lightgrey'];
 //	export let colors = ['#212373','#781C87',  '#0D9AA2', '#C11B71', '#FB7979', '#F66068', '#746CB1', '#22D0B6', 'lightgrey'];
 
   let sum, breaks;

@@ -32,7 +32,7 @@
         right: 0px;
         user-select: none;
         bottom: 0px;
-        color: #00205b;
+        color: var(--nisra_navy);
         background-color: rgba(170, 170, 170);
         width: 100%;
         text-align: center;
@@ -44,7 +44,7 @@
     }
 
     a {
-        color: #00205b;             
+        color: var(--nisra_navy);             
     }
 
     .back_to_start.hidden {
