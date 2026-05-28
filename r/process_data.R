@@ -316,5 +316,6 @@ search_data <- cpd %>%
 
 write.csv(search_data,
           paste0(search_dir, search_data_filename),
+          quote = FALSE,
           row.names = FALSE)
 
