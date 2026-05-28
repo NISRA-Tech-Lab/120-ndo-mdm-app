@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000401",
-      "name": "Ballymoney",
-      "type": "dea"
-    },
-    {
       "code": "N09000004",
       "name": "Causeway Coast and Glens",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 150
     },
     "population": 3298,
-    "hectares": 7269.446
+    "hectares": 7269.446,
+    "urban_rural": "rural"
   }
 }

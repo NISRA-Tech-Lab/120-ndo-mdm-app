@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000106",
-      "name": "Macedon",
-      "type": "dea"
-    },
-    {
       "code": "N09000001",
       "name": "Antrim and Newtownabbey",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 443
     },
     "population": 1671,
-    "hectares": 241.2957
+    "hectares": 241.2957,
+    "urban_rural": "urban"
   }
 }

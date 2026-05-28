@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000605",
-      "name": "Mid Tyrone",
-      "type": "dea"
-    },
-    {
       "code": "N09000006",
       "name": "Fermanagh and Omagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 302
     },
     "population": 1968,
-    "hectares": 428.1546
+    "hectares": 428.1546,
+    "urban_rural": "mixed urban and rural"
   }
 }

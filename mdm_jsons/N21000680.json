@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000904",
-      "name": "Dungannon",
-      "type": "dea"
-    },
-    {
       "code": "N09000009",
       "name": "Mid Ulster",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 424
     },
     "population": 2666,
-    "hectares": 91.1715
+    "hectares": 91.1715,
+    "urban_rural": "urban"
   }
 }

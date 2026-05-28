@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000406",
-      "name": "Limavady",
-      "type": "dea"
-    },
-    {
       "code": "N09000004",
       "name": "Causeway Coast and Glens",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 429
     },
     "population": 2239,
-    "hectares": 101.0453
+    "hectares": 101.0453,
+    "urban_rural": "urban"
   }
 }

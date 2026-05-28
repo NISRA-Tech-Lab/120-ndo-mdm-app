@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000706",
-      "name": "Lisburn North",
-      "type": "dea"
-    },
-    {
       "code": "N09000007",
       "name": "Lisburn and Castlereagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 451
     },
     "population": 2261,
-    "hectares": 609.1796
+    "hectares": 609.1796,
+    "urban_rural": "mixed urban and rural"
   }
 }

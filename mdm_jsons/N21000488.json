@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000603",
-      "name": "Erne North",
-      "type": "dea"
-    },
-    {
       "code": "N09000006",
       "name": "Fermanagh and Omagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 181
     },
     "population": 2148,
-    "hectares": 4852.6891
+    "hectares": 4852.6891,
+    "urban_rural": "mixed urban and rural"
   }
 }

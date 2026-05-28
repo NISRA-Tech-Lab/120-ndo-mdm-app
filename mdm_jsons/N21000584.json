@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000801",
-      "name": "Ballymena",
-      "type": "dea"
-    },
-    {
       "code": "N09000008",
       "name": "Mid and East Antrim",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 427
     },
     "population": 2696,
-    "hectares": 235.7241
+    "hectares": 235.7241,
+    "urban_rural": "urban"
   }
 }

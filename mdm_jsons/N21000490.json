@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000607",
-      "name": "West Tyrone",
-      "type": "dea"
-    },
-    {
       "code": "N09000006",
       "name": "Fermanagh and Omagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 2
     },
     "population": 1678,
-    "hectares": 9346.0876
+    "hectares": 9346.0876,
+    "urban_rural": "rural"
   }
 }

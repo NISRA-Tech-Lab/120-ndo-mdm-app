@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000309",
-      "name": "Ormiston",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 685
     },
     "population": 2198,
-    "hectares": 48.7711
+    "hectares": 48.7711,
+    "urban_rural": "urban"
   }
 }

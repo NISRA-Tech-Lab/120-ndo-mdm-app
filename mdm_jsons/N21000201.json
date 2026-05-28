@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000310",
-      "name": "Titanic",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 757
     },
     "population": 1558,
-    "hectares": 25.9087
+    "hectares": 25.9087,
+    "urban_rural": "urban"
   }
 }

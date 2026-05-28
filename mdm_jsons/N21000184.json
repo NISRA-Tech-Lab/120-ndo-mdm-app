@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000304",
-      "name": "Castle",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 617
     },
     "population": 1369,
-    "hectares": 37.2406
+    "hectares": 37.2406,
+    "urban_rural": "urban"
   }
 }

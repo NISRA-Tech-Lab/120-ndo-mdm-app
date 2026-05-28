@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000803",
-      "name": "Braid",
-      "type": "dea"
-    },
-    {
       "code": "N09000008",
       "name": "Mid and East Antrim",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 232
     },
     "population": 3491,
-    "hectares": 6523.1385
+    "hectares": 6523.1385,
+    "urban_rural": "mixed urban and rural"
   }
 }

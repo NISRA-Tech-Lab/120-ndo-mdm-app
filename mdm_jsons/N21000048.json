@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000105",
-      "name": "Glengormley Urban",
-      "type": "dea"
-    },
-    {
       "code": "N09000001",
       "name": "Antrim and Newtownabbey",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 521
     },
     "population": 1518,
-    "hectares": 45.8135
+    "hectares": 45.8135,
+    "urban_rural": "urban"
   }
 }

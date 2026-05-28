@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000206",
-      "name": "Lurgan",
-      "type": "dea"
-    },
-    {
       "code": "N09000002",
       "name": "Armagh City, Banbridge and Craigavon",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 778
     },
     "population": 1466,
-    "hectares": 39.9289
+    "hectares": 39.9289,
+    "urban_rural": "urban"
   }
 }

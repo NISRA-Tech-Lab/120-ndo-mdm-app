@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000101",
-      "name": "Airport",
-      "type": "dea"
-    },
-    {
       "code": "N09000001",
       "name": "Antrim and Newtownabbey",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 328
     },
     "population": 2912,
-    "hectares": 359.4617
+    "hectares": 359.4617,
+    "urban_rural": "urban"
   }
 }

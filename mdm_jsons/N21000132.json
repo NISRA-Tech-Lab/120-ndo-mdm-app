@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000205",
-      "name": "Lagan River",
-      "type": "dea"
-    },
-    {
       "code": "N09000002",
       "name": "Armagh City, Banbridge and Craigavon",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 219
     },
     "population": 1951,
-    "hectares": 3525.81
+    "hectares": 3525.81,
+    "urban_rural": "mixed urban and rural"
   }
 }

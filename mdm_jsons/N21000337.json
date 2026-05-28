@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000403",
-      "name": "Benbradagh",
-      "type": "dea"
-    },
-    {
       "code": "N09000004",
       "name": "Causeway Coast and Glens",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 329
     },
     "population": 1979,
-    "hectares": 3018.0869
+    "hectares": 3018.0869,
+    "urban_rural": "mixed urban and rural"
   }
 }

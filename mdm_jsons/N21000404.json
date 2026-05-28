@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000506",
-      "name": "The Moor",
-      "type": "dea"
-    },
-    {
       "code": "N09000005",
       "name": "Derry City and Strabane",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 674
     },
     "population": 2000,
-    "hectares": 2093.3264
+    "hectares": 2093.3264,
+    "urban_rural": "mixed urban and rural"
   }
 }

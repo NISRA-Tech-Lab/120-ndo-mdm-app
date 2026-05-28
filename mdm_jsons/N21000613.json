@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000807",
-      "name": "Larne Lough",
-      "type": "dea"
-    },
-    {
       "code": "N09000008",
       "name": "Mid and East Antrim",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 156
     },
     "population": 2291,
-    "hectares": 7443.9748
+    "hectares": 7443.9748,
+    "urban_rural": "mixed urban and rural"
   }
 }

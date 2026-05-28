@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000503",
-      "name": "Faughan",
-      "type": "dea"
-    },
-    {
       "code": "N09000005",
       "name": "Derry City and Strabane",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 199
     },
     "population": 2867,
-    "hectares": 137.958
+    "hectares": 137.958,
+    "urban_rural": "rural"
   }
 }

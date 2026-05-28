@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000901",
-      "name": "Carntogher",
-      "type": "dea"
-    },
-    {
       "code": "N09000009",
       "name": "Mid Ulster",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 86
     },
     "population": 3419,
-    "hectares": 5139.3614
+    "hectares": 5139.3614,
+    "urban_rural": "rural"
   }
 }

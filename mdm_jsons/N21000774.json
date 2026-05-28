@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001105",
-      "name": "Comber",
-      "type": "dea"
-    },
-    {
       "code": "N09000011",
       "name": "Ards and North Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 516
     },
     "population": 2601,
-    "hectares": 111.2038
+    "hectares": 111.2038,
+    "urban_rural": "urban"
   }
 }

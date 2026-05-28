@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000307",
-      "name": "Lisnasharragh",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 821
     },
     "population": 1578,
-    "hectares": 13.8826
+    "hectares": 13.8826,
+    "urban_rural": "urban"
   }
 }

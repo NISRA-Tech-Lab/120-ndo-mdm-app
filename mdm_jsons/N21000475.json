@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000601",
-      "name": "Enniskillen",
-      "type": "dea"
-    },
-    {
       "code": "N09000006",
       "name": "Fermanagh and Omagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 440
     },
     "population": 2711,
-    "hectares": 187.2248
+    "hectares": 187.2248,
+    "urban_rural": "urban"
   }
 }

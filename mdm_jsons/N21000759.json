@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001004",
-      "name": "Rowallane",
-      "type": "dea"
-    },
-    {
       "code": "N09000010",
       "name": "Newry, Mourne and Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 142
     },
     "population": 2750,
-    "hectares": 90.9342
+    "hectares": 90.9342,
+    "urban_rural": "rural"
   }
 }

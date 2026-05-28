@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000802",
-      "name": "Bannside",
-      "type": "dea"
-    },
-    {
       "code": "N09000008",
       "name": "Mid and East Antrim",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 100
     },
     "population": 1444,
-    "hectares": 78.2843
+    "hectares": 78.2843,
+    "urban_rural": "rural"
   }
 }

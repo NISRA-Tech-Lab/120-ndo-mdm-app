@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001106",
-      "name": "Holywood and Clandeboye",
-      "type": "dea"
-    },
-    {
       "code": "N09000011",
       "name": "Ards and North Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 344
     },
     "population": 2038,
-    "hectares": 41.8893
+    "hectares": 41.8893,
+    "urban_rural": "urban"
   }
 }

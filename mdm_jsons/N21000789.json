@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001107",
-      "name": "Newtownards",
-      "type": "dea"
-    },
-    {
       "code": "N09000011",
       "name": "Ards and North Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 612
     },
     "population": 1366,
-    "hectares": 62.3536
+    "hectares": 62.3536,
+    "urban_rural": "urban"
   }
 }

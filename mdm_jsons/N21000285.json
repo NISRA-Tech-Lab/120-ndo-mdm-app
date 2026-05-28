@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000301",
-      "name": "Balmoral",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 415
     },
     "population": 1886,
-    "hectares": 170.1371
+    "hectares": 170.1371,
+    "urban_rural": "mixed urban and rural"
   }
 }

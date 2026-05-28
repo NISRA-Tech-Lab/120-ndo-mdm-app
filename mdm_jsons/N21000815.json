@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001102",
-      "name": "Bangor Central",
-      "type": "dea"
-    },
-    {
       "code": "N09000011",
       "name": "Ards and North Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 700
     },
     "population": 1607,
-    "hectares": 45.4853
+    "hectares": 45.4853,
+    "urban_rural": "urban"
   }
 }

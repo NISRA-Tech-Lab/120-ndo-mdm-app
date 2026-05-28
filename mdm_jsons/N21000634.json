@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000806",
-      "name": "Knockagh",
-      "type": "dea"
-    },
-    {
       "code": "N09000008",
       "name": "Mid and East Antrim",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 346
     },
     "population": 2431,
-    "hectares": 122.8317
+    "hectares": 122.8317,
+    "urban_rural": "mixed urban and rural"
   }
 }

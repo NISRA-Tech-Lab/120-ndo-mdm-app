@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000305",
-      "name": "Collin",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 616
     },
     "population": 2673,
-    "hectares": 52.8425
+    "hectares": 52.8425,
+    "urban_rural": "urban"
   }
 }

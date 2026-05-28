@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000303",
-      "name": "Botanic",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 779
     },
     "population": 2598,
-    "hectares": 55.2722
+    "hectares": 55.2722,
+    "urban_rural": "urban"
   }
 }

@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001103",
-      "name": "Bangor East and Donaghadee",
-      "type": "dea"
-    },
-    {
       "code": "N09000011",
       "name": "Ards and North Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 336
     },
     "population": 3234,
-    "hectares": 66.585
+    "hectares": 66.585,
+    "urban_rural": "urban"
   }
 }

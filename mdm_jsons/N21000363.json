@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000405",
-      "name": "Coleraine",
-      "type": "dea"
-    },
-    {
       "code": "N09000004",
       "name": "Causeway Coast and Glens",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 595
     },
     "population": 2294,
-    "hectares": 76.7706
+    "hectares": 76.7706,
+    "urban_rural": "urban"
   }
 }

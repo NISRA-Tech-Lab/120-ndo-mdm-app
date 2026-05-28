@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000204",
-      "name": "Cusher",
-      "type": "dea"
-    },
-    {
       "code": "N09000002",
       "name": "Armagh City, Banbridge and Craigavon",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 167
     },
     "population": 3163,
-    "hectares": 5248.9883
+    "hectares": 5248.9883,
+    "urban_rural": "mixed urban and rural"
   }
 }
