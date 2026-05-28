@@ -735,11 +735,20 @@
 						{/if}
 					</span>
 				</p>
-				<br /><span
+				<br />
+				{#if data.place.type == "sdz"}
+					<span
+					class="text-big title"
+					style="font-size: 2.0em; line-height: 1em;"
+					>How deprived is {localStorage.getItem("search_name")}?</span
+				>
+				{:else}
+				<span
 					class="text-big title"
 					style="font-size: 2.5em; line-height: 1em;"
 					>{data.place.name.replace(/_/g, " ")}</span
 				>
+				{/if}
 			</div>
 
 			<div>
@@ -855,6 +864,16 @@
 					{/if}
 				</h3>
 			</div>
+			{#if data.place.type == "sdz"}
+			<div class="deprivation-box">
+				<h2>Overall deprivation rank:</h2>
+					<h2 class="rank-value">{data.place.data.ranks.mdm} out of {data.place.count}</h2>
+						<br>
+							<p class="box-text">1 is the most deprived neighbourhood in Northern Ireland
+								{data.place.count} is the least
+							</p>
+			</div>
+			{/if}
 			<div
 				id="map"
 				style="padding-right: 45px; grid-column: span {cols == 2
@@ -933,7 +952,13 @@
 					{/each}
 				</Map>
 			</div>
-
+			{#if data.place.type == "sdz"}
+				<p class="sdz-map-info">
+					{localStorage.getItem("search_name")} sits in the {data.place.name.replace(/_/g, ' ')}
+					neighbourhood, {data.place.name.replace(/_/g, ' ')} has a population of {data.place.data.population.toLocaleString()}
+					and is classified as {data.place.data.urban_rural}.
+				</p>
+				{/if}
 			<div>
 				{#if data.place.type != "ni"}
 					<span class="text-bold"
@@ -981,8 +1006,54 @@
 		</div>
 	{/if}
 </Section>
+{#if data.place.type == "sdz"}
+	<div class="mdm-rank-text">
+		<Section column="wide">
+			<h2 class="deprivation-headline">
+				<span style="color: var(--nisra_blue);">
+        			{data.place.name.replace(/_/g, " ")}
+    			</span>
+ 					is {#if data.place.data.ranks.mdm < (data.place.count / 2)}
+						<span>more</span>
+						{:else}
+						<span>less</span>
+					{/if} deprived than most neighbourhoods in Northern Ireland.
+			</h2>
+		</Section>
+	</div>
+{/if}
 
 <style>
+
+	.deprivation-headline{
+		text-align: center;
+	}
+
+	.mdm-rank-text {
+	margin: 20px;
+	}
+
+	.deprivation-box {
+    background: #efefef;          
+    border: 2px solid #2b3a42;    
+    padding: 10px 10px;
+	margin-top: 10px;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+	}
+
+	.deprivation-box h2 {
+    white-space: nowrap;
+	}
+
+	.rank-value {
+    margin: 15px 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #00205b;
+	}
+
 	h3 {
 		margin-top: 12px;
 	}

@@ -13,7 +13,6 @@
 
     function result_text () {
         name = storage.search_name;
-        storage.removeItem("search_name");
         return true;
     };
 
