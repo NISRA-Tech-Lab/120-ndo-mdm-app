@@ -293,4 +293,26 @@ for (lgd in LGDs) {
   
 cat("Writing data for Local Government District", lgd, "...", which(LGDs == lgd), "of", lgd_count, "\n\n")
 
+
 }
+
+
+
+# Create search data csv ####
+
+cpd <- read.csv(paste0(search_dir, latest_cpd_file))
+
+search_data <- data.frame(
+  code = cpd$SDZ2021,
+  name = cpd$PC5,
+  namew = NA,
+  type = "postcode",
+  parent = cpd$SDZ2021,
+  parent_type = "sdz"
+)
+
+write.csv(search_data,
+          paste0(search_dir, search_data_filename),
+          row.names = FALSE,
+          na = "")
+

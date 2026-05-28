@@ -5,8 +5,12 @@ library("jsonlite")
 
 data_dir <- "r/data/"
 output_dir <- "mdm_jsons/"
+search_dir <- "search_data/"
+
 geog_file <- "geog_data_withdz_and_area2.xlsx"
 template_file <- "template - main_no_data.json"
+latest_cpd_file <- "CPD_LIGHT_Jan26.csv"
+search_data_filename <- "postcode_JAN2026.csv"
 
 code_lookup <- list(
   "N92" = "ctry",
