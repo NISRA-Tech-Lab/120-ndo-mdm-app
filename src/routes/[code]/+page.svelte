@@ -20,6 +20,7 @@
 	import SearchResult from "$lib/ui/SearchResult.svelte";
 
 	export let data;
+	let searchName;
 
 	let w, cols;
 	let map = null;
@@ -199,6 +200,9 @@
 	}
 
 	function menuSelect(ev) {
+		const name = ev.detail.selected.name;
+		localStorage.setItem("search_name", name);
+		searchName = name;
 		goto(`${base}/${ev.detail.value}/`, {
 			noScroll: true,
 			keepFocus: true,
@@ -233,6 +237,8 @@
 	$: data.place && update(data.place);
 	$: comp_ni = true;
 	$: comp_none = false;
+
+	$: searchName = localStorage.getItem("search_name")
 
 	function returnPct(expr) {
 		let pct = (expr * 100).toFixed(1);
@@ -740,7 +746,7 @@
 					<span
 					class="text-big title"
 					style="font-size: 2.0em; line-height: 1em;"
-					>How deprived is {localStorage.getItem("search_name")}?</span
+					>How deprived is {searchName}?</span
 				>
 				{:else}
 				<span
@@ -954,8 +960,11 @@
 			</div>
 			{#if data.place.type == "sdz"}
 				<p class="sdz-map-info">
-					{localStorage.getItem("search_name")} sits in the {data.place.name.replace(/_/g, ' ')}
-					neighbourhood, {data.place.name.replace(/_/g, ' ')} has a population of {data.place.data.population.toLocaleString()}
+					{#if searchName.startsWith("BT")}
+					{searchName} sits in the {data.place.name.replace(/_/g, ' ')}
+					neighbourhood. 
+					{/if}
+					{data.place.name.replace(/_/g, ' ')} has a population of {data.place.data.population.toLocaleString()}
 					and is classified as {data.place.data.urban_rural}.
 				</p>
 				{/if}
@@ -1045,6 +1054,7 @@
 
 	.deprivation-box h2 {
     white-space: nowrap;
+	text-align: center;
 	}
 
 	.rank-value {
@@ -1052,6 +1062,11 @@
     font-size: 1.8rem;
     font-weight: 600;
     color: #00205b;
+	text-align: center;
+	}
+
+	.box-text {
+		text-align: center;
 	}
 
 	h3 {
