@@ -12,39 +12,289 @@
   ],
   "children": [
     {
-      "code": "N10000905",
-      "name": "Magherafelt",
-      "type": "dea"
+      "code": "N21000637",
+      "name": "Carntogher_A",
+      "type": "sdz"
     },
     {
-      "code": "N10000903",
-      "name": "Cookstown",
-      "type": "dea"
+      "code": "N21000638",
+      "name": "Carntogher_B",
+      "type": "sdz"
     },
     {
-      "code": "N10000907",
-      "name": "Torrent",
-      "type": "dea"
+      "code": "N21000639",
+      "name": "Carntogher_C",
+      "type": "sdz"
     },
     {
-      "code": "N10000904",
-      "name": "Dungannon",
-      "type": "dea"
+      "code": "N21000640",
+      "name": "Carntogher_D",
+      "type": "sdz"
     },
     {
-      "code": "N10000902",
-      "name": "Clogher Valley",
-      "type": "dea"
+      "code": "N21000641",
+      "name": "Carntogher_E",
+      "type": "sdz"
     },
     {
-      "code": "N10000901",
-      "name": "Carntogher",
-      "type": "dea"
+      "code": "N21000642",
+      "name": "Carntogher_F",
+      "type": "sdz"
     },
     {
-      "code": "N10000906",
-      "name": "Moyola",
-      "type": "dea"
+      "code": "N21000643",
+      "name": "Moyola_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000644",
+      "name": "Moyola_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000645",
+      "name": "Moyola_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000646",
+      "name": "Moyola_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000647",
+      "name": "Moyola_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000648",
+      "name": "Moyola_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000651",
+      "name": "Magherafelt_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000649",
+      "name": "Moyola_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000652",
+      "name": "Magherafelt_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000650",
+      "name": "Moyola_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000653",
+      "name": "Magherafelt_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000654",
+      "name": "Magherafelt_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000655",
+      "name": "Magherafelt_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000656",
+      "name": "Magherafelt_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000657",
+      "name": "Magherafelt_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000658",
+      "name": "Cookstown_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000659",
+      "name": "Cookstown_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000660",
+      "name": "Cookstown_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000661",
+      "name": "Cookstown_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000662",
+      "name": "Cookstown_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000663",
+      "name": "Cookstown_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000664",
+      "name": "Cookstown_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000665",
+      "name": "Cookstown_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000668",
+      "name": "Torrent_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000666",
+      "name": "Cookstown_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000667",
+      "name": "Cookstown_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000669",
+      "name": "Torrent_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000670",
+      "name": "Torrent_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000671",
+      "name": "Torrent_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000672",
+      "name": "Torrent_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000673",
+      "name": "Torrent_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000674",
+      "name": "Torrent_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000675",
+      "name": "Torrent_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000676",
+      "name": "Dungannon_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000677",
+      "name": "Dungannon_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000678",
+      "name": "Dungannon_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000679",
+      "name": "Dungannon_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000680",
+      "name": "Dungannon_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000686",
+      "name": "Clogher_Valley_A",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000681",
+      "name": "Dungannon_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000682",
+      "name": "Dungannon_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000687",
+      "name": "Clogher_Valley_B",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000683",
+      "name": "Dungannon_H",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000688",
+      "name": "Clogher_Valley_C",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000684",
+      "name": "Dungannon_J",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000685",
+      "name": "Dungannon_K",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000689",
+      "name": "Clogher_Valley_D",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000690",
+      "name": "Clogher_Valley_E",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000691",
+      "name": "Clogher_Valley_F",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000692",
+      "name": "Clogher_Valley_G",
+      "type": "sdz"
+    },
+    {
+      "code": "N21000693",
+      "name": "Clogher_Valley_H",
+      "type": "sdz"
     }
   ],
   "bounds": [-6.3071, 54.2252, -7.467, 55.052],

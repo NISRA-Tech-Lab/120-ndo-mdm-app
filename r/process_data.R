@@ -36,9 +36,6 @@ hectares <- read_excel(paste0(data_dir, geog_file),
   mutate(type = unlist(code_lookup[substr(geocode, 1, 3)])) %>% 
   filter(type != "dz")
 
-dea_description <- read_excel(paste0(data_dir, geog_file),
-                              sheet = "dea_description")
-
 lgd_description <- read_excel(paste0(data_dir, geog_file),
                               sheet = "lgd_description")
 
@@ -69,23 +66,6 @@ sdz_mye <- data.frame(
   mye = sdz_mye_raw$result$value
 )
 
-## MYE01T010 - MYE by DEA ####
-
-dea_index <- which(data_portal_tables$link$item$extension$matrix == "MYE01T010")
-dea_year <- unlist(data_portal_tables$link$item$dimension$`TLIST(A1)`$category$index[dea_index]) %>% tail(1)
-
-dea_mye_raw <- fromJSON(
-  txt = paste0(
-    "https://ws-data.nisra.gov.uk/public/api.jsonrpc?data=%7B%22jsonrpc%22:%222.0%22,%22method%22:%22PxStat.Data.Cube_API.ReadDataset%22,%22params%22:%7B%22class%22:%22query%22,%22id%22:%5B%22TLIST(A1)%22,%22broadage4%22,%22Sex%22%5D,%22dimension%22:%7B%22TLIST(A1)%22:%7B%22category%22:%7B%22index%22:%5B%22",
-    dea_year,
-    "%22%5D%7D%7D,%22broadage4%22:%7B%22category%22:%7B%22index%22:%5B%22All%22%5D%7D%7D,%22Sex%22:%7B%22category%22:%7B%22index%22:%5B%22All%22%5D%7D%7D%7D,%22extension%22:%7B%22pivot%22:null,%22codes%22:false,%22language%22:%7B%22code%22:%22en%22%7D,%22format%22:%7B%22type%22:%22JSON-stat%22,%22version%22:%222.0%22%7D,%22matrix%22:%22MYE01T010%22%7D,%22version%22:%222.0%22%7D%7D"
-  )
-)
-
-dea_mye <- data.frame(
-  area = dea_mye_raw$result$dimension$DEA2014$category$index,
-  mye = dea_mye_raw$result$value
-)
 
 ## MYE01T06 - MYE by LGD ####
 
@@ -178,7 +158,7 @@ for (lgd in LGDs) {
   lgd_children <- list()
   
   child_rows <- children %>% 
-    filter(parent_code == lgd)
+    filter(grandparent_code == lgd)
   
   for (i in 1:nrow(child_rows)) {
     lgd_children[[i]] <- list(
@@ -220,76 +200,6 @@ for (lgd in LGDs) {
   )
   
   assign(paste0(lgd, "_data"), lgd_data)
-  
-}
-
-## DEA JSONs to contain ranks of all SDZ ####
-
-DEAs <- children %>% 
-  filter(type == "dea") %>% 
-  pull("code")
-
-dea_count <- geog_levels %>% 
-  filter(geog_code == "dea") %>% 
-  pull("number")
-
-for (dea in DEAs) {
-  
-  cat("Processing District Electoral Area", dea, "...", which(DEAs == dea), "of", dea_count, "\n\n")
-  
-  dea_info <- children %>% 
-    filter(code == dea)
-  
-  dea_children <- list()
-  
-  child_rows <- children %>% 
-    filter(parent_code == dea)
-  
-  for (i in 1:nrow(child_rows)) {
-    dea_children[[i]] <- list(
-      code = child_rows$code[i],
-      name = child_rows$name[i],
-      type = child_rows$type[[i]]
-    )
-  }
-  
-  dea_bounds <- map_bounds %>% 
-    filter(geog_code == dea)
-  
-  dea_data <- list(
-    code = dea,
-    name = children$name[children$code == dea],
-    comment = "This json includes data for the MDM app",
-    type = "dea",
-    count = dea_count,
-    parents = list(
-      list(code = dea_info$parent_code,
-           name = children %>% 
-             filter(code == dea_info$parent_code) %>% 
-             pull("name"),
-           type = "lgd"),
-      list(code = ni_code,
-           name = "Northern Ireland",
-           type = "ctry")
-    ),
-    children = dea_children,
-    bounds = c(
-      c(dea_bounds$long_max, dea_bounds$lat_min),
-      c(dea_bounds$long_min, dea_bounds$lat_max)
-    ),
-    data = list(ranks = list(),
-                population = dea_mye %>% 
-                  filter(area == dea) %>% 
-                  pull("mye"),
-                hectares = hectares %>% 
-                  filter(geocode == dea) %>% 
-                  pull("Area_ha"),
-                location = dea_description %>% 
-                  filter(geog_code == dea) %>% 
-                  pull("geog_location"))
-  )
-  
-  assign(paste0(dea, "_data"), dea_data)
   
 }
 
@@ -365,17 +275,13 @@ for (sdz in SDZs) {
              pretty = TRUE)
   
   lgd_data <- get(paste0(sdz_info$grandparent_code, "_data"))
-  dea_data <- get(paste0(sdz_info$parent_code, "_data"))
-  
   lgd_data$data$ranks[[sdz]] <- sdz_data_values
-  dea_data$data$ranks[[sdz]] <- sdz_data_values
-  
   assign(paste0(sdz_info$grandparent_code, "_data"), lgd_data)
-  assign(paste0(sdz_info$parent_code, "_data"), dea_data)
+  
   
 }
 
-# Write out LGD and DEA JSONs ####
+# Write out LGD JSONs ####
 
 for (lgd in LGDs) {
   
@@ -388,15 +294,3 @@ for (lgd in LGDs) {
 cat("Writing data for Local Government District", lgd, "...", which(LGDs == lgd), "of", lgd_count, "\n\n")
 
 }
-
-for (dea in DEAs) {
-  
-  write_json(get(paste0(dea, "_data")),
-             paste0(output_dir, dea, ".json"),
-             auto_unbox = TRUE,
-             pretty = TRUE)
-  
-  cat("Writing data for District Electoral Area", dea, "...", which(DEAs == dea), "of", dea_count, "\n\n")
-  
-}
-
