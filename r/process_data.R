@@ -302,17 +302,19 @@ cat("Writing data for Local Government District", lgd, "...", which(LGDs == lgd)
 
 cpd <- read.csv(paste0(search_dir, latest_cpd_file))
 
-search_data <- data.frame(
-  code = cpd$SDZ2021,
-  name = cpd$PC5,
-  namew = NA,
-  type = "postcode",
-  parent = cpd$SDZ2021,
-  parent_type = "sdz"
-)
+search_data <- cpd %>% 
+  filter(SDZ2021 != "000000000") %>% 
+  mutate(namew = "",
+         type = "postcode",
+         parent_type = "sdz") %>% 
+  select(code = SDZ2021,
+         name = PC5,
+         namew,
+         type,
+         parent = SDZ2021,
+         parent_type)
 
 write.csv(search_data,
           paste0(search_dir, search_data_filename),
-          row.names = FALSE,
-          na = "")
+          row.names = FALSE)
 
