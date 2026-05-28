@@ -315,8 +315,6 @@ cat("Writing data for Local Government District", lgd, "...", which(LGDs == lgd)
 
 # Create search data csv ####
 
-
-
 search_data <- cpd %>% 
   filter(SDZ2021 != "000000000") %>% 
   mutate(namew = "",
@@ -333,6 +331,21 @@ search_data <- cpd %>%
          type,
          parent = SDZ2021,
          parent_type)
+
+sdz_search_data <- children %>% 
+  filter(type == "sdz") %>% 
+  mutate(namew = "",
+         parent_type = "lgd") %>% 
+  select(code,
+         name, 
+         namew,
+         type,
+         parent = grandparent_code,
+         parent_type
+         )
+
+search_data <- search_data %>% 
+  bind_rows(sdz_search_data)
 
 write.csv(search_data,
           paste0(search_dir, search_data_filename),
