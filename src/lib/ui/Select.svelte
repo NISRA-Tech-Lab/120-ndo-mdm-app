@@ -58,30 +58,17 @@
 		expanded = true;
 	}
 
-	async function select(option) {
-    selected = option;
-    expanded = false;
-
-    // If postcode go to SDZ
-    if (option.type === "postcode") {
-        const result = await lookupPostcode(option.name);
-
-        if (result) {
-            goto(`${base}/${result.SDZ_code}`);
-        }
-
-        return; // no result found stop
-    }
-    // If postcode isn't selected continue as normal
-    localStorage.setItem("search_code", option.code);
-    localStorage.setItem("search_name", option.name);
-
-    dispatch('select', {
-        selected: option,
-        value: option[value],
-        type: option.type
-    });
-}
+	function select(option) {
+		selected = option;
+		expanded = false;
+		localStorage.setItem("search_code", option.code);
+		localStorage.setItem("search_name", option.name);
+		input.value = "";
+		dispatch('select', {
+			selected: option,
+			value: option[value]
+		});
+	}
 	
 	function unSelect(ev) {
 		ev.stopPropagation();
