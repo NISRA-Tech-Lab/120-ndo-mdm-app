@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000604",
-      "name": "Erne West",
-      "type": "dea"
-    },
-    {
       "code": "N09000006",
       "name": "Fermanagh and Omagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 255
     },
     "population": 2937,
-    "hectares": 9676.2759
+    "hectares": 9676.2759,
+    "urban_rural": "mixed urban and rural"
   }
 }

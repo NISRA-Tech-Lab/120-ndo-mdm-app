@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000906",
-      "name": "Moyola",
-      "type": "dea"
-    },
-    {
       "code": "N09000009",
       "name": "Mid Ulster",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 323
     },
     "population": 2935,
-    "hectares": 5830.6553
+    "hectares": 5830.6553,
+    "urban_rural": "mixed urban and rural"
   }
 }

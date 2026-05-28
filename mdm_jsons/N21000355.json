@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000402",
-      "name": "Bann",
-      "type": "dea"
-    },
-    {
       "code": "N09000004",
       "name": "Causeway Coast and Glens",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 67
     },
     "population": 1290,
-    "hectares": 88.8626
+    "hectares": 88.8626,
+    "urban_rural": "rural"
   }
 }

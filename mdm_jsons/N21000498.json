@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000606",
-      "name": "Omagh",
-      "type": "dea"
-    },
-    {
       "code": "N09000006",
       "name": "Fermanagh and Omagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 433
     },
     "population": 2803,
-    "hectares": 330.3582
+    "hectares": 330.3582,
+    "urban_rural": "mixed urban and rural"
   }
 }

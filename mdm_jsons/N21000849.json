@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001101",
-      "name": "Ards Peninsula",
-      "type": "dea"
-    },
-    {
       "code": "N09000011",
       "name": "Ards and North Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 89
     },
     "population": 2313,
-    "hectares": 5958.4396
+    "hectares": 5958.4396,
+    "urban_rural": "rural"
   }
 }

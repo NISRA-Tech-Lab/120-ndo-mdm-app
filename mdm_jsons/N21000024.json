@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000103",
-      "name": "Ballyclare",
-      "type": "dea"
-    },
-    {
       "code": "N09000001",
       "name": "Antrim and Newtownabbey",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 373
     },
     "population": 3132,
-    "hectares": 4004.6428
+    "hectares": 4004.6428,
+    "urban_rural": "mixed urban and rural"
   }
 }

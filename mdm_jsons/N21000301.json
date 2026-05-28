@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000302",
-      "name": "Black Mountain",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 668
     },
     "population": 3077,
-    "hectares": 69.921
+    "hectares": 69.921,
+    "urban_rural": "urban"
   }
 }

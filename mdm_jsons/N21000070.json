@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000201",
-      "name": "Armagh",
-      "type": "dea"
-    },
-    {
       "code": "N09000002",
       "name": "Armagh City, Banbridge and Craigavon",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 650
     },
     "population": 3080,
-    "hectares": 273.3042
+    "hectares": 273.3042,
+    "urban_rural": "urban"
   }
 }

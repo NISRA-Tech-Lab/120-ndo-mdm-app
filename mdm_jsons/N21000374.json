@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000404",
-      "name": "Causeway",
-      "type": "dea"
-    },
-    {
       "code": "N09000004",
       "name": "Causeway Coast and Glens",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 569
     },
     "population": 2524,
-    "hectares": 90.1749
+    "hectares": 90.1749,
+    "urban_rural": "urban"
   }
 }

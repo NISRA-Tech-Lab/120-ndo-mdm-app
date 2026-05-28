@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000905",
-      "name": "Magherafelt",
-      "type": "dea"
-    },
-    {
       "code": "N09000009",
       "name": "Mid Ulster",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 53
     },
     "population": 2206,
-    "hectares": 113.5411
+    "hectares": 113.5411,
+    "urban_rural": "rural"
   }
 }

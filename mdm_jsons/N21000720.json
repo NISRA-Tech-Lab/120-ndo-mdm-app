@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001001",
-      "name": "Crotlieve",
-      "type": "dea"
-    },
-    {
       "code": "N09000010",
       "name": "Newry, Mourne and Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 96
     },
     "population": 2843,
-    "hectares": 4283.0106
+    "hectares": 4283.0106,
+    "urban_rural": "rural"
   }
 }

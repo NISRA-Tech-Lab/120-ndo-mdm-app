@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000703",
-      "name": "Downshire East",
-      "type": "dea"
-    },
-    {
       "code": "N09000007",
       "name": "Lisburn and Castlereagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 724
     },
     "population": 1648,
-    "hectares": 30.457
+    "hectares": 30.457,
+    "urban_rural": "urban"
   }
 }

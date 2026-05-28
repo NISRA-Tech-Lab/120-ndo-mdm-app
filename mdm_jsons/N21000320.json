@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000306",
-      "name": "Court",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 535
     },
     "population": 2434,
-    "hectares": 49.1215
+    "hectares": 49.1215,
+    "urban_rural": "urban"
   }
 }

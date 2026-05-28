@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000507",
-      "name": "Waterside",
-      "type": "dea"
-    },
-    {
       "code": "N09000005",
       "name": "Derry City and Strabane",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 693
     },
     "population": 2047,
-    "hectares": 58.2905
+    "hectares": 58.2905,
+    "urban_rural": "urban"
   }
 }

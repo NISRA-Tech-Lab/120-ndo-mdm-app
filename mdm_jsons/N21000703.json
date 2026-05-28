@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001006",
-      "name": "Slieve Gullion",
-      "type": "dea"
-    },
-    {
       "code": "N09000010",
       "name": "Newry, Mourne and Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 68
     },
     "population": 2778,
-    "hectares": 3910.7466
+    "hectares": 3910.7466,
+    "urban_rural": "rural"
   }
 }

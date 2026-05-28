@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000903",
-      "name": "Cookstown",
-      "type": "dea"
-    },
-    {
       "code": "N09000009",
       "name": "Mid Ulster",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 361
     },
     "population": 2039,
-    "hectares": 3699.4039
+    "hectares": 3699.4039,
+    "urban_rural": "mixed urban and rural"
   }
 }

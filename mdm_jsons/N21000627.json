@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000804",
-      "name": "Carrick Castle",
-      "type": "dea"
-    },
-    {
       "code": "N09000008",
       "name": "Mid and East Antrim",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 604
     },
     "population": 1624,
-    "hectares": 57.0487
+    "hectares": 57.0487,
+    "urban_rural": "urban"
   }
 }

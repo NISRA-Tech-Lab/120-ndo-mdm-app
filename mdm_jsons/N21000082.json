@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000207",
-      "name": "Portadown",
-      "type": "dea"
-    },
-    {
       "code": "N09000002",
       "name": "Armagh City, Banbridge and Craigavon",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 506
     },
     "population": 2403,
-    "hectares": 73.642
+    "hectares": 73.642,
+    "urban_rural": "urban"
   }
 }

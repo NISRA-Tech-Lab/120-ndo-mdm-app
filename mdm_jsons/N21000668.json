@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000907",
-      "name": "Torrent",
-      "type": "dea"
-    },
-    {
       "code": "N09000009",
       "name": "Mid Ulster",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 24
     },
     "population": 3001,
-    "hectares": 2148.3124
+    "hectares": 2148.3124,
+    "urban_rural": "rural"
   }
 }

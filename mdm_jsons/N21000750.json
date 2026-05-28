@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001005",
-      "name": "Slieve Croob",
-      "type": "dea"
-    },
-    {
       "code": "N09000010",
       "name": "Newry, Mourne and Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 186
     },
     "population": 1518,
-    "hectares": 59.0238
+    "hectares": 59.0238,
+    "urban_rural": "rural"
   }
 }

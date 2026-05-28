@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001002",
-      "name": "Downpatrick",
-      "type": "dea"
-    },
-    {
       "code": "N09000010",
       "name": "Newry, Mourne and Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 340
     },
     "population": 2893,
-    "hectares": 192.5863
+    "hectares": 192.5863,
+    "urban_rural": "mixed urban and rural"
   }
 }

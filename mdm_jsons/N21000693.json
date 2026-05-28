@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000902",
-      "name": "Clogher Valley",
-      "type": "dea"
-    },
-    {
       "code": "N09000009",
       "name": "Mid Ulster",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 58
     },
     "population": 1354,
-    "hectares": 170.391
+    "hectares": 170.391,
+    "urban_rural": "rural"
   }
 }

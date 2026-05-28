@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000701",
-      "name": "Castlereagh East",
-      "type": "dea"
-    },
-    {
       "code": "N09000007",
       "name": "Lisburn and Castlereagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 174
     },
     "population": 1653,
-    "hectares": 82.0815
+    "hectares": 82.0815,
+    "urban_rural": "rural"
   }
 }

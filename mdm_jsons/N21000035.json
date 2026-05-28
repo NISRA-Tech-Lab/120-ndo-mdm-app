@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000107",
-      "name": "Three Mile Water",
-      "type": "dea"
-    },
-    {
       "code": "N09000001",
       "name": "Antrim and Newtownabbey",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 463
     },
     "population": 1475,
-    "hectares": 39.4392
+    "hectares": 39.4392,
+    "urban_rural": "urban"
   }
 }

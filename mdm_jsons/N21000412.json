@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000501",
-      "name": "Ballyarnett",
-      "type": "dea"
-    },
-    {
       "code": "N09000005",
       "name": "Derry City and Strabane",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 201
     },
     "population": 2683,
-    "hectares": 421.1882
+    "hectares": 421.1882,
+    "urban_rural": "rural"
   }
 }

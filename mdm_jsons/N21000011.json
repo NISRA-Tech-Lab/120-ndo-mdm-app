@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000102",
-      "name": "Antrim",
-      "type": "dea"
-    },
-    {
       "code": "N09000001",
       "name": "Antrim and Newtownabbey",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 533
     },
     "population": 1657,
-    "hectares": 44.5113
+    "hectares": 44.5113,
+    "urban_rural": "urban"
   }
 }

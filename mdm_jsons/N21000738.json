@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001007",
-      "name": "The Mournes",
-      "type": "dea"
-    },
-    {
       "code": "N09000010",
       "name": "Newry, Mourne and Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 188
     },
     "population": 2091,
-    "hectares": 1070.3677
+    "hectares": 1070.3677,
+    "urban_rural": "mixed urban and rural"
   }
 }

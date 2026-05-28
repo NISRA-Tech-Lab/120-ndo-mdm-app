@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000504",
-      "name": "Foyleside",
-      "type": "dea"
-    },
-    {
       "code": "N09000005",
       "name": "Derry City and Strabane",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 411
     },
     "population": 3194,
-    "hectares": 86.2322
+    "hectares": 86.2322,
+    "urban_rural": "urban"
   }
 }

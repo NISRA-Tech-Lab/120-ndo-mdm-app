@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000805",
-      "name": "Coast Road",
-      "type": "dea"
-    },
-    {
       "code": "N09000008",
       "name": "Mid and East Antrim",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 357
     },
     "population": 2072,
-    "hectares": 158.0554
+    "hectares": 158.0554,
+    "urban_rural": "mixed urban and rural"
   }
 }

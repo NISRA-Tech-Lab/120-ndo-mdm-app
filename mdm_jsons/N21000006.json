@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000104",
-      "name": "Dunsilly",
-      "type": "dea"
-    },
-    {
       "code": "N09000001",
       "name": "Antrim and Newtownabbey",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 314
     },
     "population": 4003,
-    "hectares": 6242.1305
+    "hectares": 6242.1305,
+    "urban_rural": "mixed urban and rural"
   }
 }

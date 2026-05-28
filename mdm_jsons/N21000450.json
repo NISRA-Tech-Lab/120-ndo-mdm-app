@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000505",
-      "name": "Sperrin",
-      "type": "dea"
-    },
-    {
       "code": "N09000005",
       "name": "Derry City and Strabane",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 558
     },
     "population": 2660,
-    "hectares": 111.9068
+    "hectares": 111.9068,
+    "urban_rural": "urban"
   }
 }

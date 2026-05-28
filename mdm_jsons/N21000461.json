@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000502",
-      "name": "Derg",
-      "type": "dea"
-    },
-    {
       "code": "N09000005",
       "name": "Derry City and Strabane",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 162
     },
     "population": 2935,
-    "hectares": 21676.6695
+    "hectares": 21676.6695,
+    "urban_rural": "rural"
   }
 }

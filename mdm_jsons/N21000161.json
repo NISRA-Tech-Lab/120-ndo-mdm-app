@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000308",
-      "name": "Oldpark",
-      "type": "dea"
-    },
-    {
       "code": "N09000003",
       "name": "Belfast",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 659
     },
     "population": 2735,
-    "hectares": 781.2822
+    "hectares": 781.2822,
+    "urban_rural": "mixed urban and rural"
   }
 }

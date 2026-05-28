@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000602",
-      "name": "Erne East",
-      "type": "dea"
-    },
-    {
       "code": "N09000006",
       "name": "Fermanagh and Omagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 127
     },
     "population": 3011,
-    "hectares": 318.5326
+    "hectares": 318.5326,
+    "urban_rural": "rural"
   }
 }

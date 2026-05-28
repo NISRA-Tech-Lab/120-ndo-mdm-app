@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10000705",
-      "name": "Killultagh",
-      "type": "dea"
-    },
-    {
       "code": "N09000007",
       "name": "Lisburn and Castlereagh",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 84
     },
     "population": 2205,
-    "hectares": 1381.1267
+    "hectares": 1381.1267,
+    "urban_rural": "rural"
   }
 }

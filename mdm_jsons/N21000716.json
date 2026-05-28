@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001003",
-      "name": "Newry",
-      "type": "dea"
-    },
-    {
       "code": "N09000010",
       "name": "Newry, Mourne and Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 393
     },
     "population": 2773,
-    "hectares": 242.9239
+    "hectares": 242.9239,
+    "urban_rural": "mixed urban and rural"
   }
 }

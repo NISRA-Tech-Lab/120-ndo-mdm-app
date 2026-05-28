@@ -39,7 +39,24 @@ hectares <- read_excel(paste0(data_dir, geog_file),
 lgd_description <- read_excel(paste0(data_dir, geog_file),
                               sheet = "lgd_description")
 
+# Import CPD ####
 
+cpd <- read.csv(paste0(search_dir, latest_cpd_file))
+
+## Urban Rural status ####
+
+urban_rural <- cpd %>% 
+  filter(SDZ2021 != "000000000") %>% 
+  select(SDZ2021, SETTLEMENT15_URBAN_RURAL) %>% 
+  distinct() %>% 
+  group_by(SDZ2021) %>% 
+  mutate(rows = n(),
+         type = case_when(rows == 2 ~ "mixed urban and rural",
+                          TRUE ~ tolower(SETTLEMENT15_URBAN_RURAL))) %>% 
+  ungroup() %>% 
+  select(-SETTLEMENT15_URBAN_RURAL, - rows) %>% 
+  distinct()
+  
 # Import dummy data ####
 
 nimdm <- read.csv("r/data/nimdm-2026-ranks-sdz-dummy-data.csv")
@@ -241,11 +258,6 @@ for (sdz in SDZs) {
     type = "sdz",
     count = sdz_count,
     parents = list(
-      list(code = sdz_info$parent_code,
-           name = children %>% 
-             filter(code == sdz_info$parent_code) %>% 
-             pull("name"),
-           type = "dea"),
       list(code = sdz_info$grandparent_code,
            name = children %>% 
              filter(code == sdz_info$grandparent_code) %>% 
@@ -266,7 +278,10 @@ for (sdz in SDZs) {
                   pull("mye"),
                 hectares = hectares %>% 
                   filter(geocode == sdz) %>% 
-                  pull("Area_ha"))
+                  pull("Area_ha"),
+                urban_rural = urban_rural %>% 
+                  filter(SDZ2021 == sdz) %>% 
+                  pull("type"))
   )
   
   write_json(sdz_data,
@@ -300,15 +315,20 @@ cat("Writing data for Local Government District", lgd, "...", which(LGDs == lgd)
 
 # Create search data csv ####
 
-cpd <- read.csv(paste0(search_dir, latest_cpd_file))
+
 
 search_data <- cpd %>% 
   filter(SDZ2021 != "000000000") %>% 
   mutate(namew = "",
          type = "postcode",
-         parent_type = "sdz") %>% 
+         parent_type = "sdz",
+         name = paste0(
+           substr(postcode, 1, nchar(postcode) - 3), 
+           " ", 
+           substr(postcode, nchar(postcode) - 2, nchar(postcode))
+          )) %>% 
   select(code = SDZ2021,
-         name = PC5,
+         name,
          namew,
          type,
          parent = SDZ2021,

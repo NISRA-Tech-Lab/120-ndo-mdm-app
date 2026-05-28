@@ -6,11 +6,6 @@
   "count": 850,
   "parents": [
     {
-      "code": "N10001104",
-      "name": "Bangor West",
-      "type": "dea"
-    },
-    {
       "code": "N09000011",
       "name": "Ards and North Down",
       "type": "lgd"
@@ -35,6 +30,7 @@
       "services": 603
     },
     "population": 2029,
-    "hectares": 35.6974
+    "hectares": 35.6974,
+    "urban_rural": "urban"
   }
 }
