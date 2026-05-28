@@ -57470,3 +57470,853 @@ N21000268,BT9 7YF,,postcode,N21000268,sdz
 N21000268,BT9 7YG,,postcode,N21000268,sdz
 N21000268,BT9 7YH,,postcode,N21000268,sdz
 N21000462,BT9 9AA,,postcode,N21000462,sdz
+N21000368,Causeway A,,sdz,N09000004,lgd
+N21000379,The Glens A,,sdz,N09000004,lgd
+N21000380,The Glens B,,sdz,N09000004,lgd
+N21000369,Causeway B,,sdz,N09000004,lgd
+N21000370,Causeway C,,sdz,N09000004,lgd
+N21000371,Causeway D,,sdz,N09000004,lgd
+N21000372,Causeway E,,sdz,N09000004,lgd
+N21000373,Causeway F,,sdz,N09000004,lgd
+N21000374,Causeway G,,sdz,N09000004,lgd
+N21000381,The Glens C,,sdz,N09000004,lgd
+N21000375,Causeway H,,sdz,N09000004,lgd
+N21000350,Bann A,,sdz,N09000004,lgd
+N21000376,Causeway J,,sdz,N09000004,lgd
+N21000358,Coleraine A,,sdz,N09000004,lgd
+N21000359,Coleraine B,,sdz,N09000004,lgd
+N21000377,Causeway K,,sdz,N09000004,lgd
+N21000360,Coleraine C,,sdz,N09000004,lgd
+N21000351,Bann B,,sdz,N09000004,lgd
+N21000382,The Glens D,,sdz,N09000004,lgd
+N21000361,Coleraine D,,sdz,N09000004,lgd
+N21000362,Coleraine E,,sdz,N09000004,lgd
+N21000363,Coleraine F,,sdz,N09000004,lgd
+N21000364,Coleraine G,,sdz,N09000004,lgd
+N21000383,The Glens E,,sdz,N09000004,lgd
+N21000378,Causeway L,,sdz,N09000004,lgd
+N21000343,Limavady A,,sdz,N09000004,lgd
+N21000365,Coleraine H,,sdz,N09000004,lgd
+N21000366,Coleraine J,,sdz,N09000004,lgd
+N21000367,Coleraine K,,sdz,N09000004,lgd
+N21000352,Bann C,,sdz,N09000004,lgd
+N21000386,Ballymoney A,,sdz,N09000004,lgd
+N21000387,Ballymoney B,,sdz,N09000004,lgd
+N21000384,The Glens F,,sdz,N09000004,lgd
+N21000388,Ballymoney C,,sdz,N09000004,lgd
+N21000389,Ballymoney D,,sdz,N09000004,lgd
+N21000390,Ballymoney E,,sdz,N09000004,lgd
+N21000391,Ballymoney F,,sdz,N09000004,lgd
+N21000344,Limavady B,,sdz,N09000004,lgd
+N21000412,Ballyarnett A,,sdz,N09000005,lgd
+N21000353,Bann D,,sdz,N09000004,lgd
+N21000336,Benbradagh A,,sdz,N09000004,lgd
+N21000345,Limavady C,,sdz,N09000004,lgd
+N21000346,Limavady D,,sdz,N09000004,lgd
+N21000392,Ballymoney G,,sdz,N09000004,lgd
+N21000385,The Glens G,,sdz,N09000004,lgd
+N21000337,Benbradagh B,,sdz,N09000004,lgd
+N21000347,Limavady E,,sdz,N09000004,lgd
+N21000348,Limavady F,,sdz,N09000004,lgd
+N21000349,Limavady G,,sdz,N09000004,lgd
+N21000413,Ballyarnett B,,sdz,N09000005,lgd
+N21000414,Ballyarnett C,,sdz,N09000005,lgd
+N21000415,Ballyarnett D,,sdz,N09000005,lgd
+N21000338,Benbradagh C,,sdz,N09000004,lgd
+N21000436,Faughan A,,sdz,N09000005,lgd
+N21000416,Ballyarnett E,,sdz,N09000005,lgd
+N21000417,Ballyarnett F,,sdz,N09000005,lgd
+N21000418,Ballyarnett G,,sdz,N09000005,lgd
+N21000419,Ballyarnett H,,sdz,N09000005,lgd
+N21000437,Faughan B,,sdz,N09000005,lgd
+N21000420,Ballyarnett J,,sdz,N09000005,lgd
+N21000421,Ballyarnett K,,sdz,N09000005,lgd
+N21000422,Ballyarnett L,,sdz,N09000005,lgd
+N21000438,Faughan C,,sdz,N09000005,lgd
+N21000393,Ballymoney H,,sdz,N09000004,lgd
+N21000405,Foyleside A,,sdz,N09000005,lgd
+N21000439,Faughan D,,sdz,N09000005,lgd
+N21000406,Foyleside B,,sdz,N09000005,lgd
+N21000407,Foyleside C,,sdz,N09000005,lgd
+N21000408,Foyleside D,,sdz,N09000005,lgd
+N21000409,Foyleside E,,sdz,N09000005,lgd
+N21000394,Ballymoney J,,sdz,N09000004,lgd
+N21000423,Waterside A,,sdz,N09000005,lgd
+N21000410,Foyleside F,,sdz,N09000005,lgd
+N21000411,Foyleside G,,sdz,N09000005,lgd
+N21000424,Waterside B,,sdz,N09000005,lgd
+N21000601,Coast Road A,,sdz,N09000008,lgd
+N21000397,The Moor A,,sdz,N09000005,lgd
+N21000354,Bann E,,sdz,N09000004,lgd
+N21000398,The Moor B,,sdz,N09000005,lgd
+N21000602,Coast Road B,,sdz,N09000008,lgd
+N21000425,Waterside C,,sdz,N09000005,lgd
+N21000426,Waterside D,,sdz,N09000005,lgd
+N21000395,Ballymoney K,,sdz,N09000004,lgd
+N21000399,The Moor C,,sdz,N09000005,lgd
+N21000427,Waterside E,,sdz,N09000005,lgd
+N21000339,Benbradagh D,,sdz,N09000004,lgd
+N21000428,Waterside F,,sdz,N09000005,lgd
+N21000400,The Moor D,,sdz,N09000005,lgd
+N21000401,The Moor E,,sdz,N09000005,lgd
+N21000402,The Moor F,,sdz,N09000005,lgd
+N21000429,Waterside G,,sdz,N09000005,lgd
+N21000403,The Moor G,,sdz,N09000005,lgd
+N21000355,Bann F,,sdz,N09000004,lgd
+N21000430,Waterside H,,sdz,N09000005,lgd
+N21000431,Waterside J,,sdz,N09000005,lgd
+N21000404,The Moor H,,sdz,N09000005,lgd
+N21000591,Braid A,,sdz,N09000008,lgd
+N21000432,Waterside K,,sdz,N09000005,lgd
+N21000433,Waterside L,,sdz,N09000005,lgd
+N21000434,Waterside N,,sdz,N09000005,lgd
+N21000435,Waterside P,,sdz,N09000005,lgd
+N21000440,Faughan E,,sdz,N09000005,lgd
+N21000441,Faughan F,,sdz,N09000005,lgd
+N21000356,Bann G,,sdz,N09000004,lgd
+N21000357,Bann H,,sdz,N09000004,lgd
+N21000340,Benbradagh E,,sdz,N09000004,lgd
+N21000592,Braid B,,sdz,N09000008,lgd
+N21000396,Ballymoney L,,sdz,N09000004,lgd
+N21000593,Braid C,,sdz,N09000008,lgd
+N21000442,Faughan G,,sdz,N09000005,lgd
+N21000341,Benbradagh F,,sdz,N09000004,lgd
+N21000603,Coast Road C,,sdz,N09000008,lgd
+N21000572,Bannside A,,sdz,N09000008,lgd
+N21000443,Faughan H,,sdz,N09000005,lgd
+N21000342,Benbradagh G,,sdz,N09000004,lgd
+N21000637,Carntogher A,,sdz,N09000009,lgd
+N21000594,Braid D,,sdz,N09000008,lgd
+N21000595,Braid E,,sdz,N09000008,lgd
+N21000573,Bannside B,,sdz,N09000008,lgd
+N21000574,Bannside C,,sdz,N09000008,lgd
+N21000638,Carntogher B,,sdz,N09000009,lgd
+N21000444,Sperrin A,,sdz,N09000005,lgd
+N21000581,Ballymena A,,sdz,N09000008,lgd
+N21000445,Sperrin B,,sdz,N09000005,lgd
+N21000604,Coast Road D,,sdz,N09000008,lgd
+N21000582,Ballymena B,,sdz,N09000008,lgd
+N21000583,Ballymena C,,sdz,N09000008,lgd
+N21000584,Ballymena D,,sdz,N09000008,lgd
+N21000575,Bannside D,,sdz,N09000008,lgd
+N21000585,Ballymena E,,sdz,N09000008,lgd
+N21000605,Coast Road E,,sdz,N09000008,lgd
+N21000606,Coast Road F,,sdz,N09000008,lgd
+N21000586,Ballymena F,,sdz,N09000008,lgd
+N21000607,Coast Road G,,sdz,N09000008,lgd
+N21000610,Larne Lough A,,sdz,N09000008,lgd
+N21000608,Coast Road H,,sdz,N09000008,lgd
+N21000609,Coast Road J,,sdz,N09000008,lgd
+N21000587,Ballymena G,,sdz,N09000008,lgd
+N21000588,Ballymena H,,sdz,N09000008,lgd
+N21000589,Ballymena J,,sdz,N09000008,lgd
+N21000576,Bannside E,,sdz,N09000008,lgd
+N21000611,Larne Lough B,,sdz,N09000008,lgd
+N21000577,Bannside F,,sdz,N09000008,lgd
+N21000596,Braid F,,sdz,N09000008,lgd
+N21000612,Larne Lough C,,sdz,N09000008,lgd
+N21000597,Braid G,,sdz,N09000008,lgd
+N21000598,Braid H,,sdz,N09000008,lgd
+N21000578,Bannside G,,sdz,N09000008,lgd
+N21000639,Carntogher C,,sdz,N09000009,lgd
+N21000590,Ballymena K,,sdz,N09000008,lgd
+N21000599,Braid J,,sdz,N09000008,lgd
+N21000640,Carntogher D,,sdz,N09000009,lgd
+N21000641,Carntogher E,,sdz,N09000009,lgd
+N21000642,Carntogher F,,sdz,N09000009,lgd
+N21000446,Sperrin C,,sdz,N09000005,lgd
+N21000579,Bannside H,,sdz,N09000008,lgd
+N21000613,Larne Lough D,,sdz,N09000008,lgd
+N21000447,Sperrin D,,sdz,N09000005,lgd
+N21000643,Moyola A,,sdz,N09000009,lgd
+N21000614,Larne Lough E,,sdz,N09000008,lgd
+N21000580,Bannside J,,sdz,N09000008,lgd
+N21000448,Sperrin E,,sdz,N09000005,lgd
+N21000449,Sperrin F,,sdz,N09000005,lgd
+N21000644,Moyola B,,sdz,N09000009,lgd
+N21000450,Sperrin G,,sdz,N09000005,lgd
+N21000451,Sperrin H,,sdz,N09000005,lgd
+N21000600,Braid K,,sdz,N09000008,lgd
+N21000454,Derg A,,sdz,N09000005,lgd
+N21000452,Sperrin J,,sdz,N09000005,lgd
+N21000645,Moyola C,,sdz,N09000009,lgd
+N21000615,Larne Lough F,,sdz,N09000008,lgd
+N21000646,Moyola D,,sdz,N09000009,lgd
+N21000647,Moyola E,,sdz,N09000009,lgd
+N21000616,Larne Lough G,,sdz,N09000008,lgd
+N21000001,Dunsilly A,,sdz,N09000001,lgd
+N21000455,Derg B,,sdz,N09000005,lgd
+N21000456,Derg C,,sdz,N09000005,lgd
+N21000648,Moyola F,,sdz,N09000009,lgd
+N21000019,Ballyclare A,,sdz,N09000001,lgd
+N21000617,Larne Lough H,,sdz,N09000008,lgd
+N21000619,Carrick Castle A,,sdz,N09000008,lgd
+N21000618,Larne Lough J,,sdz,N09000008,lgd
+N21000020,Ballyclare B,,sdz,N09000001,lgd
+N21000453,Sperrin K,,sdz,N09000005,lgd
+N21000002,Dunsilly B,,sdz,N09000001,lgd
+N21000021,Ballyclare C,,sdz,N09000001,lgd
+N21000628,Knockagh A,,sdz,N09000008,lgd
+N21000022,Ballyclare D,,sdz,N09000001,lgd
+N21000651,Magherafelt A,,sdz,N09000009,lgd
+N21000003,Dunsilly C,,sdz,N09000001,lgd
+N21000649,Moyola G,,sdz,N09000009,lgd
+N21000023,Ballyclare E,,sdz,N09000001,lgd
+N21000004,Dunsilly D,,sdz,N09000001,lgd
+N21000005,Dunsilly E,,sdz,N09000001,lgd
+N21000652,Magherafelt B,,sdz,N09000009,lgd
+N21000620,Carrick Castle B,,sdz,N09000008,lgd
+N21000650,Moyola H,,sdz,N09000009,lgd
+N21000621,Carrick Castle C,,sdz,N09000008,lgd
+N21000653,Magherafelt C,,sdz,N09000009,lgd
+N21000024,Ballyclare F,,sdz,N09000001,lgd
+N21000025,Ballyclare G,,sdz,N09000001,lgd
+N21000622,Carrick Castle D,,sdz,N09000008,lgd
+N21000623,Carrick Castle E,,sdz,N09000008,lgd
+N21000007,Antrim A,,sdz,N09000001,lgd
+N21000629,Knockagh B,,sdz,N09000008,lgd
+N21000006,Dunsilly F,,sdz,N09000001,lgd
+N21000630,Knockagh C,,sdz,N09000008,lgd
+N21000008,Antrim B,,sdz,N09000001,lgd
+N21000624,Carrick Castle F,,sdz,N09000008,lgd
+N21000631,Knockagh D,,sdz,N09000008,lgd
+N21000625,Carrick Castle G,,sdz,N09000008,lgd
+N21000632,Knockagh E,,sdz,N09000008,lgd
+N21000026,Ballyclare H,,sdz,N09000001,lgd
+N21000009,Antrim C,,sdz,N09000001,lgd
+N21000626,Carrick Castle H,,sdz,N09000008,lgd
+N21000457,Derg D,,sdz,N09000005,lgd
+N21000633,Knockagh F,,sdz,N09000008,lgd
+N21000010,Antrim D,,sdz,N09000001,lgd
+N21000011,Antrim E,,sdz,N09000001,lgd
+N21000627,Carrick Castle J,,sdz,N09000008,lgd
+N21000012,Antrim F,,sdz,N09000001,lgd
+N21000013,Antrim G,,sdz,N09000001,lgd
+N21000014,Antrim H,,sdz,N09000001,lgd
+N21000015,Antrim J,,sdz,N09000001,lgd
+N21000016,Antrim K,,sdz,N09000001,lgd
+N21000027,Three Mile Water A,,sdz,N09000001,lgd
+N21000017,Antrim L,,sdz,N09000001,lgd
+N21000028,Three Mile Water B,,sdz,N09000001,lgd
+N21000018,Antrim N,,sdz,N09000001,lgd
+N21000634,Knockagh G,,sdz,N09000008,lgd
+N21000458,Derg E,,sdz,N09000005,lgd
+N21000654,Magherafelt D,,sdz,N09000009,lgd
+N21000655,Magherafelt E,,sdz,N09000009,lgd
+N21000635,Knockagh H,,sdz,N09000008,lgd
+N21000059,Airport A,,sdz,N09000001,lgd
+N21000060,Airport B,,sdz,N09000001,lgd
+N21000636,Knockagh J,,sdz,N09000008,lgd
+N21000029,Three Mile Water C,,sdz,N09000001,lgd
+N21000030,Three Mile Water D,,sdz,N09000001,lgd
+N21000459,Derg F,,sdz,N09000005,lgd
+N21000031,Three Mile Water E,,sdz,N09000001,lgd
+N21000032,Three Mile Water F,,sdz,N09000001,lgd
+N21000033,Three Mile Water G,,sdz,N09000001,lgd
+N21000034,Three Mile Water H,,sdz,N09000001,lgd
+N21000048,Glengormley Urban A,,sdz,N09000001,lgd
+N21000035,Three Mile Water J,,sdz,N09000001,lgd
+N21000036,Three Mile Water K,,sdz,N09000001,lgd
+N21000460,Derg G,,sdz,N09000005,lgd
+N21000049,Glengormley Urban B,,sdz,N09000001,lgd
+N21000050,Glengormley Urban C,,sdz,N09000001,lgd
+N21000656,Magherafelt F,,sdz,N09000009,lgd
+N21000657,Magherafelt G,,sdz,N09000009,lgd
+N21000061,Airport C,,sdz,N09000001,lgd
+N21000829,Bangor East and Donaghadee A,,sdz,N09000011,lgd
+N21000037,Macedon A,,sdz,N09000001,lgd
+N21000051,Glengormley Urban D,,sdz,N09000001,lgd
+N21000038,Macedon B,,sdz,N09000001,lgd
+N21000052,Glengormley Urban E,,sdz,N09000001,lgd
+N21000062,Airport D,,sdz,N09000001,lgd
+N21000039,Macedon C,,sdz,N09000001,lgd
+N21000504,Mid Tyrone A,,sdz,N09000006,lgd
+N21000053,Glengormley Urban F,,sdz,N09000001,lgd
+N21000795,Holywood and Clandeboye A,,sdz,N09000011,lgd
+N21000054,Glengormley Urban G,,sdz,N09000001,lgd
+N21000040,Macedon D,,sdz,N09000001,lgd
+N21000055,Glengormley Urban H,,sdz,N09000001,lgd
+N21000815,Bangor Central A,,sdz,N09000011,lgd
+N21000041,Macedon E,,sdz,N09000001,lgd
+N21000063,Airport E,,sdz,N09000001,lgd
+N21000658,Cookstown A,,sdz,N09000009,lgd
+N21000042,Macedon F,,sdz,N09000001,lgd
+N21000056,Glengormley Urban J,,sdz,N09000001,lgd
+N21000796,Holywood and Clandeboye B,,sdz,N09000011,lgd
+N21000816,Bangor Central B,,sdz,N09000011,lgd
+N21000817,Bangor Central C,,sdz,N09000011,lgd
+N21000818,Bangor Central D,,sdz,N09000011,lgd
+N21000806,Bangor West A,,sdz,N09000011,lgd
+N21000819,Bangor Central E,,sdz,N09000011,lgd
+N21000057,Glengormley Urban K,,sdz,N09000001,lgd
+N21000830,Bangor East and Donaghadee B,,sdz,N09000011,lgd
+N21000505,Mid Tyrone B,,sdz,N09000006,lgd
+N21000043,Macedon G,,sdz,N09000001,lgd
+N21000797,Holywood and Clandeboye C,,sdz,N09000011,lgd
+N21000820,Bangor Central F,,sdz,N09000011,lgd
+N21000044,Macedon H,,sdz,N09000001,lgd
+N21000045,Macedon J,,sdz,N09000001,lgd
+N21000046,Macedon K,,sdz,N09000001,lgd
+N21000461,Derg H,,sdz,N09000005,lgd
+N21000807,Bangor West B,,sdz,N09000011,lgd
+N21000831,Bangor East and Donaghadee C,,sdz,N09000011,lgd
+N21000808,Bangor West C,,sdz,N09000011,lgd
+N21000821,Bangor Central G,,sdz,N09000011,lgd
+N21000809,Bangor West D,,sdz,N09000011,lgd
+N21000832,Bangor East and Donaghadee D,,sdz,N09000011,lgd
+N21000058,Glengormley Urban L,,sdz,N09000001,lgd
+N21000810,Bangor West E,,sdz,N09000011,lgd
+N21000179,Castle A,,sdz,N09000003,lgd
+N21000811,Bangor West F,,sdz,N09000011,lgd
+N21000833,Bangor East and Donaghadee E,,sdz,N09000011,lgd
+N21000822,Bangor Central H,,sdz,N09000011,lgd
+N21000834,Bangor East and Donaghadee F,,sdz,N09000011,lgd
+N21000812,Bangor West G,,sdz,N09000011,lgd
+N21000823,Bangor Central J,,sdz,N09000011,lgd
+N21000798,Holywood and Clandeboye D,,sdz,N09000011,lgd
+N21000813,Bangor West H,,sdz,N09000011,lgd
+N21000835,Bangor East and Donaghadee G,,sdz,N09000011,lgd
+N21000047,Macedon L,,sdz,N09000001,lgd
+N21000180,Castle B,,sdz,N09000003,lgd
+N21000814,Bangor West J,,sdz,N09000011,lgd
+N21000824,Bangor Central K,,sdz,N09000011,lgd
+N21000836,Bangor East and Donaghadee H,,sdz,N09000011,lgd
+N21000837,Bangor East and Donaghadee J,,sdz,N09000011,lgd
+N21000799,Holywood and Clandeboye E,,sdz,N09000011,lgd
+N21000825,Bangor Central L,,sdz,N09000011,lgd
+N21000826,Bangor Central N,,sdz,N09000011,lgd
+N21000800,Holywood and Clandeboye F,,sdz,N09000011,lgd
+N21000801,Holywood and Clandeboye G,,sdz,N09000011,lgd
+N21000181,Castle C,,sdz,N09000003,lgd
+N21000827,Bangor Central P,,sdz,N09000011,lgd
+N21000182,Castle D,,sdz,N09000003,lgd
+N21000064,Airport F,,sdz,N09000001,lgd
+N21000838,Bangor East and Donaghadee K,,sdz,N09000011,lgd
+N21000065,Airport G,,sdz,N09000001,lgd
+N21000802,Holywood and Clandeboye H,,sdz,N09000011,lgd
+N21000161,Oldpark A,,sdz,N09000003,lgd
+N21000183,Castle E,,sdz,N09000003,lgd
+N21000659,Cookstown B,,sdz,N09000009,lgd
+N21000660,Cookstown C,,sdz,N09000009,lgd
+N21000803,Holywood and Clandeboye J,,sdz,N09000011,lgd
+N21000804,Holywood and Clandeboye K,,sdz,N09000011,lgd
+N21000184,Castle F,,sdz,N09000003,lgd
+N21000661,Cookstown D,,sdz,N09000009,lgd
+N21000662,Cookstown E,,sdz,N09000009,lgd
+N21000185,Castle G,,sdz,N09000003,lgd
+N21000186,Castle H,,sdz,N09000003,lgd
+N21000828,Bangor Central Q,,sdz,N09000011,lgd
+N21000805,Holywood and Clandeboye L,,sdz,N09000011,lgd
+N21000187,Castle J,,sdz,N09000003,lgd
+N21000162,Oldpark B,,sdz,N09000003,lgd
+N21000188,Castle K,,sdz,N09000003,lgd
+N21000189,Castle L,,sdz,N09000003,lgd
+N21000163,Oldpark C,,sdz,N09000003,lgd
+N21000663,Cookstown F,,sdz,N09000009,lgd
+N21000190,Castle N,,sdz,N09000003,lgd
+N21000164,Oldpark D,,sdz,N09000003,lgd
+N21000191,Castle P,,sdz,N09000003,lgd
+N21000192,Castle Q,,sdz,N09000003,lgd
+N21000165,Oldpark E,,sdz,N09000003,lgd
+N21000166,Oldpark F,,sdz,N09000003,lgd
+N21000193,Castle R,,sdz,N09000003,lgd
+N21000197,Titanic A,,sdz,N09000003,lgd
+N21000167,Oldpark G,,sdz,N09000003,lgd
+N21000664,Cookstown G,,sdz,N09000009,lgd
+N21000194,Castle S,,sdz,N09000003,lgd
+N21000665,Cookstown H,,sdz,N09000009,lgd
+N21000668,Torrent A,,sdz,N09000009,lgd
+N21000168,Oldpark H,,sdz,N09000003,lgd
+N21000169,Oldpark J,,sdz,N09000003,lgd
+N21000170,Oldpark K,,sdz,N09000003,lgd
+N21000066,Airport H,,sdz,N09000001,lgd
+N21000316,Court A,,sdz,N09000003,lgd
+N21000195,Castle T,,sdz,N09000003,lgd
+N21000219,Ormiston A,,sdz,N09000003,lgd
+N21000220,Ormiston B,,sdz,N09000003,lgd
+N21000171,Oldpark L,,sdz,N09000003,lgd
+N21000196,Castle U,,sdz,N09000003,lgd
+N21000172,Oldpark N,,sdz,N09000003,lgd
+N21000779,Newtownards A,,sdz,N09000011,lgd
+N21000839,Ards Peninsula A,,sdz,N09000011,lgd
+N21000173,Oldpark P,,sdz,N09000003,lgd
+N21000067,Airport J,,sdz,N09000001,lgd
+N21000174,Oldpark Q,,sdz,N09000003,lgd
+N21000198,Titanic B,,sdz,N09000003,lgd
+N21000175,Oldpark R,,sdz,N09000003,lgd
+N21000317,Court B,,sdz,N09000003,lgd
+N21000318,Court C,,sdz,N09000003,lgd
+N21000176,Oldpark S,,sdz,N09000003,lgd
+N21000780,Newtownards B,,sdz,N09000011,lgd
+N21000319,Court D,,sdz,N09000003,lgd
+N21000177,Oldpark T,,sdz,N09000003,lgd
+N21000320,Court E,,sdz,N09000003,lgd
+N21000199,Titanic C,,sdz,N09000003,lgd
+N21000321,Court F,,sdz,N09000003,lgd
+N21000322,Court G,,sdz,N09000003,lgd
+N21000562,Castlereagh East A,,sdz,N09000007,lgd
+N21000178,Oldpark U,,sdz,N09000003,lgd
+N21000221,Ormiston C,,sdz,N09000003,lgd
+N21000222,Ormiston D,,sdz,N09000003,lgd
+N21000323,Court H,,sdz,N09000003,lgd
+N21000324,Court J,,sdz,N09000003,lgd
+N21000489,West Tyrone A,,sdz,N09000006,lgd
+N21000781,Newtownards C,,sdz,N09000011,lgd
+N21000782,Newtownards D,,sdz,N09000011,lgd
+N21000783,Newtownards E,,sdz,N09000011,lgd
+N21000325,Court K,,sdz,N09000003,lgd
+N21000200,Titanic D,,sdz,N09000003,lgd
+N21000326,Court L,,sdz,N09000003,lgd
+N21000784,Newtownards F,,sdz,N09000011,lgd
+N21000506,Mid Tyrone C,,sdz,N09000006,lgd
+N21000201,Titanic E,,sdz,N09000003,lgd
+N21000327,Court N,,sdz,N09000003,lgd
+N21000202,Titanic F,,sdz,N09000003,lgd
+N21000223,Ormiston E,,sdz,N09000003,lgd
+N21000840,Ards Peninsula B,,sdz,N09000011,lgd
+N21000224,Ormiston F,,sdz,N09000003,lgd
+N21000328,Court P,,sdz,N09000003,lgd
+N21000203,Titanic G,,sdz,N09000003,lgd
+N21000329,Court Q,,sdz,N09000003,lgd
+N21000330,Court R,,sdz,N09000003,lgd
+N21000785,Newtownards G,,sdz,N09000011,lgd
+N21000331,Court S,,sdz,N09000003,lgd
+N21000786,Newtownards H,,sdz,N09000011,lgd
+N21000787,Newtownards J,,sdz,N09000011,lgd
+N21000788,Newtownards K,,sdz,N09000011,lgd
+N21000841,Ards Peninsula C,,sdz,N09000011,lgd
+N21000332,Court T,,sdz,N09000003,lgd
+N21000204,Titanic H,,sdz,N09000003,lgd
+N21000205,Titanic J,,sdz,N09000003,lgd
+N21000333,Court U,,sdz,N09000003,lgd
+N21000206,Titanic K,,sdz,N09000003,lgd
+N21000301,Black Mountain A,,sdz,N09000003,lgd
+N21000789,Newtownards L,,sdz,N09000011,lgd
+N21000251,Botanic A,,sdz,N09000003,lgd
+N21000225,Ormiston G,,sdz,N09000003,lgd
+N21000207,Titanic L,,sdz,N09000003,lgd
+N21000666,Cookstown J,,sdz,N09000009,lgd
+N21000563,Castlereagh East B,,sdz,N09000007,lgd
+N21000226,Ormiston H,,sdz,N09000003,lgd
+N21000252,Botanic B,,sdz,N09000003,lgd
+N21000208,Titanic N,,sdz,N09000003,lgd
+N21000334,Court W,,sdz,N09000003,lgd
+N21000564,Castlereagh East C,,sdz,N09000007,lgd
+N21000565,Castlereagh East D,,sdz,N09000007,lgd
+N21000496,Omagh A,,sdz,N09000006,lgd
+N21000497,Omagh B,,sdz,N09000006,lgd
+N21000302,Black Mountain B,,sdz,N09000003,lgd
+N21000209,Titanic P,,sdz,N09000003,lgd
+N21000210,Titanic Q,,sdz,N09000003,lgd
+N21000227,Ormiston J,,sdz,N09000003,lgd
+N21000211,Titanic R,,sdz,N09000003,lgd
+N21000335,Court X,,sdz,N09000003,lgd
+N21000212,Titanic S,,sdz,N09000003,lgd
+N21000490,West Tyrone B,,sdz,N09000006,lgd
+N21000566,Castlereagh East E,,sdz,N09000007,lgd
+N21000303,Black Mountain C,,sdz,N09000003,lgd
+N21000507,Mid Tyrone D,,sdz,N09000006,lgd
+N21000790,Newtownards N,,sdz,N09000011,lgd
+N21000213,Titanic T,,sdz,N09000003,lgd
+N21000304,Black Mountain D,,sdz,N09000003,lgd
+N21000228,Ormiston K,,sdz,N09000003,lgd
+N21000253,Botanic C,,sdz,N09000003,lgd
+N21000305,Black Mountain E,,sdz,N09000003,lgd
+N21000567,Castlereagh East F,,sdz,N09000007,lgd
+N21000229,Ormiston L,,sdz,N09000003,lgd
+N21000230,Ormiston N,,sdz,N09000003,lgd
+N21000791,Newtownards P,,sdz,N09000011,lgd
+N21000214,Titanic U,,sdz,N09000003,lgd
+N21000792,Newtownards Q,,sdz,N09000011,lgd
+N21000215,Titanic W,,sdz,N09000003,lgd
+N21000518,Killultagh A,,sdz,N09000007,lgd
+N21000254,Botanic D,,sdz,N09000003,lgd
+N21000216,Titanic X,,sdz,N09000003,lgd
+N21000498,Omagh C,,sdz,N09000006,lgd
+N21000793,Newtownards R,,sdz,N09000011,lgd
+N21000217,Titanic Y,,sdz,N09000003,lgd
+N21000255,Botanic E,,sdz,N09000003,lgd
+N21000218,Titanic Z,,sdz,N09000003,lgd
+N21000306,Black Mountain F,,sdz,N09000003,lgd
+N21000256,Botanic F,,sdz,N09000003,lgd
+N21000568,Castlereagh East G,,sdz,N09000007,lgd
+N21000569,Castlereagh East H,,sdz,N09000007,lgd
+N21000231,Ormiston P,,sdz,N09000003,lgd
+N21000499,Omagh D,,sdz,N09000006,lgd
+N21000257,Botanic G,,sdz,N09000003,lgd
+N21000258,Botanic H,,sdz,N09000003,lgd
+N21000232,Ormiston Q,,sdz,N09000003,lgd
+N21000236,Lisnasharragh A,,sdz,N09000003,lgd
+N21000667,Cookstown K,,sdz,N09000009,lgd
+N21000233,Ormiston R,,sdz,N09000003,lgd
+N21000237,Lisnasharragh B,,sdz,N09000003,lgd
+N21000259,Botanic J,,sdz,N09000003,lgd
+N21000238,Lisnasharragh C,,sdz,N09000003,lgd
+N21000794,Newtownards S,,sdz,N09000011,lgd
+N21000239,Lisnasharragh D,,sdz,N09000003,lgd
+N21000260,Botanic K,,sdz,N09000003,lgd
+N21000234,Ormiston S,,sdz,N09000003,lgd
+N21000261,Botanic L,,sdz,N09000003,lgd
+N21000262,Botanic N,,sdz,N09000003,lgd
+N21000500,Omagh E,,sdz,N09000006,lgd
+N21000307,Black Mountain G,,sdz,N09000003,lgd
+N21000308,Black Mountain H,,sdz,N09000003,lgd
+N21000263,Botanic P,,sdz,N09000003,lgd
+N21000309,Black Mountain J,,sdz,N09000003,lgd
+N21000264,Botanic Q,,sdz,N09000003,lgd
+N21000265,Botanic R,,sdz,N09000003,lgd
+N21000310,Black Mountain K,,sdz,N09000003,lgd
+N21000240,Lisnasharragh E,,sdz,N09000003,lgd
+N21000501,Omagh F,,sdz,N09000006,lgd
+N21000241,Lisnasharragh F,,sdz,N09000003,lgd
+N21000266,Botanic S,,sdz,N09000003,lgd
+N21000267,Botanic T,,sdz,N09000003,lgd
+N21000268,Botanic U,,sdz,N09000003,lgd
+N21000242,Lisnasharragh G,,sdz,N09000003,lgd
+N21000269,Botanic W,,sdz,N09000003,lgd
+N21000243,Lisnasharragh H,,sdz,N09000003,lgd
+N21000669,Torrent B,,sdz,N09000009,lgd
+N21000311,Black Mountain L,,sdz,N09000003,lgd
+N21000519,Killultagh B,,sdz,N09000007,lgd
+N21000502,Omagh G,,sdz,N09000006,lgd
+N21000312,Black Mountain N,,sdz,N09000003,lgd
+N21000235,Ormiston T,,sdz,N09000003,lgd
+N21000244,Lisnasharragh J,,sdz,N09000003,lgd
+N21000503,Omagh H,,sdz,N09000006,lgd
+N21000270,Botanic X,,sdz,N09000003,lgd
+N21000245,Lisnasharragh K,,sdz,N09000003,lgd
+N21000246,Lisnasharragh L,,sdz,N09000003,lgd
+N21000313,Black Mountain P,,sdz,N09000003,lgd
+N21000314,Black Mountain Q,,sdz,N09000003,lgd
+N21000247,Lisnasharragh N,,sdz,N09000003,lgd
+N21000315,Black Mountain R,,sdz,N09000003,lgd
+N21000271,Botanic Y,,sdz,N09000003,lgd
+N21000248,Lisnasharragh P,,sdz,N09000003,lgd
+N21000249,Lisnasharragh Q,,sdz,N09000003,lgd
+N21000273,Balmoral A,,sdz,N09000003,lgd
+N21000286,Collin A,,sdz,N09000003,lgd
+N21000274,Balmoral B,,sdz,N09000003,lgd
+N21000287,Collin B,,sdz,N09000003,lgd
+N21000288,Collin C,,sdz,N09000003,lgd
+N21000250,Lisnasharragh R,,sdz,N09000003,lgd
+N21000289,Collin D,,sdz,N09000003,lgd
+N21000290,Collin E,,sdz,N09000003,lgd
+N21000291,Collin F,,sdz,N09000003,lgd
+N21000842,Ards Peninsula D,,sdz,N09000011,lgd
+N21000272,Botanic Z,,sdz,N09000003,lgd
+N21000275,Balmoral C,,sdz,N09000003,lgd
+N21000276,Balmoral D,,sdz,N09000003,lgd
+N21000277,Balmoral E,,sdz,N09000003,lgd
+N21000278,Balmoral F,,sdz,N09000003,lgd
+N21000553,Castlereagh South A,,sdz,N09000007,lgd
+N21000292,Collin G,,sdz,N09000003,lgd
+N21000279,Balmoral G,,sdz,N09000003,lgd
+N21000280,Balmoral H,,sdz,N09000003,lgd
+N21000293,Collin H,,sdz,N09000003,lgd
+N21000294,Collin J,,sdz,N09000003,lgd
+N21000771,Comber A,,sdz,N09000011,lgd
+N21000295,Collin K,,sdz,N09000003,lgd
+N21000554,Castlereagh South B,,sdz,N09000007,lgd
+N21000555,Castlereagh South C,,sdz,N09000007,lgd
+N21000281,Balmoral J,,sdz,N09000003,lgd
+N21000772,Comber B,,sdz,N09000011,lgd
+N21000773,Comber C,,sdz,N09000011,lgd
+N21000670,Torrent C,,sdz,N09000009,lgd
+N21000296,Collin L,,sdz,N09000003,lgd
+N21000508,Mid Tyrone E,,sdz,N09000006,lgd
+N21000520,Killultagh C,,sdz,N09000007,lgd
+N21000843,Ards Peninsula E,,sdz,N09000011,lgd
+N21000570,Castlereagh East J,,sdz,N09000007,lgd
+N21000282,Balmoral K,,sdz,N09000003,lgd
+N21000297,Collin N,,sdz,N09000003,lgd
+N21000283,Balmoral L,,sdz,N09000003,lgd
+N21000298,Collin P,,sdz,N09000003,lgd
+N21000671,Torrent D,,sdz,N09000009,lgd
+N21000556,Castlereagh South D,,sdz,N09000007,lgd
+N21000299,Collin Q,,sdz,N09000003,lgd
+N21000774,Comber D,,sdz,N09000011,lgd
+N21000300,Collin R,,sdz,N09000003,lgd
+N21000284,Balmoral N,,sdz,N09000003,lgd
+N21000509,Mid Tyrone F,,sdz,N09000006,lgd
+N21000285,Balmoral P,,sdz,N09000003,lgd
+N21000536,Lisburn North A,,sdz,N09000007,lgd
+N21000537,Lisburn North B,,sdz,N09000007,lgd
+N21000672,Torrent E,,sdz,N09000009,lgd
+N21000557,Castlereagh South E,,sdz,N09000007,lgd
+N21000538,Lisburn North C,,sdz,N09000007,lgd
+N21000539,Lisburn North D,,sdz,N09000007,lgd
+N21000775,Comber E,,sdz,N09000011,lgd
+N21000540,Lisburn North E,,sdz,N09000007,lgd
+N21000482,Erne North A,,sdz,N09000006,lgd
+N21000571,Castlereagh East K,,sdz,N09000007,lgd
+N21000558,Castlereagh South F,,sdz,N09000007,lgd
+N21000673,Torrent F,,sdz,N09000009,lgd
+N21000674,Torrent G,,sdz,N09000009,lgd
+N21000521,Killultagh D,,sdz,N09000007,lgd
+N21000541,Lisburn North F,,sdz,N09000007,lgd
+N21000675,Torrent H,,sdz,N09000009,lgd
+N21000522,Killultagh E,,sdz,N09000007,lgd
+N21000526,Lisburn South A,,sdz,N09000007,lgd
+N21000510,Mid Tyrone G,,sdz,N09000006,lgd
+N21000523,Killultagh F,,sdz,N09000007,lgd
+N21000542,Lisburn North G,,sdz,N09000007,lgd
+N21000527,Lisburn South B,,sdz,N09000007,lgd
+N21000483,Erne North B,,sdz,N09000006,lgd
+N21000543,Lisburn North H,,sdz,N09000007,lgd
+N21000844,Ards Peninsula F,,sdz,N09000011,lgd
+N21000528,Lisburn South C,,sdz,N09000007,lgd
+N21000524,Killultagh G,,sdz,N09000007,lgd
+N21000546,Downshire East A,,sdz,N09000007,lgd
+N21000544,Lisburn North J,,sdz,N09000007,lgd
+N21000529,Lisburn South D,,sdz,N09000007,lgd
+N21000559,Castlereagh South G,,sdz,N09000007,lgd
+N21000107,Lurgan A,,sdz,N09000002,lgd
+N21000530,Lisburn South E,,sdz,N09000007,lgd
+N21000560,Castlereagh South H,,sdz,N09000007,lgd
+N21000531,Lisburn South F,,sdz,N09000007,lgd
+N21000776,Comber F,,sdz,N09000011,lgd
+N21000547,Downshire East B,,sdz,N09000007,lgd
+N21000545,Lisburn North K,,sdz,N09000007,lgd
+N21000532,Lisburn South G,,sdz,N09000007,lgd
+N21000533,Lisburn South H,,sdz,N09000007,lgd
+N21000561,Castlereagh South J,,sdz,N09000007,lgd
+N21000845,Ards Peninsula G,,sdz,N09000011,lgd
+N21000777,Comber G,,sdz,N09000011,lgd
+N21000491,West Tyrone C,,sdz,N09000006,lgd
+N21000548,Downshire East C,,sdz,N09000007,lgd
+N21000676,Dungannon A,,sdz,N09000009,lgd
+N21000534,Lisburn South J,,sdz,N09000007,lgd
+N21000484,Erne North C,,sdz,N09000006,lgd
+N21000677,Dungannon B,,sdz,N09000009,lgd
+N21000525,Killultagh H,,sdz,N09000007,lgd
+N21000535,Lisburn South K,,sdz,N09000007,lgd
+N21000511,Downshire West A,,sdz,N09000007,lgd
+N21000678,Dungannon C,,sdz,N09000009,lgd
+N21000679,Dungannon D,,sdz,N09000009,lgd
+N21000680,Dungannon E,,sdz,N09000009,lgd
+N21000108,Lurgan B,,sdz,N09000002,lgd
+N21000686,Clogher Valley A,,sdz,N09000009,lgd
+N21000681,Dungannon F,,sdz,N09000009,lgd
+N21000492,West Tyrone D,,sdz,N09000006,lgd
+N21000493,West Tyrone E,,sdz,N09000006,lgd
+N21000494,West Tyrone F,,sdz,N09000006,lgd
+N21000682,Dungannon G,,sdz,N09000009,lgd
+N21000512,Downshire West B,,sdz,N09000007,lgd
+N21000846,Ards Peninsula H,,sdz,N09000011,lgd
+N21000687,Clogher Valley B,,sdz,N09000009,lgd
+N21000683,Dungannon H,,sdz,N09000009,lgd
+N21000778,Comber H,,sdz,N09000011,lgd
+N21000079,Portadown A,,sdz,N09000002,lgd
+N21000688,Clogher Valley C,,sdz,N09000009,lgd
+N21000094,Craigavon A,,sdz,N09000002,lgd
+N21000513,Downshire West C,,sdz,N09000007,lgd
+N21000514,Downshire West D,,sdz,N09000007,lgd
+N21000109,Lurgan C,,sdz,N09000002,lgd
+N21000847,Ards Peninsula J,,sdz,N09000011,lgd
+N21000549,Downshire East D,,sdz,N09000007,lgd
+N21000110,Lurgan D,,sdz,N09000002,lgd
+N21000111,Lurgan E,,sdz,N09000002,lgd
+N21000080,Portadown B,,sdz,N09000002,lgd
+N21000515,Downshire West E,,sdz,N09000007,lgd
+N21000752,Rowallane A,,sdz,N09000010,lgd
+N21000112,Lurgan F,,sdz,N09000002,lgd
+N21000516,Downshire West F,,sdz,N09000007,lgd
+N21000113,Lurgan G,,sdz,N09000002,lgd
+N21000095,Craigavon B,,sdz,N09000002,lgd
+N21000114,Lurgan H,,sdz,N09000002,lgd
+N21000517,Downshire West G,,sdz,N09000007,lgd
+N21000550,Downshire East E,,sdz,N09000007,lgd
+N21000753,Rowallane B,,sdz,N09000010,lgd
+N21000115,Lurgan J,,sdz,N09000002,lgd
+N21000485,Erne North D,,sdz,N09000006,lgd
+N21000116,Lurgan K,,sdz,N09000002,lgd
+N21000117,Lurgan L,,sdz,N09000002,lgd
+N21000118,Lurgan N,,sdz,N09000002,lgd
+N21000119,Lurgan P,,sdz,N09000002,lgd
+N21000495,West Tyrone G,,sdz,N09000006,lgd
+N21000120,Lurgan Q,,sdz,N09000002,lgd
+N21000754,Rowallane C,,sdz,N09000010,lgd
+N21000121,Lurgan R,,sdz,N09000002,lgd
+N21000122,Lurgan S,,sdz,N09000002,lgd
+N21000123,Lurgan T,,sdz,N09000002,lgd
+N21000848,Ards Peninsula K,,sdz,N09000011,lgd
+N21000096,Craigavon C,,sdz,N09000002,lgd
+N21000097,Craigavon D,,sdz,N09000002,lgd
+N21000098,Craigavon E,,sdz,N09000002,lgd
+N21000684,Dungannon J,,sdz,N09000009,lgd
+N21000099,Craigavon F,,sdz,N09000002,lgd
+N21000685,Dungannon K,,sdz,N09000009,lgd
+N21000689,Clogher Valley D,,sdz,N09000009,lgd
+N21000124,Lagan River A,,sdz,N09000002,lgd
+N21000100,Craigavon G,,sdz,N09000002,lgd
+N21000101,Craigavon H,,sdz,N09000002,lgd
+N21000102,Craigavon J,,sdz,N09000002,lgd
+N21000125,Lagan River B,,sdz,N09000002,lgd
+N21000081,Portadown C,,sdz,N09000002,lgd
+N21000755,Rowallane D,,sdz,N09000010,lgd
+N21000756,Rowallane E,,sdz,N09000010,lgd
+N21000126,Lagan River C,,sdz,N09000002,lgd
+N21000082,Portadown D,,sdz,N09000002,lgd
+N21000083,Portadown E,,sdz,N09000002,lgd
+N21000084,Portadown F,,sdz,N09000002,lgd
+N21000103,Craigavon K,,sdz,N09000002,lgd
+N21000085,Portadown G,,sdz,N09000002,lgd
+N21000086,Portadown H,,sdz,N09000002,lgd
+N21000551,Downshire East F,,sdz,N09000007,lgd
+N21000104,Craigavon L,,sdz,N09000002,lgd
+N21000105,Craigavon N,,sdz,N09000002,lgd
+N21000087,Portadown J,,sdz,N09000002,lgd
+N21000127,Lagan River D,,sdz,N09000002,lgd
+N21000690,Clogher Valley E,,sdz,N09000009,lgd
+N21000128,Lagan River E,,sdz,N09000002,lgd
+N21000088,Portadown K,,sdz,N09000002,lgd
+N21000129,Lagan River F,,sdz,N09000002,lgd
+N21000130,Lagan River G,,sdz,N09000002,lgd
+N21000106,Craigavon P,,sdz,N09000002,lgd
+N21000089,Portadown L,,sdz,N09000002,lgd
+N21000090,Portadown N,,sdz,N09000002,lgd
+N21000757,Rowallane F,,sdz,N09000010,lgd
+N21000474,Enniskillen A,,sdz,N09000006,lgd
+N21000091,Portadown P,,sdz,N09000002,lgd
+N21000758,Rowallane G,,sdz,N09000010,lgd
+N21000759,Rowallane H,,sdz,N09000010,lgd
+N21000131,Lagan River H,,sdz,N09000002,lgd
+N21000486,Erne North E,,sdz,N09000006,lgd
+N21000849,Ards Peninsula L,,sdz,N09000011,lgd
+N21000068,Armagh A,,sdz,N09000002,lgd
+N21000092,Portadown Q,,sdz,N09000002,lgd
+N21000093,Portadown R,,sdz,N09000002,lgd
+N21000760,Rowallane J,,sdz,N09000010,lgd
+N21000132,Lagan River J,,sdz,N09000002,lgd
+N21000133,Lagan River K,,sdz,N09000002,lgd
+N21000487,Erne North F,,sdz,N09000006,lgd
+N21000552,Downshire East G,,sdz,N09000007,lgd
+N21000468,Erne West A,,sdz,N09000006,lgd
+N21000850,Ards Peninsula N,,sdz,N09000011,lgd
+N21000136,Banbridge A,,sdz,N09000002,lgd
+N21000691,Clogher Valley F,,sdz,N09000009,lgd
+N21000743,Slieve Croob A,,sdz,N09000010,lgd
+N21000134,Lagan River L,,sdz,N09000002,lgd
+N21000744,Slieve Croob B,,sdz,N09000010,lgd
+N21000488,Erne North G,,sdz,N09000006,lgd
+N21000137,Banbridge B,,sdz,N09000002,lgd
+N21000692,Clogher Valley G,,sdz,N09000009,lgd
+N21000150,Cusher A,,sdz,N09000002,lgd
+N21000151,Cusher B,,sdz,N09000002,lgd
+N21000693,Clogher Valley H,,sdz,N09000009,lgd
+N21000138,Banbridge C,,sdz,N09000002,lgd
+N21000139,Banbridge D,,sdz,N09000002,lgd
+N21000761,Downpatrick A,,sdz,N09000010,lgd
+N21000152,Cusher C,,sdz,N09000002,lgd
+N21000153,Cusher D,,sdz,N09000002,lgd
+N21000154,Cusher E,,sdz,N09000002,lgd
+N21000155,Cusher F,,sdz,N09000002,lgd
+N21000069,Armagh B,,sdz,N09000002,lgd
+N21000140,Banbridge E,,sdz,N09000002,lgd
+N21000070,Armagh C,,sdz,N09000002,lgd
+N21000141,Banbridge F,,sdz,N09000002,lgd
+N21000762,Downpatrick B,,sdz,N09000010,lgd
+N21000763,Downpatrick C,,sdz,N09000010,lgd
+N21000071,Armagh D,,sdz,N09000002,lgd
+N21000469,Erne West B,,sdz,N09000006,lgd
+N21000142,Banbridge G,,sdz,N09000002,lgd
+N21000143,Banbridge H,,sdz,N09000002,lgd
+N21000475,Enniskillen B,,sdz,N09000006,lgd
+N21000144,Banbridge J,,sdz,N09000002,lgd
+N21000072,Armagh E,,sdz,N09000002,lgd
+N21000745,Slieve Croob C,,sdz,N09000010,lgd
+N21000073,Armagh F,,sdz,N09000002,lgd
+N21000746,Slieve Croob D,,sdz,N09000010,lgd
+N21000476,Enniskillen C,,sdz,N09000006,lgd
+N21000477,Enniskillen D,,sdz,N09000006,lgd
+N21000470,Erne West C,,sdz,N09000006,lgd
+N21000764,Downpatrick D,,sdz,N09000010,lgd
+N21000135,Lagan River N,,sdz,N09000002,lgd
+N21000765,Downpatrick E,,sdz,N09000010,lgd
+N21000145,Banbridge K,,sdz,N09000002,lgd
+N21000478,Enniskillen E,,sdz,N09000006,lgd
+N21000479,Enniskillen F,,sdz,N09000006,lgd
+N21000074,Armagh G,,sdz,N09000002,lgd
+N21000075,Armagh H,,sdz,N09000002,lgd
+N21000766,Downpatrick F,,sdz,N09000010,lgd
+N21000156,Cusher G,,sdz,N09000002,lgd
+N21000767,Downpatrick G,,sdz,N09000010,lgd
+N21000480,Enniskillen G,,sdz,N09000006,lgd
+N21000481,Enniskillen H,,sdz,N09000006,lgd
+N21000462,Erne East A,,sdz,N09000006,lgd
+N21000747,Slieve Croob E,,sdz,N09000010,lgd
+N21000076,Armagh J,,sdz,N09000002,lgd
+N21000768,Downpatrick H,,sdz,N09000010,lgd
+N21000146,Banbridge L,,sdz,N09000002,lgd
+N21000147,Banbridge N,,sdz,N09000002,lgd
+N21000157,Cusher H,,sdz,N09000002,lgd
+N21000471,Erne West D,,sdz,N09000006,lgd
+N21000158,Cusher J,,sdz,N09000002,lgd
+N21000463,Erne East B,,sdz,N09000006,lgd
+N21000748,Slieve Croob F,,sdz,N09000010,lgd
+N21000749,Slieve Croob G,,sdz,N09000010,lgd
+N21000769,Downpatrick J,,sdz,N09000010,lgd
+N21000770,Downpatrick K,,sdz,N09000010,lgd
+N21000148,Banbridge P,,sdz,N09000002,lgd
+N21000750,Slieve Croob H,,sdz,N09000010,lgd
+N21000464,Erne East C,,sdz,N09000006,lgd
+N21000751,Slieve Croob J,,sdz,N09000010,lgd
+N21000159,Cusher K,,sdz,N09000002,lgd
+N21000472,Erne West E,,sdz,N09000006,lgd
+N21000730,The Mournes A,,sdz,N09000010,lgd
+N21000077,Armagh K,,sdz,N09000002,lgd
+N21000078,Armagh L,,sdz,N09000002,lgd
+N21000465,Erne East D,,sdz,N09000006,lgd
+N21000160,Cusher L,,sdz,N09000002,lgd
+N21000149,Banbridge Q,,sdz,N09000002,lgd
+N21000719,Crotlieve A,,sdz,N09000010,lgd
+N21000731,The Mournes B,,sdz,N09000010,lgd
+N21000732,The Mournes C,,sdz,N09000010,lgd
+N21000694,Slieve Gullion A,,sdz,N09000010,lgd
+N21000466,Erne East E,,sdz,N09000006,lgd
+N21000733,The Mournes D,,sdz,N09000010,lgd
+N21000734,The Mournes E,,sdz,N09000010,lgd
+N21000735,The Mournes F,,sdz,N09000010,lgd
+N21000720,Crotlieve B,,sdz,N09000010,lgd
+N21000695,Slieve Gullion B,,sdz,N09000010,lgd
+N21000696,Slieve Gullion C,,sdz,N09000010,lgd
+N21000721,Crotlieve C,,sdz,N09000010,lgd
+N21000722,Crotlieve D,,sdz,N09000010,lgd
+N21000697,Slieve Gullion D,,sdz,N09000010,lgd
+N21000706,Newry A,,sdz,N09000010,lgd
+N21000707,Newry B,,sdz,N09000010,lgd
+N21000698,Slieve Gullion E,,sdz,N09000010,lgd
+N21000708,Newry C,,sdz,N09000010,lgd
+N21000709,Newry D,,sdz,N09000010,lgd
+N21000710,Newry E,,sdz,N09000010,lgd
+N21000473,Erne West F,,sdz,N09000006,lgd
+N21000711,Newry F,,sdz,N09000010,lgd
+N21000712,Newry G,,sdz,N09000010,lgd
+N21000713,Newry H,,sdz,N09000010,lgd
+N21000467,Erne East F,,sdz,N09000006,lgd
+N21000714,Newry J,,sdz,N09000010,lgd
+N21000715,Newry K,,sdz,N09000010,lgd
+N21000716,Newry L,,sdz,N09000010,lgd
+N21000723,Crotlieve E,,sdz,N09000010,lgd
+N21000724,Crotlieve F,,sdz,N09000010,lgd
+N21000699,Slieve Gullion F,,sdz,N09000010,lgd
+N21000736,The Mournes G,,sdz,N09000010,lgd
+N21000725,Crotlieve G,,sdz,N09000010,lgd
+N21000717,Newry N,,sdz,N09000010,lgd
+N21000700,Slieve Gullion G,,sdz,N09000010,lgd
+N21000701,Slieve Gullion H,,sdz,N09000010,lgd
+N21000718,Newry P,,sdz,N09000010,lgd
+N21000737,The Mournes H,,sdz,N09000010,lgd
+N21000726,Crotlieve H,,sdz,N09000010,lgd
+N21000727,Crotlieve J,,sdz,N09000010,lgd
+N21000728,Crotlieve K,,sdz,N09000010,lgd
+N21000729,Crotlieve L,,sdz,N09000010,lgd
+N21000738,The Mournes J,,sdz,N09000010,lgd
+N21000702,Slieve Gullion J,,sdz,N09000010,lgd
+N21000739,The Mournes K,,sdz,N09000010,lgd
+N21000703,Slieve Gullion K,,sdz,N09000010,lgd
+N21000704,Slieve Gullion L,,sdz,N09000010,lgd
+N21000705,Slieve Gullion N,,sdz,N09000010,lgd
+N21000740,The Mournes L,,sdz,N09000010,lgd
+N21000741,The Mournes N,,sdz,N09000010,lgd
+N21000742,The Mournes P,,sdz,N09000010,lgd

@@ -311,31 +311,3 @@ cat("Writing data for Local Government District", lgd, "...", which(LGDs == lgd)
 
 }
 
-
-
-# Create search data csv ####
-
-
-
-search_data <- cpd %>% 
-  filter(SDZ2021 != "000000000") %>% 
-  mutate(namew = "",
-         type = "postcode",
-         parent_type = "sdz",
-         name = paste0(
-           substr(postcode, 1, nchar(postcode) - 3), 
-           " ", 
-           substr(postcode, nchar(postcode) - 2, nchar(postcode))
-          )) %>% 
-  select(code = SDZ2021,
-         name,
-         namew,
-         type,
-         parent = SDZ2021,
-         parent_type)
-
-write.csv(search_data,
-          paste0(search_dir, search_data_filename),
-          quote = FALSE,
-          row.names = FALSE)
-

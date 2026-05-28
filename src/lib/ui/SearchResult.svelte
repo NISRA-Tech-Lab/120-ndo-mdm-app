@@ -34,7 +34,7 @@
 
         let search_code = postcode.replaceAll(" ", "");
 
-        fetch("https://raw.githubusercontent.com/nisra-explore/local-stats/main/search_data/CPD_LIGHT_JULY_2024.csv")
+        fetch("https://raw.githubusercontent.com/NISRA-Tech-Lab/120-ndo-mdm-app/main/search_data/postcode_JAN2026.csv")
             .then((response) => response.text())
             .then((data) => {
                 const rows = data.split("\n");
