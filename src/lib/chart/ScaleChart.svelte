@@ -1,7 +1,7 @@
 <script>
   export let value;
 
- import { scaleColours } from '../layout/ScaleColours.svelte';
+ import { scaleColours } from '$lib/layout/ScaleColours.js';
 
   $: x_position = (value / 850 * -151.90294) - 1.3229166;
 </script>

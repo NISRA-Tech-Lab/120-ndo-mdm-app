@@ -1,4 +1,3 @@
-<script>
     export const scaleColours = [
     '#071f59',
     '#182b5f',
@@ -11,4 +10,3 @@
     '#958489',
     '#a8908f'
   ];
-</script>
