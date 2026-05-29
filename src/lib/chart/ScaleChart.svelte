@@ -1,9 +1,10 @@
 <script>
   export let value;
+  export let count;
 
  import { scaleColours } from '$lib/layout/ScaleColours.js';
 
-  $: x_position = (value / 850 * -151.90294);
+  $: x_position = (value / count * -151.90294);
 </script>
 
 

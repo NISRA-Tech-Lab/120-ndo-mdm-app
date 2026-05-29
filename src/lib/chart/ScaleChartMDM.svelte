@@ -1,6 +1,7 @@
 <script>
   export let value;
   export let place;
+  export let count;
 
   import { scaleColours } from '$lib/layout/ScaleColours.js';
 
@@ -12,10 +13,10 @@
   const svgMaxX = 154.5487732;
   const scaleY = 7.0;
 
-  $: x_position = value / 850 * -151.90294;
+  $: x_position = value / count * -151.90294;
   $: markerCenter = -x_position - markerWidth / 2;
   $: placeName = place?.name?.replace(/_/g, ' ') || 'place';
-  $: arrowFromLeft = value > 450;
+  $: arrowFromLeft = value > count / 2;
   $: boxLabel = `rank: ${value}`;
 
   $: longestLine = Math.max(placeName.length, boxLabel.length);

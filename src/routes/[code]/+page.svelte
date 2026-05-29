@@ -1036,7 +1036,7 @@
 	</div>
 
 	<Section>
-		<ScaleChartMDM value={data.place.data.ranks.mdm} place={data.place}></ScaleChartMDM>
+		<ScaleChartMDM value={data.place.data.ranks.mdm} place={data.place} count={data.place.count}></ScaleChartMDM>
 	</Section>
 {/if}
 
@@ -1049,7 +1049,7 @@
 			<p style="margin-top: 0;">rank {data.place.data.ranks.income}</p>
 		</div>
 		<div style="grid-column: span 2;">
-			<ScaleChart value = {data.place.data.ranks.income} />
+			<ScaleChart value = {data.place.data.ranks.income} count={data.place.count}/>
 		</div>
 		
 	</div>
