@@ -1,7 +1,7 @@
 <script>
   export let value;
 
-  $: x_position = value / 850 * -151.90294;
+  $: x_position = (value / 850 * -151.90294) - 1.3229166;
 </script>
 
 
