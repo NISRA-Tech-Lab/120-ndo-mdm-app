@@ -3,12 +3,12 @@
 
  import { scaleColours } from '$lib/layout/ScaleColours.js';
 
-  $: x_position = (value / 850 * -151.90294) - 1.3229166;
+  $: x_position = (value / 850 * -151.90294);
 </script>
 
 
 <svg
-   viewBox="0 0 151.90294 10.583334"
+   viewBox="-1.3229166 0 154.5487732 10.583334"
    xmlns="http://www.w3.org/2000/svg">
    <g
      id="g10"
@@ -33,8 +33,7 @@
       stroke-miterlimit="8"
       fill="#f8f8f8"
       transform="scale(-1,1)"
-      id="marker"
-      inkscape:label="marker" />
+      id="marker" />
      </svg>
 
 
