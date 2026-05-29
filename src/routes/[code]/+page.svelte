@@ -19,6 +19,7 @@
 	import ScrollToTop from "$lib/ui/scroll.svelte";
 	import SearchResult from "$lib/ui/SearchResult.svelte";
 	import ScaleChart from "$lib/chart/ScaleChart.svelte";
+    import ScaleChartMDM from "$lib/chart/ScaleChartMDM.svelte";
 
 	export let data;
 	let searchName;
@@ -1033,6 +1034,10 @@
 			</h2>
 		</Section>
 	</div>
+
+	<Section>
+		<ScaleChartMDM value={data.place.data.ranks.mdm} place={data.place}></ScaleChartMDM>
+	</Section>
 {/if}
 
 
