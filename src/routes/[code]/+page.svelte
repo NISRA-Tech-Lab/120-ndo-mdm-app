@@ -18,6 +18,7 @@
 	import MapLayer from "$lib/map/MapLayer.svelte";
 	import ScrollToTop from "$lib/ui/scroll.svelte";
 	import SearchResult from "$lib/ui/SearchResult.svelte";
+	import ScaleChart from "$lib/chart/ScaleChart.svelte";
 
 	export let data;
 	let searchName;
@@ -843,6 +844,8 @@
 
 		<SearchResult place={data.place} />
 
+	
+
 		<div id="grid" class="grid mt"></div>
 		<!-- a19e9e -->
 		<div class="grid mt" bind:clientWidth={w}>
@@ -1032,6 +1035,21 @@
 	</div>
 {/if}
 
+
+<Section column="wide">
+	<h2>There are different types of deprivation in <span style="color: var(--nisra_blue);">{data.place.name.replace(/_/g, " ")}</span></h2>
+	<div class="grid">
+		<div style="grid-column: span 1;">
+			<p style="margin-bottom: 0;">Income</p>
+			<p style="margin-top: 0;">rank {data.place.data.ranks.income}</p>
+		</div>
+		<div style="grid-column: span 2;">
+			<ScaleChart value = {data.place.data.ranks.income} />
+		</div>
+		
+	</div>
+	
+</Section>
 <style>
 
 	.deprivation-headline{
