@@ -1032,6 +1032,17 @@
 						<span>less</span>
 					{/if} deprived than most neighbourhoods in Northern Ireland.
 			</h2>
+				<p style="text-align: center; margin-top: 20px;">
+					{Math.round(data.place.data.ranks.mdm / data.place.count * 100)}% of all
+					{data.place.count} neightbourhoods in Northern Ireland are 
+					{#if data.place.data.ranks.mdm < data.place.count / 2}
+					less
+					{:else}
+					more
+					{/if}
+					deprived than 
+					<span style="color: var(--nisra_blue);">{data.place.name.replace(/_/g, " ")}</span>.
+				</p>
 		</Section>
 	</div>
 
@@ -1042,20 +1053,109 @@
 
 
 <Section column="wide">
-	<h2>There are different types of deprivation in <span style="color: var(--nisra_blue);">{data.place.name.replace(/_/g, " ")}</span></h2>
-	<div class="grid">
-		<div style="grid-column: span 1;">
-			<p style="margin-bottom: 0;">Income</p>
-			<p style="margin-top: 0;">rank {data.place.data.ranks.income}</p>
-		</div>
-		<div style="grid-column: span 2;">
-			<ScaleChart value = {data.place.data.ranks.income} count={data.place.count}/>
-		</div>
+		<h2 style="margin-bottom: 20px;">There are different types of deprivation in <span style="color: var(--nisra_blue);">{data.place.name.replace(/_/g, " ")}</span></h2>
+			<div class="data-row">
+				<div class="label-container">
+  					<p class="label" style="color: var(--nisra_blue);">Income</p>
+  					<p class="rank">rank {data.place.data.ranks.income}</p>
+				</div>
+
+				<div class="chart-container">
+  					<ScaleChart value={data.place.data.ranks.income} count={data.place.count} />
+				</div>
 		
-	</div>
+			</div>
+
+			<div class="data-row">
+				<div class="label-container">
+  					<p class="label" style="color: var(--nisra_blue);">Employment</p>
+  					<p class="rank">rank {data.place.data.ranks.employment}</p>
+				</div>
+
+				<div class="chart-container">
+  					<ScaleChart value={data.place.data.ranks.employment} count={data.place.count}  />
+				</div>
+			</div>
+
+			<div class="data-row">
+				<div class="label-container">
+  					<p class="label" style="color: var(--nisra_blue);">Health and disability</p>
+  					<p class="rank">rank {data.place.data.ranks.health}</p>
+				</div>
+
+				<div class="chart-container">
+  					<ScaleChart value={data.place.data.ranks.health} count={data.place.count} />
+				</div>
+			</div>
+
+			<div class="data-row">
+				<div class="label-container">
+  					<p class="label" style="color: var(--nisra_blue);">Education skill and training</p>
+  					<p class="rank">rank {data.place.data.ranks.education}</p>
+				</div>
+
+				<div class="chart-container">
+  					<ScaleChart value={data.place.data.ranks.education} count={data.place.count} />
+				</div>
+			</div>
+
+			<div class="data-row">
+				<div class="label-container">
+  					<p class="label" style="color: var(--nisra_blue);">Access to services</p>
+  					<p class="rank">rank {data.place.data.ranks.services}</p>
+				</div>
+
+				<div class="chart-container">
+  					<ScaleChart value={data.place.data.ranks.services} count={data.place.count} />
+				</div>
+			</div>
+
+			<div class="data-row">
+				<div class="label-container">
+  					<p class="label" style="color: var(--nisra_blue);">Living environment</p>
+  					<p class="rank">rank {data.place.data.ranks.living}</p>
+				</div>
+
+				<div class="chart-container">
+  					<ScaleChart value={data.place.data.ranks.living} count={data.place.count} />
+				</div>
+			</div>
+
+			<div class="data-row">
+				<div class="label-container">
+  					<p class="label" style="color: var(--nisra_blue);">Crime and disorder</p>
+  					<p class="rank">rank {data.place.data.ranks.crime}</p>
+				</div>
+
+				<div class="chart-container">
+  					<ScaleChart value={data.place.data.ranks.crime} count={data.place.count} />
+				</div>
+			</div>
 	
 </Section>
 <style>
+
+	.data-row {
+  	display: flex;
+  	align-items: center;     
+ 	gap: 16px;               
+  	margin-bottom: 12px;
+	}
+
+	.label-container {
+  	flex: 0 0 140px;         
+  	text-align: right;       
+	}
+
+	.label-container p {
+  	margin: 0;
+	}
+
+	.chart-container {
+  	flex: 1;                
+  	display: flex;
+  	align-items: center;     
+	}
 
 	.deprivation-headline{
 		text-align: center;
