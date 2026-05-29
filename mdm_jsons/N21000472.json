@@ -22,9 +22,9 @@
     "ranks": {
       "mdm": 377,
       "income": 111,
-      "below60": 693,
+      "crime": 693,
       "employment": 608,
-      "emprop": 203,
+      "living": 203,
       "health": 739,
       "education": 596,
       "services": 19

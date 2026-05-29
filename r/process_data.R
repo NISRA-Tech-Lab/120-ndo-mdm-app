@@ -59,7 +59,14 @@ urban_rural <- cpd %>%
   
 # Import dummy data ####
 
-nimdm <- read.csv("r/data/nimdm-2026-ranks-sdz-dummy-data.csv")
+nimdm <- read.csv("r/data/nimdm-2026-ranks-sdz-dummy-data.csv") %>% 
+  mutate(
+    statistic = case_when(
+      statistic == "Proportion of the population living in households whose equivalised income is below 60 per cent of the NI median" ~ "Crime and Disorder Domain (Rank)",
+      statistic == "Proportion of the working age population who are employment deprived" ~ "Living Environment Domain (Rank)",
+      TRUE ~ statistic
+    )
+  )
 
 # Import from Data Portal ####
 

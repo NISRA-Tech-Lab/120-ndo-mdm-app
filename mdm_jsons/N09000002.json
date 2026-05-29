@@ -483,9 +483,9 @@
       "N21000107": {
         "mdm": 721,
         "income": 680,
-        "below60": 174,
+        "crime": 174,
         "employment": 716,
-        "emprop": 128,
+        "living": 128,
         "health": 720,
         "education": 713,
         "services": 165
@@ -493,9 +493,9 @@
       "N21000108": {
         "mdm": 483,
         "income": 568,
-        "below60": 268,
+        "crime": 268,
         "employment": 377,
-        "emprop": 560,
+        "living": 560,
         "health": 329,
         "education": 477,
         "services": 296
@@ -503,9 +503,9 @@
       "N21000079": {
         "mdm": 520,
         "income": 401,
-        "below60": 378,
+        "crime": 378,
         "employment": 561,
-        "emprop": 233,
+        "living": 233,
         "health": 584,
         "education": 667,
         "services": 26
@@ -513,9 +513,9 @@
       "N21000094": {
         "mdm": 709,
         "income": 669,
-        "below60": 173,
+        "crime": 173,
         "employment": 731,
-        "emprop": 111,
+        "living": 111,
         "health": 684,
         "education": 735,
         "services": 99
@@ -523,9 +523,9 @@
       "N21000109": {
         "mdm": 400,
         "income": 462,
-        "below60": 465,
+        "crime": 465,
         "employment": 314,
-        "emprop": 581,
+        "living": 581,
         "health": 286,
         "education": 371,
         "services": 471
@@ -533,9 +533,9 @@
       "N21000110": {
         "mdm": 340,
         "income": 505,
-        "below60": 327,
+        "crime": 327,
         "employment": 249,
-        "emprop": 643,
+        "living": 643,
         "health": 226,
         "education": 355,
         "services": 421
@@ -543,9 +543,9 @@
       "N21000111": {
         "mdm": 236,
         "income": 359,
-        "below60": 523,
+        "crime": 523,
         "employment": 180,
-        "emprop": 714,
+        "living": 714,
         "health": 178,
         "education": 256,
         "services": 452
@@ -553,9 +553,9 @@
       "N21000080": {
         "mdm": 551,
         "income": 390,
-        "below60": 424,
+        "crime": 424,
         "employment": 631,
-        "emprop": 212,
+        "living": 212,
         "health": 663,
         "education": 539,
         "services": 115
@@ -563,9 +563,9 @@
       "N21000112": {
         "mdm": 118,
         "income": 304,
-        "below60": 638,
+        "crime": 638,
         "employment": 113,
-        "emprop": 746,
+        "living": 746,
         "health": 129,
         "education": 114,
         "services": 718
@@ -573,9 +573,9 @@
       "N21000113": {
         "mdm": 68,
         "income": 68,
-        "below60": 808,
+        "crime": 808,
         "employment": 72,
-        "emprop": 767,
+        "living": 767,
         "health": 88,
         "education": 80,
         "services": 710
@@ -583,9 +583,9 @@
       "N21000095": {
         "mdm": 473,
         "income": 599,
-        "below60": 248,
+        "crime": 248,
         "employment": 389,
-        "emprop": 452,
+        "living": 452,
         "health": 277,
         "education": 351,
         "services": 324
@@ -593,9 +593,9 @@
       "N21000114": {
         "mdm": 744,
         "income": 732,
-        "below60": 114,
+        "crime": 114,
         "employment": 712,
-        "emprop": 142,
+        "living": 142,
         "health": 692,
         "education": 738,
         "services": 261
@@ -603,9 +603,9 @@
       "N21000115": {
         "mdm": 681,
         "income": 611,
-        "below60": 213,
+        "crime": 213,
         "employment": 645,
-        "emprop": 185,
+        "living": 185,
         "health": 644,
         "education": 543,
         "services": 376
@@ -613,9 +613,9 @@
       "N21000116": {
         "mdm": 85,
         "income": 52,
-        "below60": 828,
+        "crime": 828,
         "employment": 139,
-        "emprop": 702,
+        "living": 702,
         "health": 146,
         "education": 77,
         "services": 747
@@ -623,9 +623,9 @@
       "N21000117": {
         "mdm": 63,
         "income": 182,
-        "below60": 694,
+        "crime": 694,
         "employment": 67,
-        "emprop": 762,
+        "living": 762,
         "health": 75,
         "education": 40,
         "services": 778
@@ -633,9 +633,9 @@
       "N21000118": {
         "mdm": 140,
         "income": 564,
-        "below60": 278,
+        "crime": 278,
         "employment": 103,
-        "emprop": 731,
+        "living": 731,
         "health": 81,
         "education": 103,
         "services": 504
@@ -643,9 +643,9 @@
       "N21000119": {
         "mdm": 534,
         "income": 543,
-        "below60": 502,
+        "crime": 502,
         "employment": 511,
-        "emprop": 316,
+        "living": 316,
         "health": 462,
         "education": 243,
         "services": 560
@@ -653,9 +653,9 @@
       "N21000120": {
         "mdm": 167,
         "income": 119,
-        "below60": 750,
+        "crime": 750,
         "employment": 222,
-        "emprop": 583,
+        "living": 583,
         "health": 211,
         "education": 88,
         "services": 584
@@ -663,9 +663,9 @@
       "N21000121": {
         "mdm": 137,
         "income": 442,
-        "below60": 417,
+        "crime": 417,
         "employment": 129,
-        "emprop": 710,
+        "living": 710,
         "health": 85,
         "education": 116,
         "services": 555
@@ -673,9 +673,9 @@
       "N21000122": {
         "mdm": 561,
         "income": 598,
-        "below60": 249,
+        "crime": 249,
         "employment": 504,
-        "emprop": 325,
+        "living": 325,
         "health": 466,
         "education": 236,
         "services": 494
@@ -683,9 +683,9 @@
       "N21000123": {
         "mdm": 222,
         "income": 278,
-        "below60": 602,
+        "crime": 602,
         "employment": 251,
-        "emprop": 571,
+        "living": 571,
         "health": 225,
         "education": 120,
         "services": 503
@@ -693,9 +693,9 @@
       "N21000096": {
         "mdm": 264,
         "income": 378,
-        "below60": 427,
+        "crime": 427,
         "employment": 288,
-        "emprop": 564,
+        "living": 564,
         "health": 236,
         "education": 170,
         "services": 289
@@ -703,9 +703,9 @@
       "N21000097": {
         "mdm": 93,
         "income": 186,
-        "below60": 610,
+        "crime": 610,
         "employment": 114,
-        "emprop": 713,
+        "living": 713,
         "health": 84,
         "education": 70,
         "services": 322
@@ -713,9 +713,9 @@
       "N21000098": {
         "mdm": 88,
         "income": 269,
-        "below60": 558,
+        "crime": 558,
         "employment": 109,
-        "emprop": 722,
+        "living": 722,
         "health": 70,
         "education": 61,
         "services": 315
@@ -723,9 +723,9 @@
       "N21000099": {
         "mdm": 508,
         "income": 490,
-        "below60": 318,
+        "crime": 318,
         "employment": 502,
-        "emprop": 394,
+        "living": 394,
         "health": 423,
         "education": 343,
         "services": 300
@@ -733,9 +733,9 @@
       "N21000124": {
         "mdm": 789,
         "income": 746,
-        "below60": 107,
+        "crime": 107,
         "employment": 796,
-        "emprop": 54,
+        "living": 54,
         "health": 743,
         "education": 765,
         "services": 254
@@ -743,9 +743,9 @@
       "N21000100": {
         "mdm": 78,
         "income": 237,
-        "below60": 580,
+        "crime": 580,
         "employment": 100,
-        "emprop": 730,
+        "living": 730,
         "health": 66,
         "education": 50,
         "services": 304
@@ -753,9 +753,9 @@
       "N21000101": {
         "mdm": 612,
         "income": 508,
-        "below60": 379,
+        "crime": 379,
         "employment": 521,
-        "emprop": 327,
+        "living": 327,
         "health": 514,
         "education": 513,
         "services": 478
@@ -763,9 +763,9 @@
       "N21000102": {
         "mdm": 661,
         "income": 556,
-        "below60": 335,
+        "crime": 335,
         "employment": 586,
-        "emprop": 272,
+        "living": 272,
         "health": 593,
         "education": 601,
         "services": 412
@@ -773,9 +773,9 @@
       "N21000125": {
         "mdm": 782,
         "income": 692,
-        "below60": 168,
+        "crime": 168,
         "employment": 804,
-        "emprop": 45,
+        "living": 45,
         "health": 785,
         "education": 785,
         "services": 221
@@ -783,9 +783,9 @@
       "N21000081": {
         "mdm": 99,
         "income": 101,
-        "below60": 747,
+        "crime": 747,
         "employment": 118,
-        "emprop": 712,
+        "living": 712,
         "health": 112,
         "education": 62,
         "services": 492
@@ -793,9 +793,9 @@
       "N21000126": {
         "mdm": 726,
         "income": 591,
-        "below60": 264,
+        "crime": 264,
         "employment": 766,
-        "emprop": 79,
+        "living": 79,
         "health": 770,
         "education": 781,
         "services": 175
@@ -803,9 +803,9 @@
       "N21000082": {
         "mdm": 97,
         "income": 67,
-        "below60": 765,
+        "crime": 765,
         "employment": 125,
-        "emprop": 709,
+        "living": 709,
         "health": 123,
         "education": 87,
         "services": 506
@@ -813,9 +813,9 @@
       "N21000083": {
         "mdm": 71,
         "income": 42,
-        "below60": 807,
+        "crime": 807,
         "employment": 105,
-        "emprop": 723,
+        "living": 723,
         "health": 117,
         "education": 28,
         "services": 556
@@ -823,9 +823,9 @@
       "N21000084": {
         "mdm": 327,
         "income": 315,
-        "below60": 532,
+        "crime": 532,
         "employment": 328,
-        "emprop": 502,
+        "living": 502,
         "health": 288,
         "education": 240,
         "services": 623
@@ -833,9 +833,9 @@
       "N21000103": {
         "mdm": 585,
         "income": 558,
-        "below60": 336,
+        "crime": 336,
         "employment": 445,
-        "emprop": 413,
+        "living": 413,
         "health": 380,
         "education": 458,
         "services": 546
@@ -843,9 +843,9 @@
       "N21000085": {
         "mdm": 80,
         "income": 41,
-        "below60": 791,
+        "crime": 791,
         "employment": 153,
-        "emprop": 660,
+        "living": 660,
         "health": 137,
         "education": 33,
         "services": 593
@@ -853,9 +853,9 @@
       "N21000086": {
         "mdm": 590,
         "income": 588,
-        "below60": 272,
+        "crime": 272,
         "employment": 437,
-        "emprop": 420,
+        "living": 420,
         "health": 357,
         "education": 426,
         "services": 545
@@ -863,9 +863,9 @@
       "N21000104": {
         "mdm": 511,
         "income": 650,
-        "below60": 218,
+        "crime": 218,
         "employment": 484,
-        "emprop": 381,
+        "living": 381,
         "health": 402,
         "education": 388,
         "services": 194
@@ -873,9 +873,9 @@
       "N21000105": {
         "mdm": 630,
         "income": 606,
-        "below60": 277,
+        "crime": 277,
         "employment": 517,
-        "emprop": 377,
+        "living": 377,
         "health": 456,
         "education": 498,
         "services": 469
@@ -883,9 +883,9 @@
       "N21000087": {
         "mdm": 559,
         "income": 342,
-        "below60": 464,
+        "crime": 464,
         "employment": 681,
-        "emprop": 148,
+        "living": 148,
         "health": 653,
         "education": 737,
         "services": 41
@@ -893,9 +893,9 @@
       "N21000127": {
         "mdm": 736,
         "income": 584,
-        "below60": 250,
+        "crime": 250,
         "employment": 719,
-        "emprop": 129,
+        "living": 129,
         "health": 681,
         "education": 638,
         "services": 442
@@ -903,9 +903,9 @@
       "N21000128": {
         "mdm": 702,
         "income": 531,
-        "below60": 314,
+        "crime": 314,
         "employment": 757,
-        "emprop": 88,
+        "living": 88,
         "health": 761,
         "education": 787,
         "services": 145
@@ -913,9 +913,9 @@
       "N21000088": {
         "mdm": 82,
         "income": 32,
-        "below60": 801,
+        "crime": 801,
         "employment": 163,
-        "emprop": 645,
+        "living": 645,
         "health": 140,
         "education": 36,
         "services": 610
@@ -923,9 +923,9 @@
       "N21000129": {
         "mdm": 719,
         "income": 576,
-        "below60": 260,
+        "crime": 260,
         "employment": 704,
-        "emprop": 144,
+        "living": 144,
         "health": 665,
         "education": 580,
         "services": 434
@@ -933,9 +933,9 @@
       "N21000130": {
         "mdm": 733,
         "income": 610,
-        "below60": 251,
+        "crime": 251,
         "employment": 759,
-        "emprop": 89,
+        "living": 89,
         "health": 758,
         "education": 783,
         "services": 184
@@ -943,9 +943,9 @@
       "N21000106": {
         "mdm": 674,
         "income": 661,
-        "below60": 201,
+        "crime": 201,
         "employment": 616,
-        "emprop": 273,
+        "living": 273,
         "health": 608,
         "education": 618,
         "services": 320
@@ -953,9 +953,9 @@
       "N21000089": {
         "mdm": 134,
         "income": 38,
-        "below60": 810,
+        "crime": 810,
         "employment": 239,
-        "emprop": 587,
+        "living": 587,
         "health": 259,
         "education": 89,
         "services": 765
@@ -963,9 +963,9 @@
       "N21000090": {
         "mdm": 214,
         "income": 84,
-        "below60": 771,
+        "crime": 771,
         "employment": 269,
-        "emprop": 541,
+        "living": 541,
         "health": 285,
         "education": 132,
         "services": 751
@@ -973,9 +973,9 @@
       "N21000091": {
         "mdm": 343,
         "income": 238,
-        "below60": 589,
+        "crime": 589,
         "employment": 336,
-        "emprop": 492,
+        "living": 492,
         "health": 307,
         "education": 162,
         "services": 635
@@ -983,9 +983,9 @@
       "N21000131": {
         "mdm": 720,
         "income": 577,
-        "below60": 261,
+        "crime": 261,
         "employment": 705,
-        "emprop": 145,
+        "living": 145,
         "health": 666,
         "education": 581,
         "services": 435
@@ -993,9 +993,9 @@
       "N21000068": {
         "mdm": 570,
         "income": 457,
-        "below60": 371,
+        "crime": 371,
         "employment": 626,
-        "emprop": 183,
+        "living": 183,
         "health": 641,
         "education": 675,
         "services": 113
@@ -1003,9 +1003,9 @@
       "N21000092": {
         "mdm": 516,
         "income": 329,
-        "below60": 479,
+        "crime": 479,
         "employment": 479,
-        "emprop": 336,
+        "living": 336,
         "health": 426,
         "education": 291,
         "services": 582
@@ -1013,9 +1013,9 @@
       "N21000093": {
         "mdm": 296,
         "income": 271,
-        "below60": 579,
+        "crime": 579,
         "employment": 356,
-        "emprop": 462,
+        "living": 462,
         "health": 322,
         "education": 187,
         "services": 349
@@ -1023,9 +1023,9 @@
       "N21000132": {
         "mdm": 703,
         "income": 585,
-        "below60": 245,
+        "crime": 245,
         "employment": 711,
-        "emprop": 130,
+        "living": 130,
         "health": 722,
         "education": 760,
         "services": 219
@@ -1033,9 +1033,9 @@
       "N21000133": {
         "mdm": 747,
         "income": 619,
-        "below60": 214,
+        "crime": 214,
         "employment": 739,
-        "emprop": 112,
+        "living": 112,
         "health": 718,
         "education": 702,
         "services": 330
@@ -1043,9 +1043,9 @@
       "N21000136": {
         "mdm": 579,
         "income": 533,
-        "below60": 269,
+        "crime": 269,
         "employment": 543,
-        "emprop": 282,
+        "living": 282,
         "health": 599,
         "education": 604,
         "services": 185
@@ -1053,9 +1053,9 @@
       "N21000134": {
         "mdm": 685,
         "income": 604,
-        "below60": 252,
+        "crime": 252,
         "employment": 754,
-        "emprop": 84,
+        "living": 84,
         "health": 767,
         "education": 739,
         "services": 59
@@ -1063,9 +1063,9 @@
       "N21000137": {
         "mdm": 540,
         "income": 409,
-        "below60": 438,
+        "crime": 438,
         "employment": 549,
-        "emprop": 291,
+        "living": 291,
         "health": 521,
         "education": 463,
         "services": 236
@@ -1073,9 +1073,9 @@
       "N21000150": {
         "mdm": 675,
         "income": 615,
-        "below60": 228,
+        "crime": 228,
         "employment": 708,
-        "emprop": 135,
+        "living": 135,
         "health": 661,
         "education": 519,
         "services": 238
@@ -1083,9 +1083,9 @@
       "N21000151": {
         "mdm": 731,
         "income": 729,
-        "below60": 129,
+        "crime": 129,
         "employment": 717,
-        "emprop": 123,
+        "living": 123,
         "health": 711,
         "education": 728,
         "services": 166
@@ -1093,9 +1093,9 @@
       "N21000138": {
         "mdm": 409,
         "income": 424,
-        "below60": 488,
+        "crime": 488,
         "employment": 293,
-        "emprop": 601,
+        "living": 601,
         "health": 335,
         "education": 386,
         "services": 590
@@ -1103,9 +1103,9 @@
       "N21000139": {
         "mdm": 251,
         "income": 502,
-        "below60": 428,
+        "crime": 428,
         "employment": 148,
-        "emprop": 695,
+        "living": 695,
         "health": 190,
         "education": 204,
         "services": 621
@@ -1113,9 +1113,9 @@
       "N21000152": {
         "mdm": 554,
         "income": 432,
-        "below60": 448,
+        "crime": 448,
         "employment": 589,
-        "emprop": 228,
+        "living": 228,
         "health": 550,
         "education": 381,
         "services": 258
@@ -1123,9 +1123,9 @@
       "N21000153": {
         "mdm": 633,
         "income": 571,
-        "below60": 307,
+        "crime": 307,
         "employment": 669,
-        "emprop": 170,
+        "living": 170,
         "health": 624,
         "education": 423,
         "services": 251
@@ -1133,9 +1133,9 @@
       "N21000154": {
         "mdm": 732,
         "income": 730,
-        "below60": 130,
+        "crime": 130,
         "employment": 718,
-        "emprop": 124,
+        "living": 124,
         "health": 712,
         "education": 729,
         "services": 167
@@ -1143,9 +1143,9 @@
       "N21000155": {
         "mdm": 555,
         "income": 433,
-        "below60": 449,
+        "crime": 449,
         "employment": 590,
-        "emprop": 229,
+        "living": 229,
         "health": 551,
         "education": 382,
         "services": 259
@@ -1153,9 +1153,9 @@
       "N21000069": {
         "mdm": 431,
         "income": 255,
-        "below60": 629,
+        "crime": 629,
         "employment": 436,
-        "emprop": 405,
+        "living": 405,
         "health": 482,
         "education": 467,
         "services": 518
@@ -1163,9 +1163,9 @@
       "N21000140": {
         "mdm": 272,
         "income": 392,
-        "below60": 533,
+        "crime": 533,
         "employment": 212,
-        "emprop": 651,
+        "living": 651,
         "health": 223,
         "education": 217,
         "services": 673
@@ -1173,9 +1173,9 @@
       "N21000070": {
         "mdm": 289,
         "income": 204,
-        "below60": 704,
+        "crime": 704,
         "employment": 303,
-        "emprop": 531,
+        "living": 531,
         "health": 316,
         "education": 327,
         "services": 650
@@ -1183,9 +1183,9 @@
       "N21000141": {
         "mdm": 607,
         "income": 510,
-        "below60": 355,
+        "crime": 355,
         "employment": 591,
-        "emprop": 200,
+        "living": 200,
         "health": 657,
         "education": 542,
         "services": 249
@@ -1193,9 +1193,9 @@
       "N21000071": {
         "mdm": 131,
         "income": 81,
-        "below60": 774,
+        "crime": 774,
         "employment": 145,
-        "emprop": 668,
+        "living": 668,
         "health": 155,
         "education": 175,
         "services": 622
@@ -1203,9 +1203,9 @@
       "N21000142": {
         "mdm": 220,
         "income": 393,
-        "below60": 546,
+        "crime": 546,
         "employment": 168,
-        "emprop": 656,
+        "living": 656,
         "health": 209,
         "education": 131,
         "services": 574
@@ -1213,9 +1213,9 @@
       "N21000143": {
         "mdm": 390,
         "income": 532,
-        "below60": 372,
+        "crime": 372,
         "employment": 291,
-        "emprop": 542,
+        "living": 542,
         "health": 331,
         "education": 197,
         "services": 450
@@ -1223,9 +1223,9 @@
       "N21000144": {
         "mdm": 488,
         "income": 417,
-        "below60": 480,
+        "crime": 480,
         "employment": 413,
-        "emprop": 520,
+        "living": 520,
         "health": 399,
         "education": 446,
         "services": 581
@@ -1233,9 +1233,9 @@
       "N21000072": {
         "mdm": 477,
         "income": 306,
-        "below60": 497,
+        "crime": 497,
         "employment": 629,
-        "emprop": 184,
+        "living": 184,
         "health": 611,
         "education": 708,
         "services": 38
@@ -1243,9 +1243,9 @@
       "N21000073": {
         "mdm": 211,
         "income": 171,
-        "below60": 700,
+        "crime": 700,
         "employment": 193,
-        "emprop": 627,
+        "living": 627,
         "health": 229,
         "education": 248,
         "services": 665
@@ -1253,9 +1253,9 @@
       "N21000135": {
         "mdm": 547,
         "income": 343,
-        "below60": 487,
+        "crime": 487,
         "employment": 696,
-        "emprop": 131,
+        "living": 131,
         "health": 772,
         "education": 720,
         "services": 14
@@ -1263,9 +1263,9 @@
       "N21000145": {
         "mdm": 493,
         "income": 596,
-        "below60": 273,
+        "crime": 273,
         "employment": 343,
-        "emprop": 481,
+        "living": 481,
         "health": 419,
         "education": 288,
         "services": 437
@@ -1273,9 +1273,9 @@
       "N21000074": {
         "mdm": 366,
         "income": 276,
-        "below60": 609,
+        "crime": 609,
         "employment": 306,
-        "emprop": 545,
+        "living": 545,
         "health": 311,
         "education": 419,
         "services": 592
@@ -1283,9 +1283,9 @@
       "N21000075": {
         "mdm": 595,
         "income": 501,
-        "below60": 377,
+        "crime": 377,
         "employment": 522,
-        "emprop": 356,
+        "living": 356,
         "health": 547,
         "education": 605,
         "services": 408
@@ -1293,9 +1293,9 @@
       "N21000156": {
         "mdm": 573,
         "income": 503,
-        "below60": 359,
+        "crime": 359,
         "employment": 535,
-        "emprop": 285,
+        "living": 285,
         "health": 581,
         "education": 545,
         "services": 193
@@ -1303,9 +1303,9 @@
       "N21000076": {
         "mdm": 438,
         "income": 257,
-        "below60": 593,
+        "crime": 593,
         "employment": 530,
-        "emprop": 360,
+        "living": 360,
         "health": 481,
         "education": 642,
         "services": 244
@@ -1313,9 +1313,9 @@
       "N21000146": {
         "mdm": 618,
         "income": 522,
-        "below60": 328,
+        "crime": 328,
         "employment": 640,
-        "emprop": 206,
+        "living": 206,
         "health": 707,
         "education": 727,
         "services": 229
@@ -1323,9 +1323,9 @@
       "N21000147": {
         "mdm": 563,
         "income": 420,
-        "below60": 447,
+        "crime": 447,
         "employment": 575,
-        "emprop": 237,
+        "living": 237,
         "health": 671,
         "education": 670,
         "services": 176
@@ -1333,9 +1333,9 @@
       "N21000157": {
         "mdm": 326,
         "income": 94,
-        "below60": 705,
+        "crime": 705,
         "employment": 497,
-        "emprop": 328,
+        "living": 328,
         "health": 614,
         "education": 567,
         "services": 90
@@ -1343,9 +1343,9 @@
       "N21000158": {
         "mdm": 330,
         "income": 105,
-        "below60": 721,
+        "crime": 721,
         "employment": 513,
-        "emprop": 317,
+        "living": 317,
         "health": 579,
         "education": 550,
         "services": 93
@@ -1353,9 +1353,9 @@
       "N21000148": {
         "mdm": 391,
         "income": 175,
-        "below60": 639,
+        "crime": 639,
         "employment": 475,
-        "emprop": 346,
+        "living": 346,
         "health": 562,
         "education": 506,
         "services": 179
@@ -1363,9 +1363,9 @@
       "N21000159": {
         "mdm": 361,
         "income": 102,
-        "below60": 722,
+        "crime": 722,
         "employment": 493,
-        "emprop": 329,
+        "living": 329,
         "health": 572,
         "education": 588,
         "services": 109
@@ -1373,9 +1373,9 @@
       "N21000077": {
         "mdm": 177,
         "income": 23,
-        "below60": 814,
+        "crime": 814,
         "employment": 351,
-        "emprop": 451,
+        "living": 451,
         "health": 568,
         "education": 599,
         "services": 126
@@ -1383,9 +1383,9 @@
       "N21000078": {
         "mdm": 192,
         "income": 26,
-        "below60": 816,
+        "crime": 816,
         "employment": 365,
-        "emprop": 456,
+        "living": 456,
         "health": 497,
         "education": 522,
         "services": 148
@@ -1393,9 +1393,9 @@
       "N21000160": {
         "mdm": 183,
         "income": 18,
-        "below60": 820,
+        "crime": 820,
         "employment": 317,
-        "emprop": 493,
+        "living": 493,
         "health": 488,
         "education": 534,
         "services": 147
@@ -1403,9 +1403,9 @@
       "N21000149": {
         "mdm": 380,
         "income": 139,
-        "below60": 643,
+        "crime": 643,
         "employment": 456,
-        "emprop": 375,
+        "living": 375,
         "health": 476,
         "education": 460,
         "services": 195

@@ -23,10 +23,10 @@ code_lookup <- list(
 stat_lookup <- list(
   "Multiple Deprivation Measure (Rank)" = "mdm",
   "Income Domain (Rank)" = "income",
-  "Proportion of the population living in households whose equivalised income is below 60 per cent of the NI median" = "below60",
   "Employment Domain (18-64 years) (Rank)" = "employment",
-  "Proportion of the working age population who are employment deprived" = "emprop",
   "Health Deprivation and Disability Domain (Rank)" = "health",
   "Education, Skills and Training Domain (Rank)" = "education",
-  "Access to Services Domain (Rank)" = "services"
+  "Access to Services Domain (Rank)" = "services",
+  "Living Environment Domain (Rank)" = "living",
+  "Crime and Disorder Domain (Rank)" = "crime"
 )
